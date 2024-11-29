@@ -13,6 +13,10 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_INye0K6eEe-BPZckyR9NAg" name="1 Monitoreo de FC en tiempo real"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_Pvuw0K6fEe-BPZckyR9NAg" name="2 Emisión de alertas personalizadas"/>
         </packagedElement>
+        <packagedElement xmi:type="uml:Package" xmi:id="_n-UCcK6kEe-jw5SriieKnQ" name="3 System Context"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_v0Pc4K6kEe-jw5SriieKnQ" name="2 Uses Cases"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_yNkrwK6kEe-jw5SriieKnQ" name="4 Measure Of Effectiveness"/>
+        <packagedElement xmi:type="uml:Package" xmi:id="_6dALUK6kEe-jw5SriieKnQ" name="5 Types"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_zdvXUK6dEe-BPZckyR9NAg" name="2 White Box"/>
     </packagedElement>
