@@ -12,6 +12,17 @@
         <packagedElement xmi:type="uml:Package" xmi:id="_2sekMK6dEe-BPZckyR9NAg" name="1 Stakeholder needs">
           <packagedElement xmi:type="uml:Class" xmi:id="_INye0K6eEe-BPZckyR9NAg" name="1 Monitoreo de FC en tiempo real"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_Pvuw0K6fEe-BPZckyR9NAg" name="2 Emisión de alertas personalizadas"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_6_acMK6hEe-BPZckyR9NAg" name="3 Configuración de rangos personalizados"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_vg-0kK6iEe-BPZckyR9NAg" name="4 Sincronización de datos en tiempo real"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_w-5uoK6jEe-BPZckyR9NAg" name="5 Autenticación de usuarios"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_B_5KcK6kEe-BPZckyR9NAg" name="6 Historial de datos"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_jQjS0K6kEe-BPZckyR9NAg" name="7 Acceso remoto a los datos"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_p1e_cK6kEe-BPZckyR9NAg" name="8 Envío de alertas con GSM"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_wya8YK6kEe-BPZckyR9NAg" name="9 Seguridad y privacidad de datos"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_BKeI4K6lEe-BPZckyR9NAg" name="10 Estabilidad de la conexión bluetooth"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_MB8owK6lEe-BPZckyR9NAg" name="11 Desempeño y tiempo de respuesta"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_VnAegK6lEe-BPZckyR9NAg" name="12 Compatibilidad con versiones de Android"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_qeV5wK6lEe-BPZckyR9NAg" name="13 Escalabilidad"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_zdvXUK6dEe-BPZckyR9NAg" name="2 White Box"/>
@@ -78,5 +89,16 @@
     </profileApplication>
   </uml:Model>
   <Requirements:Requirement xmi:id="_IQd_YK6eEe-BPZckyR9NAg" base_NamedElement="_INye0K6eEe-BPZckyR9NAg" id="RF1" text="Monitoreo de la frecuencia cardiaca del paciente en tiempo real." base_Class="_INye0K6eEe-BPZckyR9NAg"/>
-  <Requirements:Requirement xmi:id="_PvzCQK6fEe-BPZckyR9NAg" base_NamedElement="_Pvuw0K6fEe-BPZckyR9NAg" id="RF2" base_Class="_Pvuw0K6fEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_PvzCQK6fEe-BPZckyR9NAg" base_NamedElement="_Pvuw0K6fEe-BPZckyR9NAg" id="RF2" text="La aplicación debe detectar si existe algún pulso anómalo para notificarlo inmediatamente y generar alertas en tiempo real" base_Class="_Pvuw0K6fEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_6_f7wK6hEe-BPZckyR9NAg" base_NamedElement="_6_acMK6hEe-BPZckyR9NAg" id="RF3" text="La aplicación debe permitir configurar los rangos de frecuencia cardiaca (bajo y alto) para recibir alertas específicas." base_Class="_6_acMK6hEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_vhCe8K6iEe-BPZckyR9NAg" base_NamedElement="_vg-0kK6iEe-BPZckyR9NAg" id="RF4" text="La aplicación debe almacenar y sincronizar los datos de frecuencia cardíaca con firebase en tiempo real para permitir el acceso remoto." base_Class="_vg-0kK6iEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_w-8x8K6jEe-BPZckyR9NAg" base_NamedElement="_w-5uoK6jEe-BPZckyR9NAg" id="RF5" text="La app debe permitir el registro e inicio de sesión de los usuarios (pacientes, médicos, familiares)." base_Class="_w-5uoK6jEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_B_7msK6kEe-BPZckyR9NAg" base_NamedElement="_B_5KcK6kEe-BPZckyR9NAg" id="RF6" text="Los usuarios deben poder ver un historial de sus mediciones de frecuencia cardíaca." base_Class="_B_5KcK6kEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_jQmWIK6kEe-BPZckyR9NAg" base_NamedElement="_jQjS0K6kEe-BPZckyR9NAg" id="RF7" text="Los vigilantes deben poder acceder y visualizar en tiempo real los datos del paciente desde su dispositivo móvil o computadora." base_Class="_jQjS0K6kEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_p1iCwK6kEe-BPZckyR9NAg" base_NamedElement="_p1e_cK6kEe-BPZckyR9NAg" id="RF8" text="La app debe ser capaz de monitorear la frecuencia cardíaca y envíar datos también a través de una red GSM en caso los vigilantes no dispongan de conexión Wifi." base_Class="_p1e_cK6kEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_wyemwK6kEe-BPZckyR9NAg" base_NamedElement="_wya8YK6kEe-BPZckyR9NAg" id="RNF1" text="Los datos de los usuarios deben estar encriptados tanto en tránsito como en reposo, cumpliento con normativas de protección de datos." base_Class="_wya8YK6kEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_BKf-EK6lEe-BPZckyR9NAg" base_NamedElement="_BKeI4K6lEe-BPZckyR9NAg" id="RNF2" text="La aplicación debe garantizar una conexión bluetooth estable y confiable, evitando desconexiones inesperadas o pérdidas de datos." base_Class="_BKeI4K6lEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_MB_FAK6lEe-BPZckyR9NAg" base_NamedElement="_MB8owK6lEe-BPZckyR9NAg" id="RNF3" text="La app debe tener tiempos de respuesta rápidos, especialmente en el envío de alertas, visualización de datos y sincronización con Firebase" base_Class="_MB8owK6lEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_VnEI4K6lEe-BPZckyR9NAg" base_NamedElement="_VnAegK6lEe-BPZckyR9NAg" id="RNF4" text="La aplicación debe ser compatible con una amplia gama de versiones de Android" base_Class="_VnAegK6lEe-BPZckyR9NAg"/>
+  <Requirements:Requirement xmi:id="_qeaLMK6lEe-BPZckyR9NAg" base_NamedElement="_qeV5wK6lEe-BPZckyR9NAg" id="RNF5" text="La solución debe ser escalable para manejar un creciente número de usuarios y dispositivos sin comprometer el rendimiento." base_Class="_qeV5wK6lEe-BPZckyR9NAg"/>
 </xmi:XMI>
