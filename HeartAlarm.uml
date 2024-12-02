@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Allocations="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_q2-yUK6cEe-BPZckyR9NAg" name="HeartAlarm">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_q6pKUK6cEe-BPZckyR9NAg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -25,10 +25,112 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_qeV5wK6lEe-BPZckyR9NAg" name="13 Escalabilidad"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_n-UCcK6kEe-jw5SriieKnQ" name="3 System Context">
-          <packagedElement xmi:type="uml:Interaction" xmi:id="_25JNkK6lEe-jw5SriieKnQ" name="xd"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uabF8LAzEe-BbcwpMmGpSw" name="Monitoreo de frecuencia cardiaca"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_2_Q00LAzEe-BbcwpMmGpSw" name="Seguridad y Acceso"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_5E7g0LAzEe-BbcwpMmGpSw" name="Interfaz de usuario y emisión de alertas" useCase="_qc-cILA3Ee-BbcwpMmGpSw _6hwHULA3Ee-BbcwpMmGpSw _cQ3tULA4Ee-BbcwpMmGpSw _sUaCYLA4Ee-BbcwpMmGpSw _2ZAT0LA4Ee-BbcwpMmGpSw _FsfsALA5Ee-BbcwpMmGpSw">
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_6hwHULA3Ee-BbcwpMmGpSw" name="Emitir alertas" classifierBehavior="_bvX7ELA-Ee-BbcwpMmGpSw" subject="_5E7g0LAzEe-BbcwpMmGpSw">
+              <ownedBehavior xmi:type="uml:Activity" xmi:id="_bvX7ELA-Ee-BbcwpMmGpSw" name="Activity2"/>
+              <include xmi:type="uml:Include" xmi:id="_6I8o8LA7Ee-BbcwpMmGpSw" addition="_sUaCYLA4Ee-BbcwpMmGpSw"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_cQ3tULA4Ee-BbcwpMmGpSw" name="Mostrar datos en tiempo real del paciente" subject="_5E7g0LAzEe-BbcwpMmGpSw"/>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_sUaCYLA4Ee-BbcwpMmGpSw" name="Establecer parámetros de alertas" subject="_5E7g0LAzEe-BbcwpMmGpSw"/>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2ZAT0LA4Ee-BbcwpMmGpSw" name="Emitir preguntas" subject="_5E7g0LAzEe-BbcwpMmGpSw">
+              <include xmi:type="uml:Include" xmi:id="_4I3nkLA7Ee-BbcwpMmGpSw" addition="_FsfsALA5Ee-BbcwpMmGpSw"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_FsfsALA5Ee-BbcwpMmGpSw" name="Registrar respuestas" subject="_5E7g0LAzEe-BbcwpMmGpSw"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_QkY_cLA1Ee-BbcwpMmGpSw" name="Property1" type="_R4nncLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_eGCmkLA1Ee-BbcwpMmGpSw" name="Property2" type="_f3RToLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_znGUQLA1Ee-BbcwpMmGpSw" name="Property3" type="__QWPULA1Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_FJ-8MLA2Ee-BbcwpMmGpSw" name="Property4" type="_GaQ4ULA2Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_qABvgLA5Ee-BbcwpMmGpSw" name="Property11" type="_qcHOkLA5Ee-BbcwpMmGpSw" aggregation="composite"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_R4nncLA1Ee-BbcwpMmGpSw" name="Interfaz de Usuario"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_f3RToLA1Ee-BbcwpMmGpSw" name="Módulo de procesamiento y consulta de datos en tiempo real"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="__QWPULA1Ee-BbcwpMmGpSw" name="Base de datos"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_GaQ4ULA2Ee-BbcwpMmGpSw" name="Módulo de emisión de alertas"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_qcHOkLA5Ee-BbcwpMmGpSw" name="Usuario final"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_v0Pc4K6kEe-jw5SriieKnQ" name="2 Uses Cases">
           <packagedElement xmi:type="uml:Expression" xmi:id="_33ivgK6lEe-jw5SriieKnQ" name="x+d"/>
+          <packagedElement xmi:type="uml:Association" xmi:id="_DpkVgLA6Ee-BbcwpMmGpSw" memberEnd="_DppOALA6Ee-BbcwpMmGpSw _Dpp1ELA6Ee-BbcwpMmGpSw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Dpn_4LA6Ee-BbcwpMmGpSw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Dpn_4bA6Ee-BbcwpMmGpSw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_DppOALA6Ee-BbcwpMmGpSw" name="módulo de emisión de alertas" type="_GaQ4ULA2Ee-BbcwpMmGpSw" association="_DpkVgLA6Ee-BbcwpMmGpSw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Dpp1ELA6Ee-BbcwpMmGpSw" name="emitir alertas" type="_6hwHULA3Ee-BbcwpMmGpSw" association="_DpkVgLA6Ee-BbcwpMmGpSw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Q7vWMLA6Ee-BbcwpMmGpSw" memberEnd="_Q7xycLA6Ee-BbcwpMmGpSw _Q7xycbA6Ee-BbcwpMmGpSw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q7xLYLA6Ee-BbcwpMmGpSw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q7xLYbA6Ee-BbcwpMmGpSw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Q7xycLA6Ee-BbcwpMmGpSw" name="base de datos" type="__QWPULA1Ee-BbcwpMmGpSw" association="_Q7vWMLA6Ee-BbcwpMmGpSw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Q7xycbA6Ee-BbcwpMmGpSw" name="emitir alertas" type="_6hwHULA3Ee-BbcwpMmGpSw" association="_Q7vWMLA6Ee-BbcwpMmGpSw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_pSrr4LA6Ee-BbcwpMmGpSw" memberEnd="_pSthErA6Ee-BbcwpMmGpSw _pSuvMLA6Ee-BbcwpMmGpSw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pSthELA6Ee-BbcwpMmGpSw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pSthEbA6Ee-BbcwpMmGpSw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_pSthErA6Ee-BbcwpMmGpSw" name="consultar datos históricos de pacientes" type="_qc-cILA3Ee-BbcwpMmGpSw" association="_pSrr4LA6Ee-BbcwpMmGpSw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_pSuvMLA6Ee-BbcwpMmGpSw" name="usuario final" type="_qcHOkLA5Ee-BbcwpMmGpSw" association="_pSrr4LA6Ee-BbcwpMmGpSw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_qVFkELA6Ee-BbcwpMmGpSw" memberEnd="_qVGyMrA6Ee-BbcwpMmGpSw _qVGyM7A6Ee-BbcwpMmGpSw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qVGyMLA6Ee-BbcwpMmGpSw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qVGyMbA6Ee-BbcwpMmGpSw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_qVGyMrA6Ee-BbcwpMmGpSw" name="base de datos" type="__QWPULA1Ee-BbcwpMmGpSw" association="_qVFkELA6Ee-BbcwpMmGpSw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_qVGyM7A6Ee-BbcwpMmGpSw" name="consultar datos históricos de pacientes" type="_qc-cILA3Ee-BbcwpMmGpSw" association="_qVFkELA6Ee-BbcwpMmGpSw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_KFWQsLA7Ee-BbcwpMmGpSw" memberEnd="_KFYF4bA7Ee-BbcwpMmGpSw _KFYs8LA7Ee-BbcwpMmGpSw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KFXe0LA7Ee-BbcwpMmGpSw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KFYF4LA7Ee-BbcwpMmGpSw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_KFYF4bA7Ee-BbcwpMmGpSw" name="módulo de procesamiento y consulta de datos en tiempo real" type="_f3RToLA1Ee-BbcwpMmGpSw" association="_KFWQsLA7Ee-BbcwpMmGpSw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_KFYs8LA7Ee-BbcwpMmGpSw" name="mostrar datos en tiempo real del paciente" type="_cQ3tULA4Ee-BbcwpMmGpSw" association="_KFWQsLA7Ee-BbcwpMmGpSw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_TNaocLA7Ee-BbcwpMmGpSw" memberEnd="_TNcdoLA7Ee-BbcwpMmGpSw _TNdEsLA7Ee-BbcwpMmGpSw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_TNb2kLA7Ee-BbcwpMmGpSw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_TNb2kbA7Ee-BbcwpMmGpSw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_TNcdoLA7Ee-BbcwpMmGpSw" name="establecer parámetros de alertas" type="_sUaCYLA4Ee-BbcwpMmGpSw" association="_TNaocLA7Ee-BbcwpMmGpSw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_TNdEsLA7Ee-BbcwpMmGpSw" name="módulo de emisión de alertas" type="_GaQ4ULA2Ee-BbcwpMmGpSw" association="_TNaocLA7Ee-BbcwpMmGpSw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_0vep4LA7Ee-BbcwpMmGpSw" memberEnd="_0vf4ALA7Ee-BbcwpMmGpSw _0vgfELA7Ee-BbcwpMmGpSw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0vfQ8LA7Ee-BbcwpMmGpSw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0vfQ8bA7Ee-BbcwpMmGpSw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_0vf4ALA7Ee-BbcwpMmGpSw" name="emitir preguntas" type="_2ZAT0LA4Ee-BbcwpMmGpSw" association="_0vep4LA7Ee-BbcwpMmGpSw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_0vgfELA7Ee-BbcwpMmGpSw" name="usuario final" type="_qcHOkLA5Ee-BbcwpMmGpSw" association="_0vep4LA7Ee-BbcwpMmGpSw"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_1oriwLA7Ee-BbcwpMmGpSw" memberEnd="_1otX8LA7Ee-BbcwpMmGpSw _1ot_ALA7Ee-BbcwpMmGpSw">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_1osw4LA7Ee-BbcwpMmGpSw" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_1osw4bA7Ee-BbcwpMmGpSw" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_1otX8LA7Ee-BbcwpMmGpSw" name="emitir preguntas" type="_2ZAT0LA4Ee-BbcwpMmGpSw" association="_1oriwLA7Ee-BbcwpMmGpSw"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_1ot_ALA7Ee-BbcwpMmGpSw" name="base de datos" type="__QWPULA1Ee-BbcwpMmGpSw" association="_1oriwLA7Ee-BbcwpMmGpSw"/>
+          </packagedElement>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_qc-cILA3Ee-BbcwpMmGpSw" name="Consultar datos históricos de pacientes" classifierBehavior="_3UBtcLA_Ee-BbcwpMmGpSw" subject="_5E7g0LAzEe-BbcwpMmGpSw">
+          <ownedBehavior xmi:type="uml:Activity" xmi:id="_3UBtcLA_Ee-BbcwpMmGpSw" name="Activity1" node="_Fi3f0LBCEe-BbcwpMmGpSw _dxo7gLBDEe-BbcwpMmGpSw _13VwMLBDEe-BbcwpMmGpSw _73LLsLBDEe-BbcwpMmGpSw _FjUg4LBEEe-BbcwpMmGpSw _obvRQLBEEe-BbcwpMmGpSw _QDMHILBGEe-BbcwpMmGpSw _S9OPULBGEe-BbcwpMmGpSw _WxRIsLBGEe-BbcwpMmGpSw" group="_f2Kp8LBBEe-BbcwpMmGpSw _rA1yoLBBEe-BbcwpMmGpSw _IHJlALBDEe-BbcwpMmGpSw">
+            <edge xmi:type="uml:ControlFlow" xmi:id="_tpOfQLBDEe-BbcwpMmGpSw" target="_dxo7gLBDEe-BbcwpMmGpSw" source="_Fi3f0LBCEe-BbcwpMmGpSw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_MGIbsLBGEe-BbcwpMmGpSw" target="_13VwMLBDEe-BbcwpMmGpSw" source="_dxo7gLBDEe-BbcwpMmGpSw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_M-JBwLBGEe-BbcwpMmGpSw" target="_73LLsLBDEe-BbcwpMmGpSw" source="_13VwMLBDEe-BbcwpMmGpSw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_N4z6QLBGEe-BbcwpMmGpSw" target="_obvRQLBEEe-BbcwpMmGpSw" source="_73LLsLBDEe-BbcwpMmGpSw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_YSrRELBGEe-BbcwpMmGpSw" target="_QDMHILBGEe-BbcwpMmGpSw" source="_obvRQLBEEe-BbcwpMmGpSw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_Y5G-8LBGEe-BbcwpMmGpSw" target="_S9OPULBGEe-BbcwpMmGpSw" source="_QDMHILBGEe-BbcwpMmGpSw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_aNCsALBGEe-BbcwpMmGpSw" target="_WxRIsLBGEe-BbcwpMmGpSw" source="_S9OPULBGEe-BbcwpMmGpSw"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_f2Kp8LBBEe-BbcwpMmGpSw" name="Base de datos" node="_73LLsLBDEe-BbcwpMmGpSw" represents="__QWPULA1Ee-BbcwpMmGpSw"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_rA1yoLBBEe-BbcwpMmGpSw" name="Usuario Final" node="_Fi3f0LBCEe-BbcwpMmGpSw _WxRIsLBGEe-BbcwpMmGpSw" represents="_qcHOkLA5Ee-BbcwpMmGpSw"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_IHJlALBDEe-BbcwpMmGpSw" name="AllocateActivityPartition4" represents="_R4nncLA1Ee-BbcwpMmGpSw"/>
+            <node xmi:type="uml:InitialNode" xmi:id="_Fi3f0LBCEe-BbcwpMmGpSw" outgoing="_tpOfQLBDEe-BbcwpMmGpSw" inPartition="_rA1yoLBBEe-BbcwpMmGpSw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_dxo7gLBDEe-BbcwpMmGpSw" name="Consultar datos" incoming="_tpOfQLBDEe-BbcwpMmGpSw" outgoing="_MGIbsLBGEe-BbcwpMmGpSw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_13VwMLBDEe-BbcwpMmGpSw" name="Envía consulta a la base de datos" incoming="_MGIbsLBGEe-BbcwpMmGpSw" outgoing="_M-JBwLBGEe-BbcwpMmGpSw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_73LLsLBDEe-BbcwpMmGpSw" name="Realizar consulta" incoming="_M-JBwLBGEe-BbcwpMmGpSw" outgoing="_N4z6QLBGEe-BbcwpMmGpSw" inPartition="_f2Kp8LBBEe-BbcwpMmGpSw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_FjUg4LBEEe-BbcwpMmGpSw" name="Realiza consulta"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_obvRQLBEEe-BbcwpMmGpSw" name="Devuelve datos" incoming="_N4z6QLBGEe-BbcwpMmGpSw" outgoing="_YSrRELBGEe-BbcwpMmGpSw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_QDMHILBGEe-BbcwpMmGpSw" name="Procesa datos" incoming="_YSrRELBGEe-BbcwpMmGpSw" outgoing="_Y5G-8LBGEe-BbcwpMmGpSw"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_S9OPULBGEe-BbcwpMmGpSw" name="Muestra datos" incoming="_Y5G-8LBGEe-BbcwpMmGpSw" outgoing="_aNCsALBGEe-BbcwpMmGpSw"/>
+            <node xmi:type="uml:ActivityFinalNode" xmi:id="_WxRIsLBGEe-BbcwpMmGpSw" name="Recibe datos" incoming="_aNCsALBGEe-BbcwpMmGpSw" inPartition="_rA1yoLBBEe-BbcwpMmGpSw"/>
+          </ownedBehavior>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_yNkrwK6kEe-jw5SriieKnQ" name="4 Measure Of Effectiveness">
           <packagedElement xmi:type="uml:Enumeration" xmi:id="_5BbvwK6lEe-jw5SriieKnQ" name="c+d"/>
@@ -113,4 +215,15 @@
   <Requirements:Requirement xmi:id="_MB_FAK6lEe-BPZckyR9NAg" base_NamedElement="_MB8owK6lEe-BPZckyR9NAg" id="RNF3" text="La app debe tener tiempos de respuesta rápidos, especialmente en el envío de alertas, visualización de datos y sincronización con Firebase" base_Class="_MB8owK6lEe-BPZckyR9NAg"/>
   <Requirements:Requirement xmi:id="_VnEI4K6lEe-BPZckyR9NAg" base_NamedElement="_VnAegK6lEe-BPZckyR9NAg" id="RNF4" text="La aplicación debe ser compatible con una amplia gama de versiones de Android" base_Class="_VnAegK6lEe-BPZckyR9NAg"/>
   <Requirements:Requirement xmi:id="_qeaLMK6lEe-BPZckyR9NAg" base_NamedElement="_qeV5wK6lEe-BPZckyR9NAg" id="RNF5" text="La solución debe ser escalable para manejar un creciente número de usuarios y dispositivos sin comprometer el rendimiento." base_Class="_qeV5wK6lEe-BPZckyR9NAg"/>
+  <Blocks:Block xmi:id="_ugdcgLAzEe-BbcwpMmGpSw" base_Class="_uabF8LAzEe-BbcwpMmGpSw"/>
+  <Blocks:Block xmi:id="_2_bz8LAzEe-BbcwpMmGpSw" base_Class="_2_Q00LAzEe-BbcwpMmGpSw"/>
+  <Blocks:Block xmi:id="_5FDcoLAzEe-BbcwpMmGpSw" base_Class="_5E7g0LAzEe-BbcwpMmGpSw"/>
+  <Blocks:Block xmi:id="_R4sf8LA1Ee-BbcwpMmGpSw" base_Class="_R4nncLA1Ee-BbcwpMmGpSw"/>
+  <Blocks:Block xmi:id="_f3U-ALA1Ee-BbcwpMmGpSw" base_Class="_f3RToLA1Ee-BbcwpMmGpSw"/>
+  <Blocks:Block xmi:id="__QZ5sLA1Ee-BbcwpMmGpSw" base_Class="__QWPULA1Ee-BbcwpMmGpSw"/>
+  <Blocks:Block xmi:id="_GaT7oLA2Ee-BbcwpMmGpSw" base_Class="_GaQ4ULA2Ee-BbcwpMmGpSw"/>
+  <Blocks:Block xmi:id="_qcLgALA5Ee-BbcwpMmGpSw" base_Class="_qcHOkLA5Ee-BbcwpMmGpSw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_f2PicLBBEe-BbcwpMmGpSw" base_ActivityPartition="_f2Kp8LBBEe-BbcwpMmGpSw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_8i57MLBBEe-BbcwpMmGpSw" base_ActivityPartition="_rA1yoLBBEe-BbcwpMmGpSw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_IHN2cLBDEe-BbcwpMmGpSw" base_ActivityPartition="_IHJlALBDEe-BbcwpMmGpSw"/>
 </xmi:XMI>
