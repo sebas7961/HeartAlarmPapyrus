@@ -25,10 +25,34 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_qeV5wK6lEe-BPZckyR9NAg" name="13 Escalabilidad"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_n-UCcK6kEe-jw5SriieKnQ" name="3 System Context">
-          <packagedElement xmi:type="uml:Class" xmi:id="_uabF8LAzEe-BbcwpMmGpSw" name="Monitoreo de frecuencia cardiaca">
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_SKeJcLBWEe-zy5umMi3cxw" name="Property1" visibility="public" type="_TDHBoLBWEe-zy5umMi3cxw" aggregation="composite"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uabF8LAzEe-BbcwpMmGpSw" name="Monitoreo de frecuencia cardiaca" useCase="_mRgDgLDiEe-8y4rRCKR-kQ _gh0HYLDjEe-8y4rRCKR-kQ _7LKkkLDjEe-8y4rRCKR-kQ _JpX6kLDkEe-8y4rRCKR-kQ">
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mRgDgLDiEe-8y4rRCKR-kQ" name="Medir Frecuencia Cardiaca" subject="_uabF8LAzEe-BbcwpMmGpSw">
+              <include xmi:type="uml:Include" xmi:id="_rka5MLDjEe-8y4rRCKR-kQ" addition="_gh0HYLDjEe-8y4rRCKR-kQ"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gh0HYLDjEe-8y4rRCKR-kQ" name="Digitalizar y Procesar los datos de Frecuencia Cardiaca" subject="_uabF8LAzEe-BbcwpMmGpSw">
+              <include xmi:type="uml:Include" xmi:id="_BaXRwLDkEe-8y4rRCKR-kQ" addition="_7LKkkLDjEe-8y4rRCKR-kQ"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7LKkkLDjEe-8y4rRCKR-kQ" name="Enviar Datos al dispositivo movil por Bluetooth" subject="_uabF8LAzEe-BbcwpMmGpSw"/>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_JpX6kLDkEe-8y4rRCKR-kQ" name="Enviar alerta por SMS en caso de Fallo de Conexión" subject="_uabF8LAzEe-BbcwpMmGpSw"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_pfxdsLDfEe-8y4rRCKR-kQ" name="Property3" type="_qdlJwLDfEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_NOqGkLDhEe-8y4rRCKR-kQ" name="Property4" type="_PfI7cLDhEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_YaSRgLDhEe-8y4rRCKR-kQ" name="Property5" type="_ap15ULDhEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_hTLk0LDhEe-8y4rRCKR-kQ" name="Property5" type="_hz0zwLDhEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_lzd5ILDhEe-8y4rRCKR-kQ" name="Property6" type="_mLTxYLDhEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_0VGWkLDhEe-8y4rRCKR-kQ" name="Property6" type="_1M3sELDhEe-8y4rRCKR-kQ" aggregation="composite"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Class" xmi:id="_2_Q00LAzEe-BbcwpMmGpSw" name="Seguridad y Acceso"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_2_Q00LAzEe-BbcwpMmGpSw" name="Seguridad y Acceso" useCase="_JNxHMLDlEe-8y4rRCKR-kQ _Ln0HwLDlEe-8y4rRCKR-kQ _Twxy8LDlEe-8y4rRCKR-kQ _dqQZgLDlEe-8y4rRCKR-kQ">
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_JNxHMLDlEe-8y4rRCKR-kQ" name="Login" subject="_2_Q00LAzEe-BbcwpMmGpSw">
+              <include xmi:type="uml:Include" xmi:id="_MwIasLDlEe-8y4rRCKR-kQ" addition="_Ln0HwLDlEe-8y4rRCKR-kQ"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Ln0HwLDlEe-8y4rRCKR-kQ" name="Autenticacion" subject="_2_Q00LAzEe-BbcwpMmGpSw"/>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Twxy8LDlEe-8y4rRCKR-kQ" name="Encriptacion de Datos" subject="_2_Q00LAzEe-BbcwpMmGpSw"/>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dqQZgLDlEe-8y4rRCKR-kQ" name="Proteccion contra ataques ciberneticos" subject="_2_Q00LAzEe-BbcwpMmGpSw"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_T5UdMLDgEe-8y4rRCKR-kQ" name="Property1" type="_U4bJwLDgEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_WoIz4LDgEe-8y4rRCKR-kQ" name="Property2" type="_YN1mYLDgEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_aSC50LDgEe-8y4rRCKR-kQ" name="Property3" type="_baTiYLDgEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_ehbrYLDgEe-8y4rRCKR-kQ" name="Property4" type="_hKFvsLDgEe-8y4rRCKR-kQ" aggregation="composite"/>
+          </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_5E7g0LAzEe-BbcwpMmGpSw" name="Interfaz de usuario y emisión de alertas" useCase="_qc-cILA3Ee-BbcwpMmGpSw _6hwHULA3Ee-BbcwpMmGpSw _cQ3tULA4Ee-BbcwpMmGpSw _sUaCYLA4Ee-BbcwpMmGpSw _2ZAT0LA4Ee-BbcwpMmGpSw _FsfsALA5Ee-BbcwpMmGpSw">
             <ownedUseCase xmi:type="uml:UseCase" xmi:id="_6hwHULA3Ee-BbcwpMmGpSw" name="Emitir alertas" classifierBehavior="_bvX7ELA-Ee-BbcwpMmGpSw" subject="_5E7g0LAzEe-BbcwpMmGpSw">
               <ownedBehavior xmi:type="uml:Activity" xmi:id="_bvX7ELA-Ee-BbcwpMmGpSw" name="Activity2"/>
@@ -52,6 +76,17 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_qcHOkLA5Ee-BbcwpMmGpSw" name="Usuario final"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_TDHBoLBWEe-zy5umMi3cxw" name="Sensores de Frecuencia Cardiaca"/>
           <packagedElement xmi:type="uml:Package" xmi:id="_M4UroLBcEe-zy5umMi3cxw" name="1 Exchange Items"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_qdlJwLDfEe-8y4rRCKR-kQ" name="Suministro de Energia"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_6TvKILDfEe-8y4rRCKR-kQ" name="Modulo Bluetooth"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_U4bJwLDgEe-8y4rRCKR-kQ" name="Modulo de Autenticacion"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_YN1mYLDgEe-8y4rRCKR-kQ" name="Base de Datos de usuarios"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_baTiYLDgEe-8y4rRCKR-kQ" name="Modulo de Encriptacion de Datos"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_hKFvsLDgEe-8y4rRCKR-kQ" name="Modulo de Proteccion contra Ataques  Ciberneticos"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_PfI7cLDhEe-8y4rRCKR-kQ" name="Microcontrolador principal ESP32"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ap15ULDhEe-8y4rRCKR-kQ" name="Sensor de Frecuencia Cardiaca HW-827"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_hz0zwLDhEe-8y4rRCKR-kQ" name="Módulo Bluetooth HC-05"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_mLTxYLDhEe-8y4rRCKR-kQ" name="Módulo GSM SIM800L"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_1M3sELDhEe-8y4rRCKR-kQ" name="Flujo Sanguineo"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_v0Pc4K6kEe-jw5SriieKnQ" name="2 Uses Cases">
           <packagedElement xmi:type="uml:Expression" xmi:id="_33ivgK6lEe-jw5SriieKnQ" name="x+d"/>
@@ -149,6 +184,125 @@
               <node xmi:type="uml:OpaqueAction" xmi:id="_cXWFwLBZEe-zy5umMi3cxw" name="Muestra datos en tiempo real" incoming="_huo6kLBZEe-zy5umMi3cxw" outgoing="_iVFPgLBZEe-zy5umMi3cxw"/>
               <node xmi:type="uml:ActivityFinalNode" xmi:id="_e2JDcLBZEe-zy5umMi3cxw" name="" incoming="_iVFPgLBZEe-zy5umMi3cxw" inPartition="_dg82ULBSEe-zy5umMi3cxw"/>
             </ownedBehavior>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_ODOsMLDjEe-8y4rRCKR-kQ" memberEnd="_ODP6UbDjEe-8y4rRCKR-kQ _ODP6UrDjEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ODPTQLDjEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ODP6ULDjEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_ODP6UbDjEe-8y4rRCKR-kQ" name="flujo sanguineo" type="_1M3sELDhEe-8y4rRCKR-kQ" association="_ODOsMLDjEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_ODP6UrDjEe-8y4rRCKR-kQ" name="medir frecuencia cardiaca" type="_mRgDgLDiEe-8y4rRCKR-kQ" association="_ODOsMLDjEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_ULK60LDjEe-8y4rRCKR-kQ" memberEnd="_ULLh4rDjEe-8y4rRCKR-kQ _ULLh47DjEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ULLh4LDjEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ULLh4bDjEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_ULLh4rDjEe-8y4rRCKR-kQ" name="sensor de frecuencia cardiaca hw-827" type="_ap15ULDhEe-8y4rRCKR-kQ" association="_ULK60LDjEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_ULLh47DjEe-8y4rRCKR-kQ" name="medir frecuencia cardiaca" type="_mRgDgLDiEe-8y4rRCKR-kQ" association="_ULK60LDjEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_sxLnQLDjEe-8y4rRCKR-kQ" memberEnd="_sxM1YbDjEe-8y4rRCKR-kQ _sxM1YrDjEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sxLnQbDjEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sxM1YLDjEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_sxM1YbDjEe-8y4rRCKR-kQ" name="digitalizar los datos de frecuencia cardiaca" type="_gh0HYLDjEe-8y4rRCKR-kQ" association="_sxLnQLDjEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_sxM1YrDjEe-8y4rRCKR-kQ" name="sensor de frecuencia cardiaca hw-827" type="_ap15ULDhEe-8y4rRCKR-kQ" association="_sxLnQLDjEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_tcueoLDjEe-8y4rRCKR-kQ" memberEnd="_tcvFsrDjEe-8y4rRCKR-kQ _tcvswLDjEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tcvFsLDjEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tcvFsbDjEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_tcvFsrDjEe-8y4rRCKR-kQ" name="digitalizar los datos de frecuencia cardiaca" type="_gh0HYLDjEe-8y4rRCKR-kQ" association="_tcueoLDjEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_tcvswLDjEe-8y4rRCKR-kQ" name="microcontrolador principal esp32" type="_PfI7cLDhEe-8y4rRCKR-kQ" association="_tcueoLDjEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_-NlzwLDjEe-8y4rRCKR-kQ" memberEnd="_-Nlzw7DjEe-8y4rRCKR-kQ _-NlzxLDjEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-NlzwbDjEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-NlzwrDjEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_-Nlzw7DjEe-8y4rRCKR-kQ" name="enviar datos al dispositivo movil" type="_7LKkkLDjEe-8y4rRCKR-kQ" association="_-NlzwLDjEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_-NlzxLDjEe-8y4rRCKR-kQ" name="microcontrolador principal esp32" type="_PfI7cLDhEe-8y4rRCKR-kQ" association="_-NlzwLDjEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="__HyyMLDjEe-8y4rRCKR-kQ" memberEnd="__HzZQrDjEe-8y4rRCKR-kQ __HzZQ7DjEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="__HzZQLDjEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="__HzZQbDjEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="__HzZQrDjEe-8y4rRCKR-kQ" name="módulo bluetooth hc-05" type="_hz0zwLDhEe-8y4rRCKR-kQ" association="__HyyMLDjEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="__HzZQ7DjEe-8y4rRCKR-kQ" name="enviar datos al dispositivo movil" type="_7LKkkLDjEe-8y4rRCKR-kQ" association="__HyyMLDjEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Q3WkMLDkEe-8y4rRCKR-kQ" memberEnd="_Q3XyUbDkEe-8y4rRCKR-kQ _Q3XyUrDkEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q3XLQLDkEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q3XyULDkEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Q3XyUbDkEe-8y4rRCKR-kQ" name="enviar alerta en caso de fallo de conexión" type="_JpX6kLDkEe-8y4rRCKR-kQ" association="_Q3WkMLDkEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Q3XyUrDkEe-8y4rRCKR-kQ" name="módulo bluetooth hc-05" type="_hz0zwLDhEe-8y4rRCKR-kQ" association="_Q3WkMLDkEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_VAeVsLDkEe-8y4rRCKR-kQ" memberEnd="_VAe8wrDkEe-8y4rRCKR-kQ _VAe8w7DkEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VAe8wLDkEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VAe8wbDkEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_VAe8wrDkEe-8y4rRCKR-kQ" name="enviar alerta por  en caso de fallo de conexión" type="_JpX6kLDkEe-8y4rRCKR-kQ" association="_VAeVsLDkEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_VAe8w7DkEe-8y4rRCKR-kQ" name="microcontrolador principal esp32" type="_PfI7cLDhEe-8y4rRCKR-kQ" association="_VAeVsLDkEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_VjzsQLDkEe-8y4rRCKR-kQ" memberEnd="_Vj0TUrDkEe-8y4rRCKR-kQ _Vj0TU7DkEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Vj0TULDkEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Vj0TUbDkEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Vj0TUrDkEe-8y4rRCKR-kQ" name="módulo gsm sim800l" type="_mLTxYLDhEe-8y4rRCKR-kQ" association="_VjzsQLDkEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Vj0TU7DkEe-8y4rRCKR-kQ" name="enviar alerta por  en caso de fallo de conexión" type="_JpX6kLDkEe-8y4rRCKR-kQ" association="_VjzsQLDkEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_LDzbwLDlEe-8y4rRCKR-kQ" memberEnd="_LD0C0rDlEe-8y4rRCKR-kQ _LD0C07DlEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LD0C0LDlEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LD0C0bDlEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_LD0C0rDlEe-8y4rRCKR-kQ" name="usuario final" type="_qcHOkLA5Ee-BbcwpMmGpSw" association="_LDzbwLDlEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_LD0C07DlEe-8y4rRCKR-kQ" name="login" type="_JNxHMLDlEe-8y4rRCKR-kQ" association="_LDzbwLDlEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_OdrhoLDlEe-8y4rRCKR-kQ" memberEnd="_OdsIsbDlEe-8y4rRCKR-kQ _OdsIsrDlEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OdrhobDlEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OdsIsLDlEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_OdsIsbDlEe-8y4rRCKR-kQ" name="autenticacion" type="_Ln0HwLDlEe-8y4rRCKR-kQ" association="_OdrhoLDlEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_OdsIsrDlEe-8y4rRCKR-kQ" name="base de datos" type="_YN1mYLDgEe-8y4rRCKR-kQ" association="_OdrhoLDlEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_X_WsMLDlEe-8y4rRCKR-kQ" memberEnd="_X_XTQrDlEe-8y4rRCKR-kQ _X_XTQ7DlEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_X_XTQLDlEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_X_XTQbDlEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_X_XTQrDlEe-8y4rRCKR-kQ" name="modulo de encriptacion de datos" type="_baTiYLDgEe-8y4rRCKR-kQ" association="_X_WsMLDlEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_X_XTQ7DlEe-8y4rRCKR-kQ" name="encriptacion de datos" type="_Twxy8LDlEe-8y4rRCKR-kQ" association="_X_WsMLDlEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_akWYgLDlEe-8y4rRCKR-kQ" memberEnd="_akXmorDlEe-8y4rRCKR-kQ _akXmo7DlEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_akXmoLDlEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_akXmobDlEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_akXmorDlEe-8y4rRCKR-kQ" name="encriptacion de datos" type="_Twxy8LDlEe-8y4rRCKR-kQ" association="_akWYgLDlEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_akXmo7DlEe-8y4rRCKR-kQ" name="base de datos" type="__QWPULA1Ee-BbcwpMmGpSw" association="_akWYgLDlEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_bGCJQLDlEe-8y4rRCKR-kQ" memberEnd="_bGCJQ7DlEe-8y4rRCKR-kQ _bGDXYLDlEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bGCJQbDlEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bGCJQrDlEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_bGCJQ7DlEe-8y4rRCKR-kQ" name="encriptacion de datos" type="_Twxy8LDlEe-8y4rRCKR-kQ" association="_bGCJQLDlEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_bGDXYLDlEe-8y4rRCKR-kQ" name="base de datos de usuarios" type="_YN1mYLDgEe-8y4rRCKR-kQ" association="_bGCJQLDlEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_gnyhoLDlEe-8y4rRCKR-kQ" memberEnd="_gnzIsrDlEe-8y4rRCKR-kQ _gnzIs7DlEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gnzIsLDlEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gnzIsbDlEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_gnzIsrDlEe-8y4rRCKR-kQ" name="modulo de proteccion contra ataques  ciberneticos" type="_hKFvsLDgEe-8y4rRCKR-kQ" association="_gnyhoLDlEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_gnzIs7DlEe-8y4rRCKR-kQ" name="proteccion contra ataques ciberneticos" type="_dqQZgLDlEe-8y4rRCKR-kQ" association="_gnyhoLDlEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_hFw3ELDlEe-8y4rRCKR-kQ" memberEnd="_hFxeIrDlEe-8y4rRCKR-kQ _hFxeI7DlEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hFxeILDlEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hFxeIbDlEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_hFxeIrDlEe-8y4rRCKR-kQ" name="proteccion contra ataques ciberneticos" type="_dqQZgLDlEe-8y4rRCKR-kQ" association="_hFw3ELDlEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_hFxeI7DlEe-8y4rRCKR-kQ" name="base de datos de usuarios" type="_YN1mYLDgEe-8y4rRCKR-kQ" association="_hFw3ELDlEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_hpE_gLDlEe-8y4rRCKR-kQ" memberEnd="_hpGNorDlEe-8y4rRCKR-kQ _hpG0sLDlEe-8y4rRCKR-kQ">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hpGNoLDlEe-8y4rRCKR-kQ" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hpGNobDlEe-8y4rRCKR-kQ" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_hpGNorDlEe-8y4rRCKR-kQ" name="proteccion contra ataques ciberneticos" type="_dqQZgLDlEe-8y4rRCKR-kQ" association="_hpE_gLDlEe-8y4rRCKR-kQ"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_hpG0sLDlEe-8y4rRCKR-kQ" name="base de datos" type="__QWPULA1Ee-BbcwpMmGpSw" association="_hpE_gLDlEe-8y4rRCKR-kQ"/>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_yNkrwK6kEe-jw5SriieKnQ" name="4 Measure Of Effectiveness">
@@ -254,4 +408,15 @@
   <Allocations:AllocateActivityPartition xmi:id="_rdkQQLBUEe-zy5umMi3cxw" base_ActivityPartition="_qT0E0LBSEe-zy5umMi3cxw"/>
   <Blocks:Block xmi:id="_TDJd4LBWEe-zy5umMi3cxw" base_Class="_TDHBoLBWEe-zy5umMi3cxw"/>
   <Blocks:Block xmi:id="_uACawLBZEe-zy5umMi3cxw" base_Class="_t_-wYLBZEe-zy5umMi3cxw"/>
+  <Blocks:Block xmi:id="_qdo0ILDfEe-8y4rRCKR-kQ" base_Class="_qdlJwLDfEe-8y4rRCKR-kQ"/>
+  <Blocks:Block xmi:id="_6Ty0gLDfEe-8y4rRCKR-kQ" base_Class="_6TvKILDfEe-8y4rRCKR-kQ"/>
+  <Blocks:Block xmi:id="_U4eNELDgEe-8y4rRCKR-kQ" base_Class="_U4bJwLDgEe-8y4rRCKR-kQ"/>
+  <Blocks:Block xmi:id="_YN4CoLDgEe-8y4rRCKR-kQ" base_Class="_YN1mYLDgEe-8y4rRCKR-kQ"/>
+  <Blocks:Block xmi:id="_baYa4LDgEe-8y4rRCKR-kQ" base_Class="_baTiYLDgEe-8y4rRCKR-kQ"/>
+  <Blocks:Block xmi:id="_hKIL8LDgEe-8y4rRCKR-kQ" base_Class="_hKFvsLDgEe-8y4rRCKR-kQ"/>
+  <Blocks:Block xmi:id="_PfJigLDhEe-8y4rRCKR-kQ" base_Class="_PfI7cLDhEe-8y4rRCKR-kQ"/>
+  <Blocks:Block xmi:id="_ap4VkLDhEe-8y4rRCKR-kQ" base_Class="_ap15ULDhEe-8y4rRCKR-kQ"/>
+  <Blocks:Block xmi:id="_hz2o8LDhEe-8y4rRCKR-kQ" base_Class="_hz0zwLDhEe-8y4rRCKR-kQ"/>
+  <Blocks:Block xmi:id="_mLVmkLDhEe-8y4rRCKR-kQ" base_Class="_mLTxYLDhEe-8y4rRCKR-kQ"/>
+  <Blocks:Block xmi:id="_1M5hQLDhEe-8y4rRCKR-kQ" base_Class="_1M3sELDhEe-8y4rRCKR-kQ"/>
 </xmi:XMI>
