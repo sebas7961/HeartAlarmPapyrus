@@ -55,14 +55,7 @@
             <ownedAttribute xmi:type="uml:Property" xmi:id="_bmszALG5Ee-eloSyfcsz3g" name="Property9" type="_c6lcwLG5Ee-eloSyfcsz3g" aggregation="composite"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_5E7g0LAzEe-BbcwpMmGpSw" name="Interfaz de usuario y emisión de alertas" useCase="_qc-cILA3Ee-BbcwpMmGpSw _6hwHULA3Ee-BbcwpMmGpSw _cQ3tULA4Ee-BbcwpMmGpSw _sUaCYLA4Ee-BbcwpMmGpSw _2ZAT0LA4Ee-BbcwpMmGpSw _FsfsALA5Ee-BbcwpMmGpSw">
-            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_6hwHULA3Ee-BbcwpMmGpSw" name="Emitir alertas" classifierBehavior="_bvX7ELA-Ee-BbcwpMmGpSw" subject="_5E7g0LAzEe-BbcwpMmGpSw">
-              <ownedBehavior xmi:type="uml:Activity" xmi:id="_bvX7ELA-Ee-BbcwpMmGpSw" name="Activity2"/>
-              <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9kOL8LG6Ee-eloSyfcsz3g" name="ExtensionPoint2"/>
-            </ownedUseCase>
             <ownedUseCase xmi:type="uml:UseCase" xmi:id="_sUaCYLA4Ee-BbcwpMmGpSw" name="Establecer parámetros de alertas" subject="_5E7g0LAzEe-BbcwpMmGpSw"/>
-            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2ZAT0LA4Ee-BbcwpMmGpSw" name="Emitir preguntas" subject="_5E7g0LAzEe-BbcwpMmGpSw">
-              <include xmi:type="uml:Include" xmi:id="_4I3nkLA7Ee-BbcwpMmGpSw" addition="_FsfsALA5Ee-BbcwpMmGpSw"/>
-            </ownedUseCase>
             <ownedUseCase xmi:type="uml:UseCase" xmi:id="_FsfsALA5Ee-BbcwpMmGpSw" name="Registrar respuestas" subject="_5E7g0LAzEe-BbcwpMmGpSw"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_QkY_cLA1Ee-BbcwpMmGpSw" name="Property1" type="_R4nncLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_eGCmkLA1Ee-BbcwpMmGpSw" name="Property2" type="_f3RToLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
@@ -335,6 +328,33 @@
             <ownedEnd xmi:type="uml:Property" xmi:id="_0IFMMrG7Ee-eloSyfcsz3g" name="registrar respuestas" type="_FsfsALA5Ee-BbcwpMmGpSw" association="_0IElILG7Ee-eloSyfcsz3g"/>
             <ownedEnd xmi:type="uml:Property" xmi:id="_0IFMM7G7Ee-eloSyfcsz3g" name="base de datos" type="__QWPULA1Ee-BbcwpMmGpSw" association="_0IElILG7Ee-eloSyfcsz3g"/>
           </packagedElement>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_6hwHULA3Ee-BbcwpMmGpSw" name="Emitir alertas" classifierBehavior="_mpMuwLHHEe-ZIpsCtQzCEg" subject="_5E7g0LAzEe-BbcwpMmGpSw">
+            <ownedBehavior xmi:type="uml:Activity" xmi:id="_mpMuwLHHEe-ZIpsCtQzCEg" name="Activity2" node="_qI6W7rHHEe-ZIpsCtQzCEg _qI6W77HHEe-ZIpsCtQzCEg _qI6W8LHHEe-ZIpsCtQzCEg _qI6W8bHHEe-ZIpsCtQzCEg _qI6W8rHHEe-ZIpsCtQzCEg _qI6W87HHEe-ZIpsCtQzCEg _qI6W9bHHEe-ZIpsCtQzCEg" group="_QDVfsLHIEe-ZIpsCtQzCEg _T5stQLHIEe-ZIpsCtQzCEg _XMzcwLHIEe-ZIpsCtQzCEg _ibI9cLHIEe-ZIpsCtQzCEg">
+              <edge xmi:type="uml:ControlFlow" xmi:id="_vtLbQLHIEe-ZIpsCtQzCEg" target="_qI6W77HHEe-ZIpsCtQzCEg" source="_qI6W7rHHEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_HN7v0LHJEe-ZIpsCtQzCEg" target="_qI6W8LHHEe-ZIpsCtQzCEg" source="_qI6W77HHEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_IhrPoLHJEe-ZIpsCtQzCEg" name="[NO]" target="_qI6W8bHHEe-ZIpsCtQzCEg" source="_qI6W8LHHEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_JuMGELHJEe-ZIpsCtQzCEg" target="_qI6W8rHHEe-ZIpsCtQzCEg" source="_qI6W8bHHEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_LgfKILHJEe-ZIpsCtQzCEg" name="[SÍ]" target="_qI6W77HHEe-ZIpsCtQzCEg" source="_qI6W8LHHEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_P0Bb4LHJEe-ZIpsCtQzCEg" target="_qI6W87HHEe-ZIpsCtQzCEg" source="_qI6W8rHHEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_QrsqwLHJEe-ZIpsCtQzCEg" target="_qI6W9bHHEe-ZIpsCtQzCEg" source="_qI6W87HHEe-ZIpsCtQzCEg"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_QDVfsLHIEe-ZIpsCtQzCEg" name="AllocateActivityPartition9" represents="_qcHOkLA5Ee-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_T5stQLHIEe-ZIpsCtQzCEg" name="AllocateActivityPartition10" represents="_R4nncLA1Ee-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_XMzcwLHIEe-ZIpsCtQzCEg" name="AllocateActivityPartition11" represents="_f3RToLA1Ee-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_ibI9cLHIEe-ZIpsCtQzCEg" name="AllocateActivityPartition12" represents="_GaQ4ULA2Ee-BbcwpMmGpSw"/>
+              <node xmi:type="uml:InitialNode" xmi:id="_qI6W7rHHEe-ZIpsCtQzCEg" name="Recibir y procesar datos" outgoing="_vtLbQLHIEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_qI6W77HHEe-ZIpsCtQzCEg" name="Verificar datos" incoming="_vtLbQLHIEe-ZIpsCtQzCEg _LgfKILHJEe-ZIpsCtQzCEg" outgoing="_HN7v0LHJEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:DecisionNode" xmi:id="_qI6W8LHHEe-ZIpsCtQzCEg" name="¿Frecuencia en el rango?" incoming="_HN7v0LHJEe-ZIpsCtQzCEg" outgoing="_IhrPoLHJEe-ZIpsCtQzCEg _LgfKILHJEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_qI6W8bHHEe-ZIpsCtQzCEg" name="Emitir alerta" incoming="_IhrPoLHJEe-ZIpsCtQzCEg" outgoing="_JuMGELHJEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_qI6W8rHHEe-ZIpsCtQzCEg" name="Mostrar alerta" incoming="_JuMGELHJEe-ZIpsCtQzCEg" outgoing="_P0Bb4LHJEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_qI6W87HHEe-ZIpsCtQzCEg" name="Recibir alerta" incoming="_P0Bb4LHJEe-ZIpsCtQzCEg" outgoing="_QrsqwLHJEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:ActivityFinalNode" xmi:id="_qI6W9bHHEe-ZIpsCtQzCEg" name="" incoming="_QrsqwLHJEe-ZIpsCtQzCEg"/>
+            </ownedBehavior>
+            <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9kOL8LG6Ee-eloSyfcsz3g" name="ExtensionPoint2"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_2ZAT0LA4Ee-BbcwpMmGpSw" name="Emitir preguntas" classifierBehavior="_XPqHALHJEe-ZIpsCtQzCEg" subject="_5E7g0LAzEe-BbcwpMmGpSw">
+            <ownedBehavior xmi:type="uml:Activity" xmi:id="_XPqHALHJEe-ZIpsCtQzCEg" name="Activity2"/>
+            <include xmi:type="uml:Include" xmi:id="_4I3nkLA7Ee-BbcwpMmGpSw" addition="_FsfsALA5Ee-BbcwpMmGpSw"/>
+          </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_yNkrwK6kEe-jw5SriieKnQ" name="4 Measure Of Effectiveness">
           <packagedElement xmi:type="uml:Enumeration" xmi:id="_5BbvwK6lEe-jw5SriieKnQ" name="c+d"/>
@@ -452,4 +472,8 @@
   <Blocks:Block xmi:id="_1M5hQLDhEe-8y4rRCKR-kQ" base_Class="_1M3sELDhEe-8y4rRCKR-kQ"/>
   <Blocks:Block xmi:id="_c6q8ULG5Ee-eloSyfcsz3g" base_Class="_c6lcwLG5Ee-eloSyfcsz3g"/>
   <Blocks:Block xmi:id="_RvRwALG7Ee-eloSyfcsz3g" base_Class="_RvNekLG7Ee-eloSyfcsz3g"/>
+  <Allocations:AllocateActivityPartition xmi:id="_QDi7ELHIEe-ZIpsCtQzCEg" base_ActivityPartition="_QDVfsLHIEe-ZIpsCtQzCEg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_T5xlwLHIEe-ZIpsCtQzCEg" base_ActivityPartition="_T5stQLHIEe-ZIpsCtQzCEg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_XM3HILHIEe-ZIpsCtQzCEg" base_ActivityPartition="_XMzcwLHIEe-ZIpsCtQzCEg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_ibN18LHIEe-ZIpsCtQzCEg" base_ActivityPartition="_ibI9cLHIEe-ZIpsCtQzCEg"/>
 </xmi:XMI>
