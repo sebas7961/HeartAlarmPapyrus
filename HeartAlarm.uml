@@ -52,11 +52,12 @@
             <ownedAttribute xmi:type="uml:Property" xmi:id="_WoIz4LDgEe-8y4rRCKR-kQ" name="Property2" type="_YN1mYLDgEe-8y4rRCKR-kQ" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_aSC50LDgEe-8y4rRCKR-kQ" name="Property3" type="_baTiYLDgEe-8y4rRCKR-kQ" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_ehbrYLDgEe-8y4rRCKR-kQ" name="Property4" type="_hKFvsLDgEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_bmszALG5Ee-eloSyfcsz3g" name="Property9" type="_c6lcwLG5Ee-eloSyfcsz3g" aggregation="composite"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_5E7g0LAzEe-BbcwpMmGpSw" name="Interfaz de usuario y emisión de alertas" useCase="_qc-cILA3Ee-BbcwpMmGpSw _6hwHULA3Ee-BbcwpMmGpSw _cQ3tULA4Ee-BbcwpMmGpSw _sUaCYLA4Ee-BbcwpMmGpSw _2ZAT0LA4Ee-BbcwpMmGpSw _FsfsALA5Ee-BbcwpMmGpSw">
             <ownedUseCase xmi:type="uml:UseCase" xmi:id="_6hwHULA3Ee-BbcwpMmGpSw" name="Emitir alertas" classifierBehavior="_bvX7ELA-Ee-BbcwpMmGpSw" subject="_5E7g0LAzEe-BbcwpMmGpSw">
               <ownedBehavior xmi:type="uml:Activity" xmi:id="_bvX7ELA-Ee-BbcwpMmGpSw" name="Activity2"/>
-              <include xmi:type="uml:Include" xmi:id="_6I8o8LA7Ee-BbcwpMmGpSw" addition="_sUaCYLA4Ee-BbcwpMmGpSw"/>
+              <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9kOL8LG6Ee-eloSyfcsz3g" name="ExtensionPoint2"/>
             </ownedUseCase>
             <ownedUseCase xmi:type="uml:UseCase" xmi:id="_sUaCYLA4Ee-BbcwpMmGpSw" name="Establecer parámetros de alertas" subject="_5E7g0LAzEe-BbcwpMmGpSw"/>
             <ownedUseCase xmi:type="uml:UseCase" xmi:id="_2ZAT0LA4Ee-BbcwpMmGpSw" name="Emitir preguntas" subject="_5E7g0LAzEe-BbcwpMmGpSw">
@@ -82,11 +83,13 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_YN1mYLDgEe-8y4rRCKR-kQ" name="Base de Datos de usuarios"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_baTiYLDgEe-8y4rRCKR-kQ" name="Modulo de Encriptacion de Datos"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_hKFvsLDgEe-8y4rRCKR-kQ" name="Modulo de Proteccion contra Ataques  Ciberneticos"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_PfI7cLDhEe-8y4rRCKR-kQ" name="Microcontrolador principal ESP32"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_ap15ULDhEe-8y4rRCKR-kQ" name="Sensor de Frecuencia Cardiaca HW-827"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_hz0zwLDhEe-8y4rRCKR-kQ" name="Módulo Bluetooth HC-05"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_mLTxYLDhEe-8y4rRCKR-kQ" name="Módulo GSM SIM800L"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_PfI7cLDhEe-8y4rRCKR-kQ" name="Microcontrolador principal"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_ap15ULDhEe-8y4rRCKR-kQ" name="Sensor de Frecuencia Cardiaca"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_hz0zwLDhEe-8y4rRCKR-kQ" name="Módulo Bluetooth "/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_mLTxYLDhEe-8y4rRCKR-kQ" name="Módulo GSM"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_1M3sELDhEe-8y4rRCKR-kQ" name="Flujo Sanguineo"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_c6lcwLG5Ee-eloSyfcsz3g" name="Modulo de Recuperacion de Datos"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_RvNekLG7Ee-eloSyfcsz3g" name="Base de Datos de Preferencias de Usuario"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_v0Pc4K6kEe-jw5SriieKnQ" name="2 Uses Cases">
           <packagedElement xmi:type="uml:Expression" xmi:id="_33ivgK6lEe-jw5SriieKnQ" name="x+d"/>
@@ -96,13 +99,6 @@
             </eAnnotations>
             <ownedEnd xmi:type="uml:Property" xmi:id="_DppOALA6Ee-BbcwpMmGpSw" name="módulo de emisión de alertas" type="_GaQ4ULA2Ee-BbcwpMmGpSw" association="_DpkVgLA6Ee-BbcwpMmGpSw"/>
             <ownedEnd xmi:type="uml:Property" xmi:id="_Dpp1ELA6Ee-BbcwpMmGpSw" name="emitir alertas" type="_6hwHULA3Ee-BbcwpMmGpSw" association="_DpkVgLA6Ee-BbcwpMmGpSw"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_Q7vWMLA6Ee-BbcwpMmGpSw" memberEnd="_Q7xycLA6Ee-BbcwpMmGpSw _Q7xycbA6Ee-BbcwpMmGpSw">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q7xLYLA6Ee-BbcwpMmGpSw" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q7xLYbA6Ee-BbcwpMmGpSw" key="nature" value="UML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_Q7xycLA6Ee-BbcwpMmGpSw" name="base de datos" type="__QWPULA1Ee-BbcwpMmGpSw" association="_Q7vWMLA6Ee-BbcwpMmGpSw"/>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_Q7xycbA6Ee-BbcwpMmGpSw" name="emitir alertas" type="_6hwHULA3Ee-BbcwpMmGpSw" association="_Q7vWMLA6Ee-BbcwpMmGpSw"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_pSrr4LA6Ee-BbcwpMmGpSw" memberEnd="_pSthErA6Ee-BbcwpMmGpSw _pSuvMLA6Ee-BbcwpMmGpSw">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pSthELA6Ee-BbcwpMmGpSw" source="org.eclipse.papyrus">
@@ -304,6 +300,41 @@
             <ownedEnd xmi:type="uml:Property" xmi:id="_hpGNorDlEe-8y4rRCKR-kQ" name="proteccion contra ataques ciberneticos" type="_dqQZgLDlEe-8y4rRCKR-kQ" association="_hpE_gLDlEe-8y4rRCKR-kQ"/>
             <ownedEnd xmi:type="uml:Property" xmi:id="_hpG0sLDlEe-8y4rRCKR-kQ" name="base de datos" type="__QWPULA1Ee-BbcwpMmGpSw" association="_hpE_gLDlEe-8y4rRCKR-kQ"/>
           </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_Z5Lr0LG6Ee-eloSyfcsz3g" memberEnd="_Z5SZgLG6Ee-eloSyfcsz3g _Z5SZgbG6Ee-eloSyfcsz3g">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z5RLYLG6Ee-eloSyfcsz3g" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Z5RycLG6Ee-eloSyfcsz3g" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Z5SZgLG6Ee-eloSyfcsz3g" name="mostrar datos en tiempo real del paciente" type="_cQ3tULA4Ee-BbcwpMmGpSw" association="_Z5Lr0LG6Ee-eloSyfcsz3g"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_Z5SZgbG6Ee-eloSyfcsz3g" name="usuario final" type="_qcHOkLA5Ee-BbcwpMmGpSw" association="_Z5Lr0LG6Ee-eloSyfcsz3g"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_a9kEgLG7Ee-eloSyfcsz3g" memberEnd="_a9krkrG7Ee-eloSyfcsz3g _a9l5sLG7Ee-eloSyfcsz3g">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a9krkLG7Ee-eloSyfcsz3g" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a9krkbG7Ee-eloSyfcsz3g" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_a9krkrG7Ee-eloSyfcsz3g" name="establecer parámetros de alertas" type="_sUaCYLA4Ee-BbcwpMmGpSw" association="_a9kEgLG7Ee-eloSyfcsz3g"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_a9l5sLG7Ee-eloSyfcsz3g" name="base de datos de preferencias de usuario" type="_RvNekLG7Ee-eloSyfcsz3g" association="_a9kEgLG7Ee-eloSyfcsz3g"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_bnkDwLG7Ee-eloSyfcsz3g" memberEnd="_bnkq0bG7Ee-eloSyfcsz3g _bnkq0rG7Ee-eloSyfcsz3g">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bnkDwbG7Ee-eloSyfcsz3g" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bnkq0LG7Ee-eloSyfcsz3g" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_bnkq0bG7Ee-eloSyfcsz3g" name="base de datos de preferencias de usuario" type="_RvNekLG7Ee-eloSyfcsz3g" association="_bnkDwLG7Ee-eloSyfcsz3g"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_bnkq0rG7Ee-eloSyfcsz3g" name="emitir alertas" type="_6hwHULA3Ee-BbcwpMmGpSw" association="_bnkDwLG7Ee-eloSyfcsz3g"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_wAEN8LG7Ee-eloSyfcsz3g" memberEnd="_wAE1ArG7Ee-eloSyfcsz3g _wAE1A7G7Ee-eloSyfcsz3g">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wAE1ALG7Ee-eloSyfcsz3g" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wAE1AbG7Ee-eloSyfcsz3g" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_wAE1ArG7Ee-eloSyfcsz3g" name="base de datos de preferencias de usuario" type="_RvNekLG7Ee-eloSyfcsz3g" association="_wAEN8LG7Ee-eloSyfcsz3g"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_wAE1A7G7Ee-eloSyfcsz3g" name="emitir preguntas" type="_2ZAT0LA4Ee-BbcwpMmGpSw" association="_wAEN8LG7Ee-eloSyfcsz3g"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_0IElILG7Ee-eloSyfcsz3g" memberEnd="_0IFMMrG7Ee-eloSyfcsz3g _0IFMM7G7Ee-eloSyfcsz3g">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0IFMMLG7Ee-eloSyfcsz3g" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0IFMMbG7Ee-eloSyfcsz3g" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_0IFMMrG7Ee-eloSyfcsz3g" name="registrar respuestas" type="_FsfsALA5Ee-BbcwpMmGpSw" association="_0IElILG7Ee-eloSyfcsz3g"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_0IFMM7G7Ee-eloSyfcsz3g" name="base de datos" type="__QWPULA1Ee-BbcwpMmGpSw" association="_0IElILG7Ee-eloSyfcsz3g"/>
+          </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_yNkrwK6kEe-jw5SriieKnQ" name="4 Measure Of Effectiveness">
           <packagedElement xmi:type="uml:Enumeration" xmi:id="_5BbvwK6lEe-jw5SriieKnQ" name="c+d"/>
@@ -419,4 +450,6 @@
   <Blocks:Block xmi:id="_hz2o8LDhEe-8y4rRCKR-kQ" base_Class="_hz0zwLDhEe-8y4rRCKR-kQ"/>
   <Blocks:Block xmi:id="_mLVmkLDhEe-8y4rRCKR-kQ" base_Class="_mLTxYLDhEe-8y4rRCKR-kQ"/>
   <Blocks:Block xmi:id="_1M5hQLDhEe-8y4rRCKR-kQ" base_Class="_1M3sELDhEe-8y4rRCKR-kQ"/>
+  <Blocks:Block xmi:id="_c6q8ULG5Ee-eloSyfcsz3g" base_Class="_c6lcwLG5Ee-eloSyfcsz3g"/>
+  <Blocks:Block xmi:id="_RvRwALG7Ee-eloSyfcsz3g" base_Class="_RvNekLG7Ee-eloSyfcsz3g"/>
 </xmi:XMI>
