@@ -352,7 +352,27 @@
             <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9kOL8LG6Ee-eloSyfcsz3g" name="ExtensionPoint2"/>
           </packagedElement>
           <packagedElement xmi:type="uml:UseCase" xmi:id="_2ZAT0LA4Ee-BbcwpMmGpSw" name="Emitir preguntas" classifierBehavior="_XPqHALHJEe-ZIpsCtQzCEg" subject="_5E7g0LAzEe-BbcwpMmGpSw">
-            <ownedBehavior xmi:type="uml:Activity" xmi:id="_XPqHALHJEe-ZIpsCtQzCEg" name="Activity2"/>
+            <ownedBehavior xmi:type="uml:Activity" xmi:id="_XPqHALHJEe-ZIpsCtQzCEg" name="Activity2" node="_K8UbMLHLEe-ZIpsCtQzCEg _g8FeILHLEe-ZIpsCtQzCEg _1cLeELHLEe-ZIpsCtQzCEg _HDNmMLHMEe-ZIpsCtQzCEg _BCQhoLHSEe-ZIpsCtQzCEg _P-IrELHSEe-ZIpsCtQzCEg _YcsLwLHSEe-ZIpsCtQzCEg _h9yHgLHSEe-ZIpsCtQzCEg" group="_1ba7ALHJEe-ZIpsCtQzCEg _IHxscLHKEe-ZIpsCtQzCEg _p_a8ULHKEe-ZIpsCtQzCEg _1iO4MLHKEe-ZIpsCtQzCEg">
+              <edge xmi:type="uml:ControlFlow" xmi:id="_bIdOcLHSEe-ZIpsCtQzCEg" target="_g8FeILHLEe-ZIpsCtQzCEg" source="_K8UbMLHLEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_9OEB0LHSEe-ZIpsCtQzCEg" target="_h9yHgLHSEe-ZIpsCtQzCEg" source="_g8FeILHLEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_DP4aULHTEe-ZIpsCtQzCEg" target="_1cLeELHLEe-ZIpsCtQzCEg" source="_h9yHgLHSEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_UQTOYLHTEe-ZIpsCtQzCEg" target="_BCQhoLHSEe-ZIpsCtQzCEg" source="_1cLeELHLEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_VSBKELHTEe-ZIpsCtQzCEg" target="_HDNmMLHMEe-ZIpsCtQzCEg" source="_BCQhoLHSEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_beIuELHTEe-ZIpsCtQzCEg" target="_YcsLwLHSEe-ZIpsCtQzCEg" source="_P-IrELHSEe-ZIpsCtQzCEg"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_iD3r8LHTEe-ZIpsCtQzCEg" target="_P-IrELHSEe-ZIpsCtQzCEg" source="_HDNmMLHMEe-ZIpsCtQzCEg"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_1ba7ALHJEe-ZIpsCtQzCEg" name="AllocateActivityPartition1" node="_K8UbMLHLEe-ZIpsCtQzCEg _g8FeILHLEe-ZIpsCtQzCEg" represents="_5E7g0LAzEe-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_IHxscLHKEe-ZIpsCtQzCEg" name="AllocateActivityPartition2" represents="_qcHOkLA5Ee-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_p_a8ULHKEe-ZIpsCtQzCEg" name="AllocateActivityPartition3" node="_YcsLwLHSEe-ZIpsCtQzCEg" represents="__QWPULA1Ee-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_1iO4MLHKEe-ZIpsCtQzCEg" name="AllocateActivityPartition4" represents="_RvNekLG7Ee-eloSyfcsz3g"/>
+              <node xmi:type="uml:InitialNode" xmi:id="_K8UbMLHLEe-ZIpsCtQzCEg" name="Llegada tiempo preconfigurado" outgoing="_bIdOcLHSEe-ZIpsCtQzCEg" inPartition="_1ba7ALHJEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_g8FeILHLEe-ZIpsCtQzCEg" name="Consultar pregunta de la Base de datos" incoming="_bIdOcLHSEe-ZIpsCtQzCEg" outgoing="_9OEB0LHSEe-ZIpsCtQzCEg" inPartition="_1ba7ALHJEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_1cLeELHLEe-ZIpsCtQzCEg" name="Mostrar pregunta" incoming="_DP4aULHTEe-ZIpsCtQzCEg" outgoing="_UQTOYLHTEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_HDNmMLHMEe-ZIpsCtQzCEg" name="Responder pregunta" incoming="_VSBKELHTEe-ZIpsCtQzCEg" outgoing="_iD3r8LHTEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_BCQhoLHSEe-ZIpsCtQzCEg" name="Registrar respuesta" incoming="_UQTOYLHTEe-ZIpsCtQzCEg" outgoing="_VSBKELHTEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_P-IrELHSEe-ZIpsCtQzCEg" name="Almacenar respuesta" incoming="_iD3r8LHTEe-ZIpsCtQzCEg" outgoing="_beIuELHTEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:ActivityFinalNode" xmi:id="_YcsLwLHSEe-ZIpsCtQzCEg" name="" incoming="_beIuELHTEe-ZIpsCtQzCEg" inPartition="_p_a8ULHKEe-ZIpsCtQzCEg"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_h9yHgLHSEe-ZIpsCtQzCEg" name="Devolver pregunta correspondiente" incoming="_9OEB0LHSEe-ZIpsCtQzCEg" outgoing="_DP4aULHTEe-ZIpsCtQzCEg"/>
+            </ownedBehavior>
             <include xmi:type="uml:Include" xmi:id="_4I3nkLA7Ee-BbcwpMmGpSw" addition="_FsfsALA5Ee-BbcwpMmGpSw"/>
           </packagedElement>
         </packagedElement>
@@ -476,4 +496,8 @@
   <Allocations:AllocateActivityPartition xmi:id="_T5xlwLHIEe-ZIpsCtQzCEg" base_ActivityPartition="_T5stQLHIEe-ZIpsCtQzCEg"/>
   <Allocations:AllocateActivityPartition xmi:id="_XM3HILHIEe-ZIpsCtQzCEg" base_ActivityPartition="_XMzcwLHIEe-ZIpsCtQzCEg"/>
   <Allocations:AllocateActivityPartition xmi:id="_ibN18LHIEe-ZIpsCtQzCEg" base_ActivityPartition="_ibI9cLHIEe-ZIpsCtQzCEg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_1bhosLHJEe-ZIpsCtQzCEg" base_ActivityPartition="_1ba7ALHJEe-ZIpsCtQzCEg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_IH1W0LHKEe-ZIpsCtQzCEg" base_ActivityPartition="_IHxscLHKEe-ZIpsCtQzCEg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_p_f00LHKEe-ZIpsCtQzCEg" base_ActivityPartition="_p_a8ULHKEe-ZIpsCtQzCEg"/>
+  <Allocations:AllocateActivityPartition xmi:id="_1iSikLHKEe-ZIpsCtQzCEg" base_ActivityPartition="_1iO4MLHKEe-ZIpsCtQzCEg"/>
 </xmi:XMI>
