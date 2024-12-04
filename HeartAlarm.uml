@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Allocations="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Allocations="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML#//allocations http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
   <uml:Model xmi:id="_q2-yUK6cEe-BPZckyR9NAg" name="HeartAlarm">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_q6pKUK6cEe-BPZckyR9NAg">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -69,7 +69,11 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_GaQ4ULA2Ee-BbcwpMmGpSw" name="Módulo de emisión de alertas"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_qcHOkLA5Ee-BbcwpMmGpSw" name="Usuario final"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_TDHBoLBWEe-zy5umMi3cxw" name="Sensores de Frecuencia Cardiaca"/>
-          <packagedElement xmi:type="uml:Package" xmi:id="_M4UroLBcEe-zy5umMi3cxw" name="1 Exchange Items"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_M4UroLBcEe-zy5umMi3cxw" name="1 Exchange Items">
+            <packagedElement xmi:type="uml:Signal" xmi:id="_UBdH0LHYEe-ZIpsCtQzCEg" name="Control"/>
+            <packagedElement xmi:type="uml:Signal" xmi:id="_XahVYLHYEe-ZIpsCtQzCEg" name="Status"/>
+            <packagedElement xmi:type="uml:Signal" xmi:id="_pqXJ8LHYEe-ZIpsCtQzCEg" name="Power"/>
+          </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_qdlJwLDfEe-8y4rRCKR-kQ" name="Suministro de Energia"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_6TvKILDfEe-8y4rRCKR-kQ" name="Modulo Bluetooth"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_U4bJwLDgEe-8y4rRCKR-kQ" name="Modulo de Autenticacion"/>
@@ -83,6 +87,12 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_1M3sELDhEe-8y4rRCKR-kQ" name="Flujo Sanguineo"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_c6lcwLG5Ee-eloSyfcsz3g" name="Modulo de Recuperacion de Datos"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_RvNekLG7Ee-eloSyfcsz3g" name="Base de Datos de Preferencias de Usuario"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_7FCRELHYEe-ZIpsCtQzCEg" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_eGCmkLA1Ee-BbcwpMmGpSw" informationTarget="_QkY_cLA1Ee-BbcwpMmGpSw"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_PWy6ELHZEe-ZIpsCtQzCEg" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_QkY_cLA1Ee-BbcwpMmGpSw _qABvgLA5Ee-BbcwpMmGpSw" informationTarget="_qABvgLA5Ee-BbcwpMmGpSw _QkY_cLA1Ee-BbcwpMmGpSw"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_gRnccLHZEe-ZIpsCtQzCEg" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_QkY_cLA1Ee-BbcwpMmGpSw" informationTarget="_qABvgLA5Ee-BbcwpMmGpSw"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_xPJ7oLHZEe-ZIpsCtQzCEg" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_FJ-8MLA2Ee-BbcwpMmGpSw" informationTarget="_QkY_cLA1Ee-BbcwpMmGpSw"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_HTkOALHaEe-ZIpsCtQzCEg" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_eGCmkLA1Ee-BbcwpMmGpSw" informationTarget="_FJ-8MLA2Ee-BbcwpMmGpSw"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_hnz94LHaEe-ZIpsCtQzCEg" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_QkY_cLA1Ee-BbcwpMmGpSw" informationTarget="_znGUQLA1Ee-BbcwpMmGpSw"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_v0Pc4K6kEe-jw5SriieKnQ" name="2 Uses Cases">
           <packagedElement xmi:type="uml:Expression" xmi:id="_33ivgK6lEe-jw5SriieKnQ" name="x+d"/>
@@ -500,4 +510,10 @@
   <Allocations:AllocateActivityPartition xmi:id="_IH1W0LHKEe-ZIpsCtQzCEg" base_ActivityPartition="_IHxscLHKEe-ZIpsCtQzCEg"/>
   <Allocations:AllocateActivityPartition xmi:id="_p_f00LHKEe-ZIpsCtQzCEg" base_ActivityPartition="_p_a8ULHKEe-ZIpsCtQzCEg"/>
   <Allocations:AllocateActivityPartition xmi:id="_1iSikLHKEe-ZIpsCtQzCEg" base_ActivityPartition="_1iO4MLHKEe-ZIpsCtQzCEg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_7FKM4LHYEe-ZIpsCtQzCEg" base_InformationFlow="_7FCRELHYEe-ZIpsCtQzCEg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_PW0vQLHZEe-ZIpsCtQzCEg" base_InformationFlow="_PWy6ELHZEe-ZIpsCtQzCEg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_gRrt4LHZEe-ZIpsCtQzCEg" base_InformationFlow="_gRnccLHZEe-ZIpsCtQzCEg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_xPMX4LHZEe-ZIpsCtQzCEg" base_InformationFlow="_xPJ7oLHZEe-ZIpsCtQzCEg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_HTmDMLHaEe-ZIpsCtQzCEg" base_InformationFlow="_HTkOALHaEe-ZIpsCtQzCEg"/>
+  <PortsAndFlows:ItemFlow xmi:id="_hn2aILHaEe-ZIpsCtQzCEg" base_InformationFlow="_hnz94LHaEe-ZIpsCtQzCEg"/>
 </xmi:XMI>
