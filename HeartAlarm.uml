@@ -26,9 +26,6 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_n-UCcK6kEe-jw5SriieKnQ" name="3 System Context">
           <packagedElement xmi:type="uml:Class" xmi:id="_uabF8LAzEe-BbcwpMmGpSw" name="Monitoreo de frecuencia cardiaca" useCase="_mRgDgLDiEe-8y4rRCKR-kQ _gh0HYLDjEe-8y4rRCKR-kQ _7LKkkLDjEe-8y4rRCKR-kQ _JpX6kLDkEe-8y4rRCKR-kQ">
-            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mRgDgLDiEe-8y4rRCKR-kQ" name="Medir Frecuencia Cardiaca" subject="_uabF8LAzEe-BbcwpMmGpSw">
-              <include xmi:type="uml:Include" xmi:id="_rka5MLDjEe-8y4rRCKR-kQ" addition="_gh0HYLDjEe-8y4rRCKR-kQ"/>
-            </ownedUseCase>
             <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gh0HYLDjEe-8y4rRCKR-kQ" name="Digitalizar y Procesar los datos de Frecuencia Cardiaca" subject="_uabF8LAzEe-BbcwpMmGpSw">
               <include xmi:type="uml:Include" xmi:id="_BaXRwLDkEe-8y4rRCKR-kQ" addition="_7LKkkLDjEe-8y4rRCKR-kQ"/>
             </ownedUseCase>
@@ -42,17 +39,13 @@
             <ownedAttribute xmi:type="uml:Property" xmi:id="_0VGWkLDhEe-8y4rRCKR-kQ" name="Property6" type="_1M3sELDhEe-8y4rRCKR-kQ" aggregation="composite"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_2_Q00LAzEe-BbcwpMmGpSw" name="Seguridad y Acceso" useCase="_JNxHMLDlEe-8y4rRCKR-kQ _Ln0HwLDlEe-8y4rRCKR-kQ _Twxy8LDlEe-8y4rRCKR-kQ _dqQZgLDlEe-8y4rRCKR-kQ">
-            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_JNxHMLDlEe-8y4rRCKR-kQ" name="Login" subject="_2_Q00LAzEe-BbcwpMmGpSw">
-              <include xmi:type="uml:Include" xmi:id="_MwIasLDlEe-8y4rRCKR-kQ" addition="_Ln0HwLDlEe-8y4rRCKR-kQ"/>
-            </ownedUseCase>
             <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Ln0HwLDlEe-8y4rRCKR-kQ" name="Autenticacion" subject="_2_Q00LAzEe-BbcwpMmGpSw"/>
-            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_Twxy8LDlEe-8y4rRCKR-kQ" name="Encriptacion de Datos" subject="_2_Q00LAzEe-BbcwpMmGpSw"/>
-            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_dqQZgLDlEe-8y4rRCKR-kQ" name="Proteccion contra ataques ciberneticos" subject="_2_Q00LAzEe-BbcwpMmGpSw"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_T5UdMLDgEe-8y4rRCKR-kQ" name="Property1" type="_U4bJwLDgEe-8y4rRCKR-kQ" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_WoIz4LDgEe-8y4rRCKR-kQ" name="Property2" type="_YN1mYLDgEe-8y4rRCKR-kQ" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_aSC50LDgEe-8y4rRCKR-kQ" name="Property3" type="_baTiYLDgEe-8y4rRCKR-kQ" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_ehbrYLDgEe-8y4rRCKR-kQ" name="Property4" type="_hKFvsLDgEe-8y4rRCKR-kQ" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_bmszALG5Ee-eloSyfcsz3g" name="Property9" type="_c6lcwLG5Ee-eloSyfcsz3g" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_U9ax0LTuEe-LmoY09DOm4w" name="Property7" type="_Wa1yELTuEe-LmoY09DOm4w" aggregation="composite"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_R4nncLA1Ee-BbcwpMmGpSw" name="Interfaz de Usuario"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_f3RToLA1Ee-BbcwpMmGpSw" name="Módulo de procesamiento y consulta de datos en tiempo real"/>
@@ -77,13 +70,31 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_mLTxYLDhEe-8y4rRCKR-kQ" name="Módulo GSM"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_1M3sELDhEe-8y4rRCKR-kQ" name="Flujo Sanguineo"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_c6lcwLG5Ee-eloSyfcsz3g" name="Modulo de Recuperacion de Datos"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_RvNekLG7Ee-eloSyfcsz3g" name="Base de Datos de Preferencias de Usuario"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_7FCRELHYEe-ZIpsCtQzCEg" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_eGCmkLA1Ee-BbcwpMmGpSw" informationTarget="_QkY_cLA1Ee-BbcwpMmGpSw"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_PWy6ELHZEe-ZIpsCtQzCEg" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_QkY_cLA1Ee-BbcwpMmGpSw _qABvgLA5Ee-BbcwpMmGpSw" informationTarget="_qABvgLA5Ee-BbcwpMmGpSw _QkY_cLA1Ee-BbcwpMmGpSw"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_gRnccLHZEe-ZIpsCtQzCEg" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_QkY_cLA1Ee-BbcwpMmGpSw" informationTarget="_qABvgLA5Ee-BbcwpMmGpSw"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_xPJ7oLHZEe-ZIpsCtQzCEg" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_FJ-8MLA2Ee-BbcwpMmGpSw" informationTarget="_QkY_cLA1Ee-BbcwpMmGpSw"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_HTkOALHaEe-ZIpsCtQzCEg" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_eGCmkLA1Ee-BbcwpMmGpSw" informationTarget="_FJ-8MLA2Ee-BbcwpMmGpSw"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_hnz94LHaEe-ZIpsCtQzCEg" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_QkY_cLA1Ee-BbcwpMmGpSw" informationTarget="_znGUQLA1Ee-BbcwpMmGpSw"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_9DpLMLTrEe-LmoY09DOm4w" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_T5UdMLDgEe-8y4rRCKR-kQ _WoIz4LDgEe-8y4rRCKR-kQ" informationTarget="_WoIz4LDgEe-8y4rRCKR-kQ _T5UdMLDgEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_DvIg4LTuEe-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_aSC50LDgEe-8y4rRCKR-kQ" informationTarget="_WoIz4LDgEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_LdNm4LTuEe-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_T5UdMLDgEe-8y4rRCKR-kQ" informationTarget="_WoIz4LDgEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_Wa1yELTuEe-LmoY09DOm4w" name="Base de Datos"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_c89bQLTuEe-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_aSC50LDgEe-8y4rRCKR-kQ" informationTarget="_ehbrYLDgEe-8y4rRCKR-kQ _U9ax0LTuEe-LmoY09DOm4w"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="__dXUQLTuEe-LmoY09DOm4w" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_U9ax0LTuEe-LmoY09DOm4w" informationTarget="_bmszALG5Ee-eloSyfcsz3g"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_9k6IYLTvEe-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_bmszALG5Ee-eloSyfcsz3g" informationTarget="_U9ax0LTuEe-LmoY09DOm4w"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_C09FsLTwEe-LmoY09DOm4w" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_WoIz4LDgEe-8y4rRCKR-kQ" informationTarget="_bmszALG5Ee-eloSyfcsz3g"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_NGpX8LTwEe-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_bmszALG5Ee-eloSyfcsz3g" informationTarget="_WoIz4LDgEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_edERMLTwEe-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_ehbrYLDgEe-8y4rRCKR-kQ" informationTarget="_WoIz4LDgEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_hBRTULTwEe-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_ehbrYLDgEe-8y4rRCKR-kQ" informationTarget="_bmszALG5Ee-eloSyfcsz3g"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_5sL3cLT8Ee-LmoY09DOm4w" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_0VGWkLDhEe-8y4rRCKR-kQ" informationTarget="_YaSRgLDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_ZtbmYLT9Ee-LmoY09DOm4w" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_YaSRgLDhEe-8y4rRCKR-kQ" informationTarget="_NOqGkLDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_fPA_oLT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_NOqGkLDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_iHx8gLT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_YaSRgLDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_kw23kLT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_hTLk0LDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_nh7RALT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_lzd5ILDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_5Uy1sLT9Ee-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_NOqGkLDhEe-8y4rRCKR-kQ" informationTarget="_hTLk0LDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_6vLwELT9Ee-LmoY09DOm4w" name="" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_NOqGkLDhEe-8y4rRCKR-kQ" informationTarget="_lzd5ILDhEe-8y4rRCKR-kQ"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_v0Pc4K6kEe-jw5SriieKnQ" name="2 Uses Cases">
           <packagedElement xmi:type="uml:Expression" xmi:id="_33ivgK6lEe-jw5SriieKnQ" name="x+d"/>
@@ -302,27 +313,6 @@
             <ownedEnd xmi:type="uml:Property" xmi:id="_Z5SZgLG6Ee-eloSyfcsz3g" name="mostrar datos en tiempo real del paciente" type="_cQ3tULA4Ee-BbcwpMmGpSw" association="_Z5Lr0LG6Ee-eloSyfcsz3g"/>
             <ownedEnd xmi:type="uml:Property" xmi:id="_Z5SZgbG6Ee-eloSyfcsz3g" name="usuario final" type="_qcHOkLA5Ee-BbcwpMmGpSw" association="_Z5Lr0LG6Ee-eloSyfcsz3g"/>
           </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_a9kEgLG7Ee-eloSyfcsz3g" memberEnd="_a9krkrG7Ee-eloSyfcsz3g _a9l5sLG7Ee-eloSyfcsz3g">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_a9krkLG7Ee-eloSyfcsz3g" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_a9krkbG7Ee-eloSyfcsz3g" key="nature" value="UML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_a9krkrG7Ee-eloSyfcsz3g" name="establecer parámetros de alertas" type="_sUaCYLA4Ee-BbcwpMmGpSw" association="_a9kEgLG7Ee-eloSyfcsz3g"/>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_a9l5sLG7Ee-eloSyfcsz3g" name="base de datos de preferencias de usuario" type="_RvNekLG7Ee-eloSyfcsz3g" association="_a9kEgLG7Ee-eloSyfcsz3g"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_bnkDwLG7Ee-eloSyfcsz3g" memberEnd="_bnkq0bG7Ee-eloSyfcsz3g _bnkq0rG7Ee-eloSyfcsz3g">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_bnkDwbG7Ee-eloSyfcsz3g" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_bnkq0LG7Ee-eloSyfcsz3g" key="nature" value="UML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_bnkq0bG7Ee-eloSyfcsz3g" name="base de datos de preferencias de usuario" type="_RvNekLG7Ee-eloSyfcsz3g" association="_bnkDwLG7Ee-eloSyfcsz3g"/>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_bnkq0rG7Ee-eloSyfcsz3g" name="emitir alertas" type="_6hwHULA3Ee-BbcwpMmGpSw" association="_bnkDwLG7Ee-eloSyfcsz3g"/>
-          </packagedElement>
-          <packagedElement xmi:type="uml:Association" xmi:id="_wAEN8LG7Ee-eloSyfcsz3g" memberEnd="_wAE1ArG7Ee-eloSyfcsz3g _wAE1A7G7Ee-eloSyfcsz3g">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wAE1ALG7Ee-eloSyfcsz3g" source="org.eclipse.papyrus">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wAE1AbG7Ee-eloSyfcsz3g" key="nature" value="UML_Nature"/>
-            </eAnnotations>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_wAE1ArG7Ee-eloSyfcsz3g" name="base de datos de preferencias de usuario" type="_RvNekLG7Ee-eloSyfcsz3g" association="_wAEN8LG7Ee-eloSyfcsz3g"/>
-            <ownedEnd xmi:type="uml:Property" xmi:id="_wAE1A7G7Ee-eloSyfcsz3g" name="emitir preguntas" type="_2ZAT0LA4Ee-BbcwpMmGpSw" association="_wAEN8LG7Ee-eloSyfcsz3g"/>
-          </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_0IElILG7Ee-eloSyfcsz3g" memberEnd="_0IFMMrG7Ee-eloSyfcsz3g _0IFMM7G7Ee-eloSyfcsz3g">
             <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_0IFMMLG7Ee-eloSyfcsz3g" source="org.eclipse.papyrus">
               <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_0IFMMbG7Ee-eloSyfcsz3g" key="nature" value="UML_Nature"/>
@@ -367,7 +357,7 @@
               <group xmi:type="uml:ActivityPartition" xmi:id="_1ba7ALHJEe-ZIpsCtQzCEg" name="AllocateActivityPartition1" node="_K8UbMLHLEe-ZIpsCtQzCEg _g8FeILHLEe-ZIpsCtQzCEg" represents="_5E7g0LAzEe-BbcwpMmGpSw"/>
               <group xmi:type="uml:ActivityPartition" xmi:id="_IHxscLHKEe-ZIpsCtQzCEg" name="AllocateActivityPartition2" represents="_qcHOkLA5Ee-BbcwpMmGpSw"/>
               <group xmi:type="uml:ActivityPartition" xmi:id="_p_a8ULHKEe-ZIpsCtQzCEg" name="AllocateActivityPartition3" node="_YcsLwLHSEe-ZIpsCtQzCEg" represents="__QWPULA1Ee-BbcwpMmGpSw"/>
-              <group xmi:type="uml:ActivityPartition" xmi:id="_1iO4MLHKEe-ZIpsCtQzCEg" name="AllocateActivityPartition4" represents="_RvNekLG7Ee-eloSyfcsz3g"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_1iO4MLHKEe-ZIpsCtQzCEg" name="AllocateActivityPartition4"/>
               <node xmi:type="uml:InitialNode" xmi:id="_K8UbMLHLEe-ZIpsCtQzCEg" name="Llegada tiempo preconfigurado" outgoing="_bIdOcLHSEe-ZIpsCtQzCEg" inPartition="_1ba7ALHJEe-ZIpsCtQzCEg"/>
               <node xmi:type="uml:OpaqueAction" xmi:id="_g8FeILHLEe-ZIpsCtQzCEg" name="Consultar pregunta de la Base de datos" incoming="_bIdOcLHSEe-ZIpsCtQzCEg" outgoing="_9OEB0LHSEe-ZIpsCtQzCEg" inPartition="_1ba7ALHJEe-ZIpsCtQzCEg"/>
               <node xmi:type="uml:OpaqueAction" xmi:id="_1cLeELHLEe-ZIpsCtQzCEg" name="Mostrar pregunta" incoming="_DP4aULHTEe-ZIpsCtQzCEg" outgoing="_UQTOYLHTEe-ZIpsCtQzCEg"/>
@@ -386,7 +376,7 @@
               <edge xmi:type="uml:ControlFlow" xmi:id="_EtwcgLNSEe-lmJ3CENy7zw" target="_w2BdELNREe-lmJ3CENy7zw" source="_ov9U4LNREe-lmJ3CENy7zw"/>
               <edge xmi:type="uml:ControlFlow" xmi:id="_HKfksLNSEe-lmJ3CENy7zw" inPartition="_9MjKULNQEe-lmJ3CENy7zw" target="_Fp1DMLNSEe-lmJ3CENy7zw" source="_w2BdELNREe-lmJ3CENy7zw"/>
               <group xmi:type="uml:ActivityPartition" xmi:id="_2T7FoLNQEe-lmJ3CENy7zw" name="Interfaz de usuario" node="_ov9U4LNREe-lmJ3CENy7zw" represents="_R4nncLA1Ee-BbcwpMmGpSw"/>
-              <group xmi:type="uml:ActivityPartition" xmi:id="_9MjKULNQEe-lmJ3CENy7zw" name="Base de datos de preferencias de usuario" node="_w2BdELNREe-lmJ3CENy7zw _Fp1DMLNSEe-lmJ3CENy7zw" represents="_RvNekLG7Ee-eloSyfcsz3g" edge="_HKfksLNSEe-lmJ3CENy7zw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_9MjKULNQEe-lmJ3CENy7zw" name="Base de datos de preferencias de usuario" node="_w2BdELNREe-lmJ3CENy7zw _Fp1DMLNSEe-lmJ3CENy7zw" edge="_HKfksLNSEe-lmJ3CENy7zw"/>
               <group xmi:type="uml:ActivityPartition" xmi:id="_C1pg0LNREe-lmJ3CENy7zw" name="Usuario final" node="_iMjSQLNREe-lmJ3CENy7zw" represents="_qcHOkLA5Ee-BbcwpMmGpSw"/>
               <node xmi:type="uml:InitialNode" xmi:id="_iMjSQLNREe-lmJ3CENy7zw" name="" outgoing="_8GzNwLNREe-lmJ3CENy7zw" inPartition="_C1pg0LNREe-lmJ3CENy7zw"/>
               <node xmi:type="uml:OpaqueAction" xmi:id="_kVO2ALNREe-lmJ3CENy7zw" name="Ingresar parámetros" incoming="_8GzNwLNREe-lmJ3CENy7zw" outgoing="__ZgUoLNREe-lmJ3CENy7zw"/>
@@ -394,6 +384,129 @@
               <node xmi:type="uml:OpaqueAction" xmi:id="_w2BdELNREe-lmJ3CENy7zw" name="Almacenar parámetros" incoming="_EtwcgLNSEe-lmJ3CENy7zw" outgoing="_HKfksLNSEe-lmJ3CENy7zw" inPartition="_9MjKULNQEe-lmJ3CENy7zw"/>
               <node xmi:type="uml:ActivityFinalNode" xmi:id="_Fp1DMLNSEe-lmJ3CENy7zw" name="" incoming="_HKfksLNSEe-lmJ3CENy7zw" inPartition="_9MjKULNQEe-lmJ3CENy7zw"/>
             </ownedBehavior>
+          </packagedElement>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_JNxHMLDlEe-8y4rRCKR-kQ" name="Login" classifierBehavior="_KQAVQLTgEe-LmoY09DOm4w" subject="_2_Q00LAzEe-BbcwpMmGpSw">
+            <ownedBehavior xmi:type="uml:Activity" xmi:id="_KQAVQLTgEe-LmoY09DOm4w" name="Activity2" node="_ub11ULTgEe-LmoY09DOm4w _3ujW0LTgEe-LmoY09DOm4w _SoU1oLThEe-LmoY09DOm4w _alaA8LThEe-LmoY09DOm4w _atgNALThEe-LmoY09DOm4w _ay_xALThEe-LmoY09DOm4w _jy0LsLThEe-LmoY09DOm4w _zslgwLThEe-LmoY09DOm4w" group="_MhZJELTgEe-LmoY09DOm4w _XnM_4LTgEe-LmoY09DOm4w">
+              <edge xmi:type="uml:ControlFlow" xmi:id="_EZkQ4LThEe-LmoY09DOm4w" target="_3ujW0LTgEe-LmoY09DOm4w" source="_ub11ULTgEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_Y-lNELThEe-LmoY09DOm4w" target="_SoU1oLThEe-LmoY09DOm4w" source="_3ujW0LTgEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_hjcKELThEe-LmoY09DOm4w" target="_alaA8LThEe-LmoY09DOm4w" source="_SoU1oLThEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_q_J2kLThEe-LmoY09DOm4w" target="_jy0LsLThEe-LmoY09DOm4w" source="_alaA8LThEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_xC5hsLThEe-LmoY09DOm4w" name="[OK]" target="_atgNALThEe-LmoY09DOm4w" source="_jy0LsLThEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_0uHPMLThEe-LmoY09DOm4w" target="_zslgwLThEe-LmoY09DOm4w" source="_atgNALThEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_FPVl0LTiEe-LmoY09DOm4w" target="_ay_xALThEe-LmoY09DOm4w" source="_jy0LsLThEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_Gf0WQLTiEe-LmoY09DOm4w" target="_3ujW0LTgEe-LmoY09DOm4w" source="_ay_xALThEe-LmoY09DOm4w"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_MhZJELTgEe-LmoY09DOm4w" name="ActivityPartition1" node="_ub11ULTgEe-LmoY09DOm4w _zslgwLThEe-LmoY09DOm4w" represents="_qcHOkLA5Ee-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_XnM_4LTgEe-LmoY09DOm4w" name="ActivityPartition2" node="_jy0LsLThEe-LmoY09DOm4w" represents="_YN1mYLDgEe-8y4rRCKR-kQ"/>
+              <node xmi:type="uml:InitialNode" xmi:id="_ub11ULTgEe-LmoY09DOm4w" outgoing="_EZkQ4LThEe-LmoY09DOm4w" inPartition="_MhZJELTgEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_3ujW0LTgEe-LmoY09DOm4w" name="Ingresa nombre de usuario y contraseña" incoming="_EZkQ4LThEe-LmoY09DOm4w _Gf0WQLTiEe-LmoY09DOm4w" outgoing="_Y-lNELThEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_SoU1oLThEe-LmoY09DOm4w" name="Recibe las credenciales" incoming="_Y-lNELThEe-LmoY09DOm4w" outgoing="_hjcKELThEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_alaA8LThEe-LmoY09DOm4w" name="Autenticacion" incoming="_hjcKELThEe-LmoY09DOm4w" outgoing="_q_J2kLThEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_atgNALThEe-LmoY09DOm4w" name="Login exitoso, ingreso a la aplicacion" incoming="_xC5hsLThEe-LmoY09DOm4w" outgoing="_0uHPMLThEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_ay_xALThEe-LmoY09DOm4w" name="Login fallido, probar con otro usuario y/o contraseña" incoming="_FPVl0LTiEe-LmoY09DOm4w" outgoing="_Gf0WQLTiEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:DecisionNode" xmi:id="_jy0LsLThEe-LmoY09DOm4w" name="Credenciales Autenticadas?" incoming="_q_J2kLThEe-LmoY09DOm4w" outgoing="_xC5hsLThEe-LmoY09DOm4w _FPVl0LTiEe-LmoY09DOm4w" inPartition="_XnM_4LTgEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:ActivityFinalNode" xmi:id="_zslgwLThEe-LmoY09DOm4w" name="" incoming="_0uHPMLThEe-LmoY09DOm4w" inPartition="_MhZJELTgEe-LmoY09DOm4w"/>
+            </ownedBehavior>
+            <include xmi:type="uml:Include" xmi:id="_MwIasLDlEe-8y4rRCKR-kQ" addition="_Ln0HwLDlEe-8y4rRCKR-kQ"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_Twxy8LDlEe-8y4rRCKR-kQ" name="Encriptacion de Datos" classifierBehavior="_VEXk0LTiEe-LmoY09DOm4w" subject="_2_Q00LAzEe-BbcwpMmGpSw">
+            <ownedBehavior xmi:type="uml:Activity" xmi:id="_VEXk0LTiEe-LmoY09DOm4w" name="Activity1" node="_rny5ALTjEe-LmoY09DOm4w _ruU-0LTjEe-LmoY09DOm4w _rydQ4LTjEe-LmoY09DOm4w _4aE4sLTjEe-LmoY09DOm4w _-NGAMLTjEe-LmoY09DOm4w _a4XcYLTlEe-LmoY09DOm4w" group="_XpgbELTiEe-LmoY09DOm4w _cJxhQLTiEe-LmoY09DOm4w _gUwT8LTiEe-LmoY09DOm4w">
+              <edge xmi:type="uml:ControlFlow" xmi:id="_4601ULTjEe-LmoY09DOm4w" target="_rny5ALTjEe-LmoY09DOm4w" source="_4aE4sLTjEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_60MxwLTjEe-LmoY09DOm4w" target="_ruU-0LTjEe-LmoY09DOm4w" source="_rny5ALTjEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_BJRA8LTlEe-LmoY09DOm4w" target="_-NGAMLTjEe-LmoY09DOm4w" source="_ruU-0LTjEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_JijnILTlEe-LmoY09DOm4w" name="[BASE DE DATOS GENERAL]" target="_rydQ4LTjEe-LmoY09DOm4w" source="_-NGAMLTjEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_LhVoALTlEe-LmoY09DOm4w" name="[BASE DE DATOS DE USUARIOS]" target="_rydQ4LTjEe-LmoY09DOm4w" source="_-NGAMLTjEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_cVlBQLTlEe-LmoY09DOm4w" target="_a4XcYLTlEe-LmoY09DOm4w" source="_rydQ4LTjEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_c0S9kLTlEe-LmoY09DOm4w" target="_a4XcYLTlEe-LmoY09DOm4w" source="_rydQ4LTjEe-LmoY09DOm4w"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_XpgbELTiEe-LmoY09DOm4w" name="ActivityPartition1" represents="__QWPULA1Ee-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_cJxhQLTiEe-LmoY09DOm4w" name="ActivityPartition2" node="_a4XcYLTlEe-LmoY09DOm4w" represents="_YN1mYLDgEe-8y4rRCKR-kQ"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_gUwT8LTiEe-LmoY09DOm4w" name="ActivityPartition3" node="_4aE4sLTjEe-LmoY09DOm4w _-NGAMLTjEe-LmoY09DOm4w" represents="_baTiYLDgEe-8y4rRCKR-kQ"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_rny5ALTjEe-LmoY09DOm4w" name="Recepcion de datos a ser cifrados" incoming="_4601ULTjEe-LmoY09DOm4w" outgoing="_60MxwLTjEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_ruU-0LTjEe-LmoY09DOm4w" name="Encriptado de datos" incoming="_60MxwLTjEe-LmoY09DOm4w" outgoing="_BJRA8LTlEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_rydQ4LTjEe-LmoY09DOm4w" name="Almacenamiento de Datos Encriptados" incoming="_JijnILTlEe-LmoY09DOm4w _LhVoALTlEe-LmoY09DOm4w" outgoing="_cVlBQLTlEe-LmoY09DOm4w _c0S9kLTlEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:InitialNode" xmi:id="_4aE4sLTjEe-LmoY09DOm4w" outgoing="_4601ULTjEe-LmoY09DOm4w" inPartition="_gUwT8LTiEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:DecisionNode" xmi:id="_-NGAMLTjEe-LmoY09DOm4w" name="¿A quien pertenecen los datos cifrados?" incoming="_BJRA8LTlEe-LmoY09DOm4w" outgoing="_JijnILTlEe-LmoY09DOm4w _LhVoALTlEe-LmoY09DOm4w" inPartition="_gUwT8LTiEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:ActivityFinalNode" xmi:id="_a4XcYLTlEe-LmoY09DOm4w" incoming="_cVlBQLTlEe-LmoY09DOm4w _c0S9kLTlEe-LmoY09DOm4w" inPartition="_cJxhQLTiEe-LmoY09DOm4w"/>
+            </ownedBehavior>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_qb3b8LTkEe-LmoY09DOm4w" memberEnd="_qcr7UrTkEe-LmoY09DOm4w _qcu-oLTkEe-LmoY09DOm4w">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qcr7ULTkEe-LmoY09DOm4w" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qcr7UbTkEe-LmoY09DOm4w" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_qcr7UrTkEe-LmoY09DOm4w" name="emitir alertas" type="_6hwHULA3Ee-BbcwpMmGpSw" association="_qb3b8LTkEe-LmoY09DOm4w"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_qcu-oLTkEe-LmoY09DOm4w" name="base de datos de usuarios" type="_YN1mYLDgEe-8y4rRCKR-kQ" association="_qb3b8LTkEe-LmoY09DOm4w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_s--48LTkEe-LmoY09DOm4w" memberEnd="_s-_gArTkEe-LmoY09DOm4w _s-_gA7TkEe-LmoY09DOm4w">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_s-_gALTkEe-LmoY09DOm4w" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_s-_gAbTkEe-LmoY09DOm4w" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_s-_gArTkEe-LmoY09DOm4w" name="base de datos de usuarios" type="_YN1mYLDgEe-8y4rRCKR-kQ" association="_s--48LTkEe-LmoY09DOm4w"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_s-_gA7TkEe-LmoY09DOm4w" name="emitir preguntas" type="_2ZAT0LA4Ee-BbcwpMmGpSw" association="_s--48LTkEe-LmoY09DOm4w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Association" xmi:id="_tuseoLTkEe-LmoY09DOm4w" memberEnd="_tutFsrTkEe-LmoY09DOm4w _tutFs7TkEe-LmoY09DOm4w">
+            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tutFsLTkEe-LmoY09DOm4w" source="org.eclipse.papyrus">
+              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tutFsbTkEe-LmoY09DOm4w" key="nature" value="UML_Nature"/>
+            </eAnnotations>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_tutFsrTkEe-LmoY09DOm4w" name="base de datos de usuarios" type="_YN1mYLDgEe-8y4rRCKR-kQ" association="_tuseoLTkEe-LmoY09DOm4w"/>
+            <ownedEnd xmi:type="uml:Property" xmi:id="_tutFs7TkEe-LmoY09DOm4w" name="establecer parámetros de alertas" type="_sUaCYLA4Ee-BbcwpMmGpSw" association="_tuseoLTkEe-LmoY09DOm4w"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_dqQZgLDlEe-8y4rRCKR-kQ" name="Proteccion contra ataques ciberneticos" classifierBehavior="_k0nqILTlEe-LmoY09DOm4w" subject="_2_Q00LAzEe-BbcwpMmGpSw">
+            <ownedBehavior xmi:type="uml:Activity" xmi:id="_k0nqILTlEe-LmoY09DOm4w" name="Activity1" node="_R_4G0LTnEe-LmoY09DOm4w _Uc90ULTnEe-LmoY09DOm4w _Vj0HoLTnEe-LmoY09DOm4w _VpNlALTnEe-LmoY09DOm4w _VsydcLTnEe-LmoY09DOm4w _eSfH8LTnEe-LmoY09DOm4w _eR61ULTpEe-LmoY09DOm4w _nhXncLTpEe-LmoY09DOm4w _UfNIoLTqEe-LmoY09DOm4w _uqDE4LTqEe-LmoY09DOm4w" group="_ZJK6MLTmEe-LmoY09DOm4w _cshFILTmEe-LmoY09DOm4w _v9sQULTlEe-LmoY09DOm4w _TJ3tYLTqEe-LmoY09DOm4w">
+              <edge xmi:type="uml:ControlFlow" xmi:id="_ybVQELToEe-LmoY09DOm4w" target="_Uc90ULTnEe-LmoY09DOm4w" source="_R_4G0LTnEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_0SfmALToEe-LmoY09DOm4w" target="_Vj0HoLTnEe-LmoY09DOm4w" source="_Uc90ULTnEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_1eXjQLToEe-LmoY09DOm4w" target="_eSfH8LTnEe-LmoY09DOm4w" source="_Vj0HoLTnEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_FlMc4LTpEe-LmoY09DOm4w" name="[MALICIOSA]" target="_VpNlALTnEe-LmoY09DOm4w" source="_eSfH8LTnEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_IuRtsLTpEe-LmoY09DOm4w" target="_VsydcLTnEe-LmoY09DOm4w" source="_VpNlALTnEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_sdEFYLTpEe-LmoY09DOm4w" name="[LEGÍTIMA]" target="_UfNIoLTqEe-LmoY09DOm4w" source="_eSfH8LTnEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_mKJgYLTqEe-LmoY09DOm4w" target="_eR61ULTpEe-LmoY09DOm4w" source="_UfNIoLTqEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_m2N8MLTqEe-LmoY09DOm4w" target="_nhXncLTpEe-LmoY09DOm4w" source="_UfNIoLTqEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_y02RYLTqEe-LmoY09DOm4w" target="_uqDE4LTqEe-LmoY09DOm4w" source="_nhXncLTpEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_zQ1CwLTqEe-LmoY09DOm4w" target="_uqDE4LTqEe-LmoY09DOm4w" source="_eR61ULTpEe-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_z4OZ8LTqEe-LmoY09DOm4w" target="_uqDE4LTqEe-LmoY09DOm4w" source="_VsydcLTnEe-LmoY09DOm4w"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_v9sQULTlEe-LmoY09DOm4w" name="ActivityPartition1" represents="_YN1mYLDgEe-8y4rRCKR-kQ"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_ZJK6MLTmEe-LmoY09DOm4w" name="ActivityPartition2" node="_uqDE4LTqEe-LmoY09DOm4w" represents="__QWPULA1Ee-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_cshFILTmEe-LmoY09DOm4w" name="ActivityPartition3" node="_R_4G0LTnEe-LmoY09DOm4w _eSfH8LTnEe-LmoY09DOm4w" represents="_hKFvsLDgEe-8y4rRCKR-kQ"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_TJ3tYLTqEe-LmoY09DOm4w" name="CopyOf_ActivityPartition1_18" represents="_YN1mYLDgEe-8y4rRCKR-kQ"/>
+              <node xmi:type="uml:InitialNode" xmi:id="_R_4G0LTnEe-LmoY09DOm4w" name="" outgoing="_ybVQELToEe-LmoY09DOm4w" inPartition="_cshFILTmEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_Uc90ULTnEe-LmoY09DOm4w" name="Inicio de monitoreo" incoming="_ybVQELToEe-LmoY09DOm4w" outgoing="_0SfmALToEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_Vj0HoLTnEe-LmoY09DOm4w" name="Analisis de Solicitudes Entrantes" incoming="_0SfmALToEe-LmoY09DOm4w" outgoing="_1eXjQLToEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_VpNlALTnEe-LmoY09DOm4w" name="Bloqueo de conexion" incoming="_FlMc4LTpEe-LmoY09DOm4w" outgoing="_IuRtsLTpEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_VsydcLTnEe-LmoY09DOm4w" name="Registro y Notificacion de Actividad Maliciosa" incoming="_IuRtsLTpEe-LmoY09DOm4w" outgoing="_z4OZ8LTqEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:DecisionNode" xmi:id="_eSfH8LTnEe-LmoY09DOm4w" name="Evaluación de seguridad" incoming="_1eXjQLToEe-LmoY09DOm4w" outgoing="_FlMc4LTpEe-LmoY09DOm4w _sdEFYLTpEe-LmoY09DOm4w" inPartition="_cshFILTmEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_eR61ULTpEe-LmoY09DOm4w" name="Solicitud a la Base de Datos" incoming="_mKJgYLTqEe-LmoY09DOm4w" outgoing="_zQ1CwLTqEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_nhXncLTpEe-LmoY09DOm4w" name="Solicitud a Base de Datos de Usuarios" incoming="_m2N8MLTqEe-LmoY09DOm4w" outgoing="_y02RYLTqEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_UfNIoLTqEe-LmoY09DOm4w" name="Registro de Solicitud" incoming="_sdEFYLTpEe-LmoY09DOm4w" outgoing="_mKJgYLTqEe-LmoY09DOm4w _m2N8MLTqEe-LmoY09DOm4w"/>
+              <node xmi:type="uml:ActivityFinalNode" xmi:id="_uqDE4LTqEe-LmoY09DOm4w" name="" incoming="_y02RYLTqEe-LmoY09DOm4w _zQ1CwLTqEe-LmoY09DOm4w _z4OZ8LTqEe-LmoY09DOm4w" inPartition="_ZJK6MLTmEe-LmoY09DOm4w"/>
+            </ownedBehavior>
+          </packagedElement>
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_mRgDgLDiEe-8y4rRCKR-kQ" name="Medir Frecuencia Cardiaca" classifierBehavior="_Os1LQLTzEe-LmoY09DOm4w" subject="_uabF8LAzEe-BbcwpMmGpSw">
+            <ownedBehavior xmi:type="uml:Activity" xmi:id="_Os1LQLTzEe-LmoY09DOm4w" name="Activity2" node="_HNWvsLT4Ee-LmoY09DOm4w _6rNBQLT4Ee-LmoY09DOm4w _RF2M4LT6Ee-LmoY09DOm4w _R4lRYLT6Ee-LmoY09DOm4w _R9wsULT6Ee-LmoY09DOm4w _SBR6YLT6Ee-LmoY09DOm4w _ritQwLT7Ee-LmoY09DOm4w _vcu2ULT7Ee-LmoY09DOm4w _D7R-ILT8Ee-LmoY09DOm4w _ubKPILT8Ee-LmoY09DOm4w" group="_XEnOMLT2Ee-LmoY09DOm4w _a2wDELT2Ee-LmoY09DOm4w _iweYYLT2Ee-LmoY09DOm4w _1c8pILT3Ee-LmoY09DOm4w _a5xTILT8Ee-LmoY09DOm4w">
+              <edge xmi:type="uml:ControlFlow" xmi:id="_znDMkLT5Ee-LmoY09DOm4w" target="_HNWvsLT4Ee-LmoY09DOm4w" source="_6rNBQLT4Ee-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_ZeZzQLT6Ee-LmoY09DOm4w" target="_RF2M4LT6Ee-LmoY09DOm4w" source="_HNWvsLT4Ee-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_gws8MLT6Ee-LmoY09DOm4w" target="_R4lRYLT6Ee-LmoY09DOm4w" source="_RF2M4LT6Ee-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_p-xOQLT6Ee-LmoY09DOm4w" target="_R9wsULT6Ee-LmoY09DOm4w" source="_R4lRYLT6Ee-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_q2-MILT7Ee-LmoY09DOm4w" target="_SBR6YLT6Ee-LmoY09DOm4w" source="_R9wsULT6Ee-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_wxzL0LT7Ee-LmoY09DOm4w" target="_vcu2ULT7Ee-LmoY09DOm4w" source="_ritQwLT7Ee-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_X0x4ILT8Ee-LmoY09DOm4w" target="_D7R-ILT8Ee-LmoY09DOm4w" source="_SBR6YLT6Ee-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_Ymm9sLT8Ee-LmoY09DOm4w" name="[OK]" target="_ritQwLT7Ee-LmoY09DOm4w" source="_D7R-ILT8Ee-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_zbHiALT8Ee-LmoY09DOm4w" name="[NOT OK]" target="_ubKPILT8Ee-LmoY09DOm4w" source="_D7R-ILT8Ee-LmoY09DOm4w"/>
+              <edge xmi:type="uml:ControlFlow" xmi:id="_2L5AgLT8Ee-LmoY09DOm4w" target="_vcu2ULT7Ee-LmoY09DOm4w" source="_ubKPILT8Ee-LmoY09DOm4w"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_XEnOMLT2Ee-LmoY09DOm4w" name="ActivityPartition1" node="_D7R-ILT8Ee-LmoY09DOm4w" represents="_PfI7cLDhEe-8y4rRCKR-kQ"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_a2wDELT2Ee-LmoY09DOm4w" name="ActivityPartition2" node="_6rNBQLT4Ee-LmoY09DOm4w" represents="_1M3sELDhEe-8y4rRCKR-kQ"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_iweYYLT2Ee-LmoY09DOm4w" name="ActivityPartition3" represents="_TDHBoLBWEe-zy5umMi3cxw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_1c8pILT3Ee-LmoY09DOm4w" name="ActivityPartition4" node="_vcu2ULT7Ee-LmoY09DOm4w" represents="_6TvKILDfEe-8y4rRCKR-kQ"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_a5xTILT8Ee-LmoY09DOm4w" name="ActivityPartition22" represents="_mLTxYLDhEe-8y4rRCKR-kQ"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_HNWvsLT4Ee-LmoY09DOm4w" name="Latido" incoming="_znDMkLT5Ee-LmoY09DOm4w" outgoing="_ZeZzQLT6Ee-LmoY09DOm4w"/>
+              <node xmi:type="uml:InitialNode" xmi:id="_6rNBQLT4Ee-LmoY09DOm4w" name="" outgoing="_znDMkLT5Ee-LmoY09DOm4w" inPartition="_a2wDELT2Ee-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_RF2M4LT6Ee-LmoY09DOm4w" name="Medicion de Frecuencia Cardiaca" incoming="_ZeZzQLT6Ee-LmoY09DOm4w" outgoing="_gws8MLT6Ee-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_R4lRYLT6Ee-LmoY09DOm4w" name="Digitalización de la Medición de Frecuencia Cardiaca" incoming="_gws8MLT6Ee-LmoY09DOm4w" outgoing="_p-xOQLT6Ee-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_R9wsULT6Ee-LmoY09DOm4w" name="Procesamiento de los Datos" incoming="_p-xOQLT6Ee-LmoY09DOm4w" outgoing="_q2-MILT7Ee-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_SBR6YLT6Ee-LmoY09DOm4w" name="Intento de Transmisión Bluetooth de los Datos" incoming="_q2-MILT7Ee-LmoY09DOm4w" outgoing="_X0x4ILT8Ee-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_ritQwLT7Ee-LmoY09DOm4w" name="Transmisión de los Datos Cardiacos por Bluetooth" incoming="_Ymm9sLT8Ee-LmoY09DOm4w" outgoing="_wxzL0LT7Ee-LmoY09DOm4w"/>
+              <node xmi:type="uml:ActivityFinalNode" xmi:id="_vcu2ULT7Ee-LmoY09DOm4w" name="" incoming="_wxzL0LT7Ee-LmoY09DOm4w _2L5AgLT8Ee-LmoY09DOm4w" inPartition="_1c8pILT3Ee-LmoY09DOm4w"/>
+              <node xmi:type="uml:DecisionNode" xmi:id="_D7R-ILT8Ee-LmoY09DOm4w" name="¿Datos Transmitidos?" incoming="_X0x4ILT8Ee-LmoY09DOm4w" outgoing="_Ymm9sLT8Ee-LmoY09DOm4w _zbHiALT8Ee-LmoY09DOm4w" inPartition="_XEnOMLT2Ee-LmoY09DOm4w"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_ubKPILT8Ee-LmoY09DOm4w" name="Envio de Datos por SMS" incoming="_zbHiALT8Ee-LmoY09DOm4w" outgoing="_2L5AgLT8Ee-LmoY09DOm4w"/>
+            </ownedBehavior>
+            <include xmi:type="uml:Include" xmi:id="_rka5MLDjEe-8y4rRCKR-kQ" addition="_gh0HYLDjEe-8y4rRCKR-kQ"/>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_yNkrwK6kEe-jw5SriieKnQ" name="4 Measure Of Effectiveness">
@@ -699,7 +812,6 @@
   <Blocks:Block xmi:id="_mLVmkLDhEe-8y4rRCKR-kQ" base_Class="_mLTxYLDhEe-8y4rRCKR-kQ"/>
   <Blocks:Block xmi:id="_1M5hQLDhEe-8y4rRCKR-kQ" base_Class="_1M3sELDhEe-8y4rRCKR-kQ"/>
   <Blocks:Block xmi:id="_c6q8ULG5Ee-eloSyfcsz3g" base_Class="_c6lcwLG5Ee-eloSyfcsz3g"/>
-  <Blocks:Block xmi:id="_RvRwALG7Ee-eloSyfcsz3g" base_Class="_RvNekLG7Ee-eloSyfcsz3g"/>
   <Allocations:AllocateActivityPartition xmi:id="_QDi7ELHIEe-ZIpsCtQzCEg" base_ActivityPartition="_QDVfsLHIEe-ZIpsCtQzCEg"/>
   <Allocations:AllocateActivityPartition xmi:id="_T5xlwLHIEe-ZIpsCtQzCEg" base_ActivityPartition="_T5stQLHIEe-ZIpsCtQzCEg"/>
   <Allocations:AllocateActivityPartition xmi:id="_XM3HILHIEe-ZIpsCtQzCEg" base_ActivityPartition="_XMzcwLHIEe-ZIpsCtQzCEg"/>
@@ -717,4 +829,37 @@
   <Allocations:AllocateActivityPartition xmi:id="_2UFdsLNQEe-lmJ3CENy7zw" base_ActivityPartition="_2T7FoLNQEe-lmJ3CENy7zw"/>
   <Allocations:AllocateActivityPartition xmi:id="_9MoC0LNQEe-lmJ3CENy7zw" base_ActivityPartition="_9MjKULNQEe-lmJ3CENy7zw"/>
   <Allocations:AllocateActivityPartition xmi:id="_C1tLMLNREe-lmJ3CENy7zw" base_ActivityPartition="_C1pg0LNREe-lmJ3CENy7zw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_VGJ_cLTgEe-LmoY09DOm4w" base_ActivityPartition="_MhZJELTgEe-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_YTTQ4LTgEe-LmoY09DOm4w" base_ActivityPartition="_XnM_4LTgEe-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_YsGggLTiEe-LmoY09DOm4w" base_ActivityPartition="_XpgbELTiEe-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_f0I6MLTiEe-LmoY09DOm4w" base_ActivityPartition="_cJxhQLTiEe-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_g3TAULTiEe-LmoY09DOm4w" base_ActivityPartition="_gUwT8LTiEe-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_wu7gALTlEe-LmoY09DOm4w" base_ActivityPartition="_v9sQULTlEe-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_cFVJULTmEe-LmoY09DOm4w" base_ActivityPartition="_ZJK6MLTmEe-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_dQwaoLTmEe-LmoY09DOm4w" base_ActivityPartition="_cshFILTmEe-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_TJ5ikLTqEe-LmoY09DOm4w" base_ActivityPartition="_TJ3tYLTqEe-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_9EkYQLTrEe-LmoY09DOm4w" base_InformationFlow="_9DpLMLTrEe-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_DvKWELTuEe-LmoY09DOm4w" base_InformationFlow="_DvIg4LTuEe-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_LdQDILTuEe-LmoY09DOm4w" base_InformationFlow="_LdNm4LTuEe-LmoY09DOm4w"/>
+  <Blocks:Block xmi:id="_Wa4OULTuEe-LmoY09DOm4w" base_Class="_Wa1yELTuEe-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_c8_QcLTuEe-LmoY09DOm4w" base_InformationFlow="_c89bQLTuEe-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="__dZJcLTuEe-LmoY09DOm4w" base_InformationFlow="__dXUQLTuEe-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_9k79kLTvEe-LmoY09DOm4w" base_InformationFlow="_9k6IYLTvEe-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_C0-64LTwEe-LmoY09DOm4w" base_InformationFlow="_C09FsLTwEe-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_NGqmELTwEe-LmoY09DOm4w" base_InformationFlow="_NGpX8LTwEe-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_edGGYLTwEe-LmoY09DOm4w" base_InformationFlow="_edERMLTwEe-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_hBTIgLTwEe-LmoY09DOm4w" base_InformationFlow="_hBRTULTwEe-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_X994ELT2Ee-LmoY09DOm4w" base_ActivityPartition="_XEnOMLT2Ee-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_fMKkILT2Ee-LmoY09DOm4w" base_ActivityPartition="_a2wDELT2Ee-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_jU0bkLT2Ee-LmoY09DOm4w" base_ActivityPartition="_iweYYLT2Ee-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_5PtwILT3Ee-LmoY09DOm4w" base_ActivityPartition="_1c8pILT3Ee-LmoY09DOm4w"/>
+  <Allocations:AllocateActivityPartition xmi:id="_bqUmULT8Ee-LmoY09DOm4w" base_ActivityPartition="_a5xTILT8Ee-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_5sOTsLT8Ee-LmoY09DOm4w" base_InformationFlow="_5sL3cLT8Ee-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_Ztc0gLT9Ee-LmoY09DOm4w" base_InformationFlow="_ZtbmYLT9Ee-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_fPC00LT9Ee-LmoY09DOm4w" base_InformationFlow="_fPA_oLT9Ee-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_iHzxsLT9Ee-LmoY09DOm4w" base_InformationFlow="_iHx8gLT9Ee-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_kw4FsLT9Ee-LmoY09DOm4w" base_InformationFlow="_kw23kLT9Ee-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_nh9GMLT9Ee-LmoY09DOm4w" base_InformationFlow="_nh7RALT9Ee-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_5U0q4LT9Ee-LmoY09DOm4w" base_InformationFlow="_5Uy1sLT9Ee-LmoY09DOm4w"/>
+  <PortsAndFlows:ItemFlow xmi:id="_6vM-MLT9Ee-LmoY09DOm4w" base_InformationFlow="_6vLwELT9Ee-LmoY09DOm4w"/>
 </xmi:XMI>
