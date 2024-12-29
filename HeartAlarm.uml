@@ -675,7 +675,7 @@
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_yEbD4MSqEe-PCcdtsJPHBA" value="1"/>
             </node>
           </packagedElement>
-          <packagedElement xmi:type="uml:Activity" xmi:id="_z4UuULTvEe-K5PXKdlJNpw" name="Procesar datos" node="_AjJo4LT1Ee-K5PXKdlJNpw _4NjP4LT0Ee-K5PXKdlJNpw _4Nio0LT0Ee-K5PXKdlJNpw _4NiBwLT0Ee-K5PXKdlJNpw _4NhasLT0Ee-K5PXKdlJNpw _4NgMkLT0Ee-K5PXKdlJNpw _4Ne-cLT0Ee-K5PXKdlJNpw _PUXFULTzEe-K5PXKdlJNpw _eFPYULT2Ee-K5PXKdlJNpw _wcqbkLT2Ee-K5PXKdlJNpw _45aI8LT3Ee-K5PXKdlJNpw _Ccm9gLT4Ee-K5PXKdlJNpw _-MDR0LT4Ee-K5PXKdlJNpw _p2i70LT5Ee-K5PXKdlJNpw _zcN1kLT5Ee-K5PXKdlJNpw _w-3XcLT7Ee-K5PXKdlJNpw">
+          <packagedElement xmi:type="uml:Activity" xmi:id="_z4UuULTvEe-K5PXKdlJNpw" name="Procesar datos" node="_AjJo4LT1Ee-K5PXKdlJNpw _4NjP4LT0Ee-K5PXKdlJNpw _4NgMkLT0Ee-K5PXKdlJNpw _4Ne-cLT0Ee-K5PXKdlJNpw _PUXFULTzEe-K5PXKdlJNpw _eFPYULT2Ee-K5PXKdlJNpw _wcqbkLT2Ee-K5PXKdlJNpw _45aI8LT3Ee-K5PXKdlJNpw _Ccm9gLT4Ee-K5PXKdlJNpw _w-3XcLT7Ee-K5PXKdlJNpw" group="_xHYmAMYtEe-AusYGFuW4dg">
             <edge xmi:type="uml:ControlFlow" xmi:id="_rf7RQLT1Ee-K5PXKdlJNpw" name="Data" target="_4Ne-cLT0Ee-K5PXKdlJNpw" source="_PUXFULTzEe-K5PXKdlJNpw"/>
             <edge xmi:type="uml:ControlFlow" xmi:id="_PhpMALT2Ee-K5PXKdlJNpw" name="Data" target="_EBjM8LT2Ee-K5PXKdlJNpw" source="_AjJo4LT1Ee-K5PXKdlJNpw"/>
             <edge xmi:type="uml:ControlFlow" xmi:id="_n4LSALT2Ee-K5PXKdlJNpw" target="_PUXFULTzEe-K5PXKdlJNpw" source="_eFPYULT2Ee-K5PXKdlJNpw"/>
@@ -683,29 +683,18 @@
             <edge xmi:type="uml:ControlFlow" xmi:id="_3pQvsLT3Ee-K5PXKdlJNpw" name="[OK]" target="_4NgMkLT0Ee-K5PXKdlJNpw" source="_wcqbkLT2Ee-K5PXKdlJNpw"/>
             <edge xmi:type="uml:ControlFlow" xmi:id="_5gBdALT3Ee-K5PXKdlJNpw" name="[NOT OK]" target="_45aI8LT3Ee-K5PXKdlJNpw" source="_wcqbkLT2Ee-K5PXKdlJNpw"/>
             <edge xmi:type="uml:ControlFlow" xmi:id="_C45Q4LT4Ee-K5PXKdlJNpw" name="Datos limpios" target="_Ccm9gLT4Ee-K5PXKdlJNpw" source="_4NgMkLT0Ee-K5PXKdlJNpw"/>
-            <edge xmi:type="uml:ControlFlow" xmi:id="_E-wKILT4Ee-K5PXKdlJNpw" name="[OK]" target="_4NhasLT0Ee-K5PXKdlJNpw" source="_Ccm9gLT4Ee-K5PXKdlJNpw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_E-wKILT4Ee-K5PXKdlJNpw" name="[OK]" target="_4NjP4LT0Ee-K5PXKdlJNpw" source="_Ccm9gLT4Ee-K5PXKdlJNpw"/>
             <edge xmi:type="uml:ControlFlow" xmi:id="_F6uDILT4Ee-K5PXKdlJNpw" name="[NOT OK]" target="_45aI8LT3Ee-K5PXKdlJNpw" source="_Ccm9gLT4Ee-K5PXKdlJNpw"/>
-            <edge xmi:type="uml:ControlFlow" xmi:id="_-28o8LT4Ee-K5PXKdlJNpw" name="Datos completos" target="_-MDR0LT4Ee-K5PXKdlJNpw" source="_4NhasLT0Ee-K5PXKdlJNpw"/>
-            <edge xmi:type="uml:ControlFlow" xmi:id="_AnVBcLT5Ee-K5PXKdlJNpw" name="[OK]" target="_4NiBwLT0Ee-K5PXKdlJNpw" source="_-MDR0LT4Ee-K5PXKdlJNpw"/>
-            <edge xmi:type="uml:ControlFlow" xmi:id="_BMC4ELT5Ee-K5PXKdlJNpw" name="[NOT OK]" target="_45aI8LT3Ee-K5PXKdlJNpw" source="_-MDR0LT4Ee-K5PXKdlJNpw"/>
-            <edge xmi:type="uml:ControlFlow" xmi:id="_rjwEgLT5Ee-K5PXKdlJNpw" name="Data estandarizada" target="_p2i70LT5Ee-K5PXKdlJNpw" source="_4NiBwLT0Ee-K5PXKdlJNpw"/>
-            <edge xmi:type="uml:ControlFlow" xmi:id="_unT8ILT5Ee-K5PXKdlJNpw" name="[OK]" target="_4Nio0LT0Ee-K5PXKdlJNpw" source="_p2i70LT5Ee-K5PXKdlJNpw"/>
-            <edge xmi:type="uml:ControlFlow" xmi:id="_0YMVoLT5Ee-K5PXKdlJNpw" name="Data normalizada" target="_zcN1kLT5Ee-K5PXKdlJNpw" source="_4Nio0LT0Ee-K5PXKdlJNpw"/>
-            <edge xmi:type="uml:ControlFlow" xmi:id="_fR8fMLT6Ee-K5PXKdlJNpw" name="[NOT OK]" target="_45aI8LT3Ee-K5PXKdlJNpw" source="_p2i70LT5Ee-K5PXKdlJNpw"/>
-            <edge xmi:type="uml:ControlFlow" xmi:id="_aB0M4LT7Ee-K5PXKdlJNpw" name="[OK]" target="_4NjP4LT0Ee-K5PXKdlJNpw" source="_zcN1kLT5Ee-K5PXKdlJNpw"/>
-            <edge xmi:type="uml:ControlFlow" xmi:id="_bfmZgLT7Ee-K5PXKdlJNpw" name="[NOT OK]" target="_45aI8LT3Ee-K5PXKdlJNpw" source="_zcN1kLT5Ee-K5PXKdlJNpw"/>
             <edge xmi:type="uml:ControlFlow" xmi:id="_11bdwLT7Ee-K5PXKdlJNpw" name="Normalized data" target="_w-3XcLT7Ee-K5PXKdlJNpw" source="_4NjP4bT0Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:OpaqueAction" xmi:id="_PUXFULTzEe-K5PXKdlJNpw" name="Recepción de datos" incoming="_n4LSALT2Ee-K5PXKdlJNpw" outgoing="_rf7RQLT1Ee-K5PXKdlJNpw">
+            <group xmi:type="uml:ActivityPartition" xmi:id="_xHYmAMYtEe-AusYGFuW4dg" name="ActivityPartition21" node="_Ccm9gLT4Ee-K5PXKdlJNpw _4NgMkLT0Ee-K5PXKdlJNpw _wcqbkLT2Ee-K5PXKdlJNpw _4Ne-cLT0Ee-K5PXKdlJNpw _45aI8LT3Ee-K5PXKdlJNpw _4NjP4LT0Ee-K5PXKdlJNpw _PUXFULTzEe-K5PXKdlJNpw _eFPYULT2Ee-K5PXKdlJNpw" represents="_4KZyQMYsEe-AusYGFuW4dg"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_PUXFULTzEe-K5PXKdlJNpw" name="Recepción de datos" incoming="_n4LSALT2Ee-K5PXKdlJNpw" outgoing="_rf7RQLT1Ee-K5PXKdlJNpw" inPartition="_xHYmAMYtEe-AusYGFuW4dg">
               <inputValue xmi:type="uml:InputPin" xmi:id="_EBjM8LT2Ee-K5PXKdlJNpw" name="" incoming="_PhpMALT2Ee-K5PXKdlJNpw">
                 <upperBound xmi:type="uml:LiteralInteger" xmi:id="_EBj0ALT2Ee-K5PXKdlJNpw" value="1"/>
               </inputValue>
             </node>
-            <node xmi:type="uml:OpaqueAction" xmi:id="_4Ne-cLT0Ee-K5PXKdlJNpw" name="Validación de datos" incoming="_rf7RQLT1Ee-K5PXKdlJNpw" outgoing="_2ZIkkLT3Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:OpaqueAction" xmi:id="_4NgMkLT0Ee-K5PXKdlJNpw" name="Filtrado de datos ruidosos" incoming="_3pQvsLT3Ee-K5PXKdlJNpw" outgoing="_C45Q4LT4Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:OpaqueAction" xmi:id="_4NhasLT0Ee-K5PXKdlJNpw" name="Interpolación de datos faltantes" incoming="_E-wKILT4Ee-K5PXKdlJNpw" outgoing="_-28o8LT4Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:OpaqueAction" xmi:id="_4NiBwLT0Ee-K5PXKdlJNpw" name="Conversión de unidades" incoming="_AnVBcLT5Ee-K5PXKdlJNpw" outgoing="_rjwEgLT5Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:OpaqueAction" xmi:id="_4Nio0LT0Ee-K5PXKdlJNpw" name="Normalización o escalar de datos" incoming="_unT8ILT5Ee-K5PXKdlJNpw" outgoing="_0YMVoLT5Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:OpaqueAction" xmi:id="_4NjP4LT0Ee-K5PXKdlJNpw" name="Salida de datos preprocesados" incoming="_aB0M4LT7Ee-K5PXKdlJNpw">
+            <node xmi:type="uml:OpaqueAction" xmi:id="_4Ne-cLT0Ee-K5PXKdlJNpw" name="Validación de datos" incoming="_rf7RQLT1Ee-K5PXKdlJNpw" outgoing="_2ZIkkLT3Ee-K5PXKdlJNpw" inPartition="_xHYmAMYtEe-AusYGFuW4dg"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_4NgMkLT0Ee-K5PXKdlJNpw" name="Limpieza de datos" incoming="_3pQvsLT3Ee-K5PXKdlJNpw" outgoing="_C45Q4LT4Ee-K5PXKdlJNpw" inPartition="_xHYmAMYtEe-AusYGFuW4dg"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_4NjP4LT0Ee-K5PXKdlJNpw" name="Salida de datos procesados" incoming="_E-wKILT4Ee-K5PXKdlJNpw" inPartition="_xHYmAMYtEe-AusYGFuW4dg">
               <outputValue xmi:type="uml:OutputPin" xmi:id="_4NjP4bT0Ee-K5PXKdlJNpw" outgoing="_11bdwLT7Ee-K5PXKdlJNpw">
                 <upperBound xmi:type="uml:LiteralInteger" xmi:id="_4NjP4rT0Ee-K5PXKdlJNpw" value="1"/>
               </outputValue>
@@ -713,29 +702,28 @@
             <node xmi:type="uml:ActivityParameterNode" xmi:id="_AjJo4LT1Ee-K5PXKdlJNpw" name="Datos" outgoing="_PhpMALT2Ee-K5PXKdlJNpw">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_AjK3ALT1Ee-K5PXKdlJNpw" value="1"/>
             </node>
-            <node xmi:type="uml:InitialNode" xmi:id="_eFPYULT2Ee-K5PXKdlJNpw" name="" outgoing="_n4LSALT2Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:DecisionNode" xmi:id="_wcqbkLT2Ee-K5PXKdlJNpw" name="" incoming="_2ZIkkLT3Ee-K5PXKdlJNpw" outgoing="_3pQvsLT3Ee-K5PXKdlJNpw _5gBdALT3Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:ActivityFinalNode" xmi:id="_45aI8LT3Ee-K5PXKdlJNpw" incoming="_5gBdALT3Ee-K5PXKdlJNpw _F6uDILT4Ee-K5PXKdlJNpw _BMC4ELT5Ee-K5PXKdlJNpw _fR8fMLT6Ee-K5PXKdlJNpw _bfmZgLT7Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:DecisionNode" xmi:id="_Ccm9gLT4Ee-K5PXKdlJNpw" incoming="_C45Q4LT4Ee-K5PXKdlJNpw" outgoing="_E-wKILT4Ee-K5PXKdlJNpw _F6uDILT4Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:DecisionNode" xmi:id="_-MDR0LT4Ee-K5PXKdlJNpw" incoming="_-28o8LT4Ee-K5PXKdlJNpw" outgoing="_AnVBcLT5Ee-K5PXKdlJNpw _BMC4ELT5Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:DecisionNode" xmi:id="_p2i70LT5Ee-K5PXKdlJNpw" name="" incoming="_rjwEgLT5Ee-K5PXKdlJNpw" outgoing="_unT8ILT5Ee-K5PXKdlJNpw _fR8fMLT6Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:DecisionNode" xmi:id="_zcN1kLT5Ee-K5PXKdlJNpw" name="" incoming="_0YMVoLT5Ee-K5PXKdlJNpw" outgoing="_aB0M4LT7Ee-K5PXKdlJNpw _bfmZgLT7Ee-K5PXKdlJNpw"/>
-            <node xmi:type="uml:ActivityParameterNode" xmi:id="_w-3XcLT7Ee-K5PXKdlJNpw" name="Normalized Data" incoming="_11bdwLT7Ee-K5PXKdlJNpw">
+            <node xmi:type="uml:InitialNode" xmi:id="_eFPYULT2Ee-K5PXKdlJNpw" name="" outgoing="_n4LSALT2Ee-K5PXKdlJNpw" inPartition="_xHYmAMYtEe-AusYGFuW4dg"/>
+            <node xmi:type="uml:DecisionNode" xmi:id="_wcqbkLT2Ee-K5PXKdlJNpw" name="" incoming="_2ZIkkLT3Ee-K5PXKdlJNpw" outgoing="_3pQvsLT3Ee-K5PXKdlJNpw _5gBdALT3Ee-K5PXKdlJNpw" inPartition="_xHYmAMYtEe-AusYGFuW4dg"/>
+            <node xmi:type="uml:ActivityFinalNode" xmi:id="_45aI8LT3Ee-K5PXKdlJNpw" incoming="_5gBdALT3Ee-K5PXKdlJNpw _F6uDILT4Ee-K5PXKdlJNpw" inPartition="_xHYmAMYtEe-AusYGFuW4dg"/>
+            <node xmi:type="uml:DecisionNode" xmi:id="_Ccm9gLT4Ee-K5PXKdlJNpw" incoming="_C45Q4LT4Ee-K5PXKdlJNpw" outgoing="_E-wKILT4Ee-K5PXKdlJNpw _F6uDILT4Ee-K5PXKdlJNpw" inPartition="_xHYmAMYtEe-AusYGFuW4dg"/>
+            <node xmi:type="uml:ActivityParameterNode" xmi:id="_w-3XcLT7Ee-K5PXKdlJNpw" name="Processed Data" incoming="_11bdwLT7Ee-K5PXKdlJNpw">
               <upperBound xmi:type="uml:LiteralInteger" xmi:id="_w-3-gLT7Ee-K5PXKdlJNpw" value="1"/>
             </node>
           </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_3QyL8LNPEe-lmJ3CENy7zw" name="3 Logical architecture">
           <packagedElement xmi:type="uml:Package" xmi:id="_9m6AgLNPEe-lmJ3CENy7zw" name="1 Interfaces"/>
-          <packagedElement xmi:type="uml:Package" xmi:id="_CPc48LNQEe-lmJ3CENy7zw" name="2 Logical subsystems"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_5E7g0LAzEe-BbcwpMmGpSw" name="Interfaz de usuario y emisión de alertas" useCase="_qc-cILA3Ee-BbcwpMmGpSw _6hwHULA3Ee-BbcwpMmGpSw _cQ3tULA4Ee-BbcwpMmGpSw _sUaCYLA4Ee-BbcwpMmGpSw _2ZAT0LA4Ee-BbcwpMmGpSw _FsfsALA5Ee-BbcwpMmGpSw">
-          <ownedUseCase xmi:type="uml:UseCase" xmi:id="_FsfsALA5Ee-BbcwpMmGpSw" name="Registrar respuestas" subject="_5E7g0LAzEe-BbcwpMmGpSw"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_QkY_cLA1Ee-BbcwpMmGpSw" name="Property1" type="_R4nncLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_eGCmkLA1Ee-BbcwpMmGpSw" name="Property2" type="_f3RToLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_znGUQLA1Ee-BbcwpMmGpSw" name="Property3" type="__QWPULA1Ee-BbcwpMmGpSw" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_FJ-8MLA2Ee-BbcwpMmGpSw" name="Property4" type="_GaQ4ULA2Ee-BbcwpMmGpSw" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_qABvgLA5Ee-BbcwpMmGpSw" name="Property11" type="_qcHOkLA5Ee-BbcwpMmGpSw" aggregation="composite"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_CPc48LNQEe-lmJ3CENy7zw" name="2 Logical subsystems">
+            <packagedElement xmi:type="uml:Class" xmi:id="_4KZyQMYsEe-AusYGFuW4dg" name="Sistema de procesamiento de consultas de datos históricos"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_5E7g0LAzEe-BbcwpMmGpSw" name="Interfaz de usuario y emisión de alertas" useCase="_qc-cILA3Ee-BbcwpMmGpSw _6hwHULA3Ee-BbcwpMmGpSw _cQ3tULA4Ee-BbcwpMmGpSw _sUaCYLA4Ee-BbcwpMmGpSw _2ZAT0LA4Ee-BbcwpMmGpSw _FsfsALA5Ee-BbcwpMmGpSw">
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_FsfsALA5Ee-BbcwpMmGpSw" name="Registrar respuestas" subject="_5E7g0LAzEe-BbcwpMmGpSw"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_QkY_cLA1Ee-BbcwpMmGpSw" name="Property1" type="_R4nncLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_eGCmkLA1Ee-BbcwpMmGpSw" name="Property2" type="_f3RToLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_znGUQLA1Ee-BbcwpMmGpSw" name="Property3" type="__QWPULA1Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_FJ-8MLA2Ee-BbcwpMmGpSw" name="Property4" type="_GaQ4ULA2Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_qABvgLA5Ee-BbcwpMmGpSw" name="Property11" type="_qcHOkLA5Ee-BbcwpMmGpSw" aggregation="composite"/>
+          </packagedElement>
         </packagedElement>
       </packagedElement>
     </packagedElement>
@@ -890,4 +878,5 @@
   <PortsAndFlows:ItemFlow xmi:id="_nh9GMLT9Ee-LmoY09DOm4w" base_InformationFlow="_nh7RALT9Ee-LmoY09DOm4w"/>
   <PortsAndFlows:ItemFlow xmi:id="_5U0q4LT9Ee-LmoY09DOm4w" base_InformationFlow="_5Uy1sLT9Ee-LmoY09DOm4w"/>
   <PortsAndFlows:ItemFlow xmi:id="_6vM-MLT9Ee-LmoY09DOm4w" base_InformationFlow="_6vLwELT9Ee-LmoY09DOm4w"/>
+  <Blocks:Block xmi:id="_4Kgf8MYsEe-AusYGFuW4dg" base_Class="_4KZyQMYsEe-AusYGFuW4dg"/>
 </xmi:XMI>
