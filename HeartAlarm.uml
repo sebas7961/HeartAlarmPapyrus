@@ -59,6 +59,14 @@
             <packagedElement xmi:type="uml:Signal" xmi:id="_pqXJ8LHYEe-ZIpsCtQzCEg" name="Power"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_qdlJwLDfEe-8y4rRCKR-kQ" name="Suministro de Energia"/>
+          <packagedElement xmi:type="uml:Class" xmi:id="_5E7g0LAzEe-BbcwpMmGpSw" name="Interfaz de usuario y emisión de alertas" useCase="_qc-cILA3Ee-BbcwpMmGpSw _6hwHULA3Ee-BbcwpMmGpSw _cQ3tULA4Ee-BbcwpMmGpSw _sUaCYLA4Ee-BbcwpMmGpSw _2ZAT0LA4Ee-BbcwpMmGpSw _FsfsALA5Ee-BbcwpMmGpSw">
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_FsfsALA5Ee-BbcwpMmGpSw" name="Registrar respuestas" subject="_5E7g0LAzEe-BbcwpMmGpSw"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_QkY_cLA1Ee-BbcwpMmGpSw" name="Property1" type="_R4nncLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_eGCmkLA1Ee-BbcwpMmGpSw" name="Property2" type="_f3RToLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_znGUQLA1Ee-BbcwpMmGpSw" name="Property3" type="__QWPULA1Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_FJ-8MLA2Ee-BbcwpMmGpSw" name="Property4" type="_GaQ4ULA2Ee-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_qABvgLA5Ee-BbcwpMmGpSw" name="Property11" type="_qcHOkLA5Ee-BbcwpMmGpSw" aggregation="composite"/>
+          </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_6TvKILDfEe-8y4rRCKR-kQ" name="Modulo Bluetooth"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_U4bJwLDgEe-8y4rRCKR-kQ" name="Modulo de Autenticacion"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_YN1mYLDgEe-8y4rRCKR-kQ" name="Base de Datos de usuarios"/>
@@ -727,15 +735,9 @@
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_3QyL8LNPEe-lmJ3CENy7zw" name="3 Logical architecture">
           <packagedElement xmi:type="uml:Package" xmi:id="_9m6AgLNPEe-lmJ3CENy7zw" name="1 Interfaces"/>
-          <packagedElement xmi:type="uml:Package" xmi:id="_CPc48LNQEe-lmJ3CENy7zw" name="2 Logical subsystems"/>
-        </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_5E7g0LAzEe-BbcwpMmGpSw" name="Interfaz de usuario y emisión de alertas" useCase="_qc-cILA3Ee-BbcwpMmGpSw _6hwHULA3Ee-BbcwpMmGpSw _cQ3tULA4Ee-BbcwpMmGpSw _sUaCYLA4Ee-BbcwpMmGpSw _2ZAT0LA4Ee-BbcwpMmGpSw _FsfsALA5Ee-BbcwpMmGpSw">
-          <ownedUseCase xmi:type="uml:UseCase" xmi:id="_FsfsALA5Ee-BbcwpMmGpSw" name="Registrar respuestas" subject="_5E7g0LAzEe-BbcwpMmGpSw"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_QkY_cLA1Ee-BbcwpMmGpSw" name="Property1" type="_R4nncLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_eGCmkLA1Ee-BbcwpMmGpSw" name="Property2" type="_f3RToLA1Ee-BbcwpMmGpSw" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_znGUQLA1Ee-BbcwpMmGpSw" name="Property3" type="__QWPULA1Ee-BbcwpMmGpSw" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_FJ-8MLA2Ee-BbcwpMmGpSw" name="Property4" type="_GaQ4ULA2Ee-BbcwpMmGpSw" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_qABvgLA5Ee-BbcwpMmGpSw" name="Property11" type="_qcHOkLA5Ee-BbcwpMmGpSw" aggregation="composite"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_CPc48LNQEe-lmJ3CENy7zw" name="2 Logical subsystems">
+            <packagedElement xmi:type="uml:Class" xmi:id="_JtwtkMYoEe-AzM3VUA0p3A" name="Sistema de recepción y validación de datos"/>
+          </packagedElement>
         </packagedElement>
       </packagedElement>
     </packagedElement>
@@ -890,4 +892,5 @@
   <PortsAndFlows:ItemFlow xmi:id="_nh9GMLT9Ee-LmoY09DOm4w" base_InformationFlow="_nh7RALT9Ee-LmoY09DOm4w"/>
   <PortsAndFlows:ItemFlow xmi:id="_5U0q4LT9Ee-LmoY09DOm4w" base_InformationFlow="_5Uy1sLT9Ee-LmoY09DOm4w"/>
   <PortsAndFlows:ItemFlow xmi:id="_6vM-MLT9Ee-LmoY09DOm4w" base_InformationFlow="_6vLwELT9Ee-LmoY09DOm4w"/>
+  <Blocks:Block xmi:id="_Jt5QcMYoEe-AzM3VUA0p3A" base_Class="_JtwtkMYoEe-AzM3VUA0p3A"/>
 </xmi:XMI>
