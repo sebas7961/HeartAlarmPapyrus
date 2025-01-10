@@ -923,8 +923,8 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_R4nncLA1Ee-BbcwpMmGpSw" name="Interfaz de Usuario">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_uCHukM0aEe-tFb5EkK8r7Q" name="Property1" type="_1Q9z0MlJEe-OaNUYtJJBtw" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_8s9D8M-OEe-E864X6ZiT7w" name="Port2" type="_ymsQgM-MEe-E864X6ZiT7w" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_TcglEM-PEe-E864X6ZiT7w" name="Port4" type="_RvEL0M-PEe-E864X6ZiT7w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_8s9D8M-OEe-E864X6ZiT7w" name="Datos" type="_ymsQgM-MEe-E864X6ZiT7w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_TcglEM-PEe-E864X6ZiT7w" name="Datos validados" type="_RvEL0M-PEe-E864X6ZiT7w" aggregation="composite"/>
             <ownedConnector xmi:type="uml:Connector" xmi:id="_Pm0F4M-PEe-E864X6ZiT7w" name="Connector3">
               <end xmi:type="uml:ConnectorEnd" xmi:id="_Pm17EM-PEe-E864X6ZiT7w" role="_8s9D8M-OEe-E864X6ZiT7w"/>
               <end xmi:type="uml:ConnectorEnd" xmi:id="_Pm2iIM-PEe-E864X6ZiT7w" partWithPort="_uCHukM0aEe-tFb5EkK8r7Q" role="_C7rQAM-PEe-E864X6ZiT7w"/>
@@ -937,8 +937,8 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_f3RToLA1Ee-BbcwpMmGpSw" name="Módulo de procesamiento y consulta de datos en tiempo real">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_EdmdIM0bEe-tFb5EkK8r7Q" name="Property1" type="_0kCqIMlOEe-OaNUYtJJBtw" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_JMrbYM0bEe-tFb5EkK8r7Q" name="Property2" type="_2CPGcMlOEe-OaNUYtJJBtw" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_EhsoEM-OEe-E864X6ZiT7w" name="Port3" type="_ymsQgM-MEe-E864X6ZiT7w" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_xSgZ4M-OEe-E864X6ZiT7w" name="Port6" type="_92IH8M-NEe-E864X6ZiT7w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_EhsoEM-OEe-E864X6ZiT7w" name="Datos" type="_ymsQgM-MEe-E864X6ZiT7w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_xSgZ4M-OEe-E864X6ZiT7w" name="Datos Procesados y presentados" type="_92IH8M-NEe-E864X6ZiT7w" aggregation="composite"/>
             <ownedConnector xmi:type="uml:Connector" xmi:id="_PZDzMM-OEe-E864X6ZiT7w" name="Connector4">
               <end xmi:type="uml:ConnectorEnd" xmi:id="_PZFBUM-OEe-E864X6ZiT7w" role="_EhsoEM-OEe-E864X6ZiT7w"/>
               <end xmi:type="uml:ConnectorEnd" xmi:id="_PZFBUc-OEe-E864X6ZiT7w" partWithPort="_EdmdIM0bEe-tFb5EkK8r7Q" role="_Jw0_YM-OEe-E864X6ZiT7w"/>
@@ -954,8 +954,8 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_YN1mYLDgEe-8y4rRCKR-kQ" name="Modulo de Autenticacion y Autorizacion">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_WS_U4M0cEe-tFb5EkK8r7Q" name="Property1" type="_fzPcEMlLEe-OaNUYtJJBtw" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_YkO2MM92Ee-9_qJ9coupeg" name="Port2" type="_8ue3UM91Ee-9_qJ9coupeg" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_U31AcM93Ee-9_qJ9coupeg" name="Port4" type="_5nDW4M92Ee-9_qJ9coupeg" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_YkO2MM92Ee-9_qJ9coupeg" name="Credenciales" type="_8ue3UM91Ee-9_qJ9coupeg" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_U31AcM93Ee-9_qJ9coupeg" name="Respuesta Del Sistema" type="_5nDW4M92Ee-9_qJ9coupeg" aggregation="composite"/>
             <ownedConnector xmi:type="uml:Connector" xmi:id="_qrAOUM92Ee-9_qJ9coupeg" name="Connector3">
               <end xmi:type="uml:ConnectorEnd" xmi:id="_qrA1YM92Ee-9_qJ9coupeg" role="_YkO2MM92Ee-9_qJ9coupeg"/>
               <end xmi:type="uml:ConnectorEnd" xmi:id="_qrA1Yc92Ee-9_qJ9coupeg" partWithPort="_WS_U4M0cEe-tFb5EkK8r7Q" role="_fqREwM92Ee-9_qJ9coupeg"/>
@@ -967,8 +967,8 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_baTiYLDgEe-8y4rRCKR-kQ" name="Modulo de Encriptacion de Datos">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_PG9zEM0cEe-tFb5EkK8r7Q" name="Property1" type="_b7thIMlcEe-OaNUYtJJBtw" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_ZVsGUM-MEe-E864X6ZiT7w" name="Port2" type="_ymsQgM-MEe-E864X6ZiT7w" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_rvHfQM-NEe-E864X6ZiT7w" name="Port3" type="_JB-KwM-NEe-E864X6ZiT7w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_ZVsGUM-MEe-E864X6ZiT7w" name="Datos" type="_ymsQgM-MEe-E864X6ZiT7w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_rvHfQM-NEe-E864X6ZiT7w" name="Datos Encriptados" type="_JB-KwM-NEe-E864X6ZiT7w" aggregation="composite"/>
             <ownedConnector xmi:type="uml:Connector" xmi:id="_wOOH0M-NEe-E864X6ZiT7w" name="Connector4">
               <end xmi:type="uml:ConnectorEnd" xmi:id="_wOPV8M-NEe-E864X6ZiT7w" role="_ZVsGUM-MEe-E864X6ZiT7w"/>
               <end xmi:type="uml:ConnectorEnd" xmi:id="_wOPV8c-NEe-E864X6ZiT7w" partWithPort="_PG9zEM0cEe-tFb5EkK8r7Q" role="_ZFeDkM-NEe-E864X6ZiT7w"/>
