@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:nattablestyle="http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle http://www.eclipse.org/papyrus/nattable/model#//nattablestyle">
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:elementtypesconfigurations="http://www.eclipse.org/papyrus/infra/elementtypesconfigurations/1.2" xmlns:nattable="http://www.eclipse.org/papyrus/nattable/model" xmlns:nattableaxis="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis" xmlns:nattableaxisconfiguration="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration" xmlns:nattableaxisprovider="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider" xmlns:nattablecelleditor="http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor" xmlns:nattableconfiguration="http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration" xmlns:nattablestyle="http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle" xmlns:nattablewrapper="http://www.eclipse.org/papyrus/nattable/model/table/nattablewrapper" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/nattable/model/table/nattableaxis http://www.eclipse.org/papyrus/nattable/model#//nattableaxis http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableaxisconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model#//nattableaxisprovider http://www.eclipse.org/papyrus/nattable/model/table/nattablecelleditor http://www.eclipse.org/papyrus/nattable/model#//nattablecelleditor http://www.eclipse.org/papyrus/nattable/model/nattableconfiguration http://www.eclipse.org/papyrus/nattable/model#//nattableconfiguration http://www.eclipse.org/papyrus/nattable/model/table/nattablestyle http://www.eclipse.org/papyrus/nattable/model#//nattablestyle http://www.eclipse.org/papyrus/nattable/model/table/nattablewrapper http://www.eclipse.org/papyrus/nattable/model#//nattablewrapper">
   <nattable:Table xmi:id="_C5laQK6eEe-BPZckyR9NAg" description="" name="Requerimientos" currentRowAxisProvider="_C5mBUq6eEe-BPZckyR9NAg" currentColumnAxisProvider="_C5laQa6eEe-BPZckyR9NAg" tableKindId="org.eclipse.papyrus.sysml16.table.requirement">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_C5qSwK6eEe-BPZckyR9NAg" source="http://www.eclipse.org/papyrus/infra/nattable/version">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_C5qSwa6eEe-BPZckyR9NAg" key="version" value="1.3.0"/>
@@ -2329,29 +2329,29 @@
           <element xmi:type="uml:ActivityPartition" href="HeartAlarm.uml#_C6yisMlOEe-OaNUYtJJBtw"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Is8ukclOEe-OaNUYtJJBtw" x="575" y="4" height="521"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_aYui4tCYEe-NrIXflJriQQ" type="StereotypeComment">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_aYui49CYEe-NrIXflJriQQ"/>
-          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_aYui5dCYEe-NrIXflJriQQ" name="BASE_ELEMENT">
+        <children xmi:type="notation:Shape" xmi:id="_tG6_k9EVEe-pO6Yje0LGmA" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_tG6_lNEVEe-pO6Yje0LGmA"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_tG6_ltEVEe-pO6Yje0LGmA" name="BASE_ELEMENT">
             <eObjectValue xmi:type="uml:ActivityPartition" href="HeartAlarm.uml#_dg82ULBSEe-zy5umMi3cxw"/>
           </styles>
           <element xsi:nil="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aYui5NCYEe-NrIXflJriQQ" x="215" y="4"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tG6_ldEVEe-pO6Yje0LGmA" x="215" y="4"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_aY-ag9CYEe-NrIXflJriQQ" type="StereotypeComment">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_aY-ahNCYEe-NrIXflJriQQ"/>
-          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_aY-ahtCYEe-NrIXflJriQQ" name="BASE_ELEMENT">
+        <children xmi:type="notation:Shape" xmi:id="_tHLeQ9EVEe-pO6Yje0LGmA" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_tHLeRNEVEe-pO6Yje0LGmA"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_tHMFUNEVEe-pO6Yje0LGmA" name="BASE_ELEMENT">
             <eObjectValue xmi:type="uml:ActivityPartition" href="HeartAlarm.uml#_qT0E0LBSEe-zy5umMi3cxw"/>
           </styles>
           <element xsi:nil="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aY-ahdCYEe-NrIXflJriQQ" x="515" y="4"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tHLeRdEVEe-pO6Yje0LGmA" x="515" y="4"/>
         </children>
-        <children xmi:type="notation:Shape" xmi:id="_aZJZoNCYEe-NrIXflJriQQ" type="StereotypeComment">
-          <styles xmi:type="notation:TitleStyle" xmi:id="_aZJZodCYEe-NrIXflJriQQ"/>
-          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_aZJZo9CYEe-NrIXflJriQQ" name="BASE_ELEMENT">
+        <children xmi:type="notation:Shape" xmi:id="_tHVPQNEVEe-pO6Yje0LGmA" type="StereotypeComment">
+          <styles xmi:type="notation:TitleStyle" xmi:id="_tHVPQdEVEe-pO6Yje0LGmA"/>
+          <styles xmi:type="notation:EObjectValueStyle" xmi:id="_tHVPQ9EVEe-pO6Yje0LGmA" name="BASE_ELEMENT">
             <eObjectValue xmi:type="uml:ActivityPartition" href="HeartAlarm.uml#_C6yisMlOEe-OaNUYtJJBtw"/>
           </styles>
           <element xsi:nil="true"/>
-          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aZJZotCYEe-NrIXflJriQQ" x="775" y="4"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tHVPQtEVEe-pO6Yje0LGmA" x="775" y="4"/>
         </children>
         <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nC140bBREe-zy5umMi3cxw"/>
       </children>
@@ -2479,35 +2479,35 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NQ1B8LTgEe-K5PXKdlJNpw" id="(0.2,0.1)"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_NQ1B8bTgEe-K5PXKdlJNpw" id="(0.47580645161290325,0.0)"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_aYui5tCYEe-NrIXflJriQQ" type="StereotypeCommentLink" source="_ngXFwLBSEe-zy5umMi3cxw" target="_aYui4tCYEe-NrIXflJriQQ">
-      <styles xmi:type="notation:FontStyle" xmi:id="_aYui59CYEe-NrIXflJriQQ"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_aYui69CYEe-NrIXflJriQQ" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_tG6_l9EVEe-pO6Yje0LGmA" type="StereotypeCommentLink" source="_ngXFwLBSEe-zy5umMi3cxw" target="_tG6_k9EVEe-pO6Yje0LGmA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_tG6_mNEVEe-pO6Yje0LGmA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_tG7motEVEe-pO6Yje0LGmA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:ActivityPartition" href="HeartAlarm.uml#_dg82ULBSEe-zy5umMi3cxw"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aYui6NCYEe-NrIXflJriQQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aYui6dCYEe-NrIXflJriQQ"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aYui6tCYEe-NrIXflJriQQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tG6_mdEVEe-pO6Yje0LGmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tG7moNEVEe-pO6Yje0LGmA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tG7modEVEe-pO6Yje0LGmA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_aY_ooNCYEe-NrIXflJriQQ" type="StereotypeCommentLink" source="_oyWAILBUEe-zy5umMi3cxw" target="_aY-ag9CYEe-NrIXflJriQQ">
-      <styles xmi:type="notation:FontStyle" xmi:id="_aY_oodCYEe-NrIXflJriQQ"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_aY_opdCYEe-NrIXflJriQQ" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_tHMFUdEVEe-pO6Yje0LGmA" type="StereotypeCommentLink" source="_oyWAILBUEe-zy5umMi3cxw" target="_tHLeQ9EVEe-pO6Yje0LGmA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_tHMFUtEVEe-pO6Yje0LGmA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_tHMFVtEVEe-pO6Yje0LGmA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:ActivityPartition" href="HeartAlarm.uml#_qT0E0LBSEe-zy5umMi3cxw"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aY_ootCYEe-NrIXflJriQQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aY_oo9CYEe-NrIXflJriQQ"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aY_opNCYEe-NrIXflJriQQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tHMFU9EVEe-pO6Yje0LGmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tHMFVNEVEe-pO6Yje0LGmA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tHMFVdEVEe-pO6Yje0LGmA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_aZJZpNCYEe-NrIXflJriQQ" type="StereotypeCommentLink" source="_Is8ukMlOEe-OaNUYtJJBtw" target="_aZJZoNCYEe-NrIXflJriQQ">
-      <styles xmi:type="notation:FontStyle" xmi:id="_aZJZpdCYEe-NrIXflJriQQ"/>
-      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_aZKAsNCYEe-NrIXflJriQQ" name="BASE_ELEMENT">
+    <edges xmi:type="notation:Connector" xmi:id="_tHVPRNEVEe-pO6Yje0LGmA" type="StereotypeCommentLink" source="_Is8ukMlOEe-OaNUYtJJBtw" target="_tHVPQNEVEe-pO6Yje0LGmA">
+      <styles xmi:type="notation:FontStyle" xmi:id="_tHVPRdEVEe-pO6Yje0LGmA"/>
+      <styles xmi:type="notation:EObjectValueStyle" xmi:id="_tHVPSdEVEe-pO6Yje0LGmA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:ActivityPartition" href="HeartAlarm.uml#_C6yisMlOEe-OaNUYtJJBtw"/>
       </styles>
       <element xsi:nil="true"/>
-      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_aZJZptCYEe-NrIXflJriQQ" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
-      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aZJZp9CYEe-NrIXflJriQQ"/>
-      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_aZJZqNCYEe-NrIXflJriQQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_tHVPRtEVEe-pO6Yje0LGmA" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tHVPR9EVEe-pO6Yje0LGmA"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_tHVPSNEVEe-pO6Yje0LGmA"/>
     </edges>
   </notation:Diagram>
   <notation:Diagram xmi:id="_G4ZSoLDiEe-8y4rRCKR-kQ" type="UseCase" name="Monitoreo de Frecuencia Cardiaca" measurementUnit="Pixel">
@@ -11879,4 +11879,319 @@
     </styles>
     <element xmi:type="uml:Activity" href="HeartAlarm.uml#_SZvTENCYEe-NrIXflJriQQ"/>
   </notation:Diagram>
+  <nattable:Table xmi:id="_-HmSUNEVEe-pO6Yje0LGmA" name="FuntionAndMetricsStakeholdersNeeds" currentRowAxisProvider="_-HmSU9EVEe-pO6Yje0LGmA" currentColumnAxisProvider="_-HmSUtEVEe-pO6Yje0LGmA" tableKindId="org.eclipse.papyrus.sysml16.table.matrix">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-HyfkNEVEe-pO6Yje0LGmA" source="http://www.eclipse.org/papyrus/infra/nattable/version">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-HyfkdEVEe-pO6Yje0LGmA" key="version" value="1.3.0"/>
+    </eAnnotations>
+    <styles xmi:type="nattablestyle:IntListValueStyle" xmi:id="_-HmSUdEVEe-pO6Yje0LGmA" name="hiddenCategoriesByDepth">
+      <intListValue>1</intListValue>
+    </styles>
+    <context xmi:type="uml:Package" href="HeartAlarm.uml#_2sekMK6dEe-BPZckyR9NAg"/>
+    <owner xmi:type="uml:Package" href="HeartAlarm.uml#_2sekMK6dEe-BPZckyR9NAg"/>
+    <tableConfiguration xmi:type="nattableconfiguration:TableConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#UMLGenericMatrixOfRelationships_XMI_ID"/>
+    <columnAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_-HmSUtEVEe-pO6Yje0LGmA" description="This axis provider manages the columns, according to the wanted hierarchy" name="HierarchicalColumnsAxisManager" disconnectSlave="true">
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_N2c7YNEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:Package" href="HeartAlarm.uml#_2sekMK6dEe-BPZckyR9NAg"/>
+      </sources>
+    </columnAxisProvidersHistory>
+    <rowAxisProvidersHistory xmi:type="nattableaxisprovider:MasterObjectAxisProvider" xmi:id="_-HmSU9EVEe-pO6Yje0LGmA" description="This axis provider manages the rows, according to the wanted hierarchy" name="HierarchicalRowAxisManager" disconnectSlave="true">
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvywNEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_Id_uwLNkEe-lmJ3CENy7zw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvywdEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_AMjyILNmEe-lmJ3CENy7zw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvywtEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_fRQZQLNmEe-lmJ3CENy7zw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyw9EXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_rhfCsMSnEe-PCcdtsJPHBA"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyxNEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_FZ0xoM0XEe-tFb5EkK8r7Q"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyxdEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:AcceptEventAction" href="HeartAlarm.uml#_9BEsYNCXEe-NrIXflJriQQ"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyxtEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_a8Y8sLNkEe-lmJ3CENy7zw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyx9EXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_7k5h8NCaEe-NrIXflJriQQ"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyyNEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_vD8IgLNeEe-lmJ3CENy7zw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyydEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_05tpELNeEe-lmJ3CENy7zw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyytEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_Kdc3ULNfEe-lmJ3CENy7zw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyy9EXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_teHkwLNfEe-lmJ3CENy7zw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyzNEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_vYLoQLNgEe-lmJ3CENy7zw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyzdEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_dnq-kLNhEe-lmJ3CENy7zw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyztEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_tazuwLTjEe-K5PXKdlJNpw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvyz9EXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_rLvkQLTlEe-K5PXKdlJNpw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy0NEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_yR2WMLTjEe-K5PXKdlJNpw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy0dEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_bJJ08LTmEe-K5PXKdlJNpw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy0tEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_fmRggLTmEe-K5PXKdlJNpw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy09EXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_i5KNkLTmEe-K5PXKdlJNpw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy1NEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_pWNwkLTmEe-K5PXKdlJNpw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy1dEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_bes0MMSqEe-PCcdtsJPHBA"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy1tEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_PUXFULTzEe-K5PXKdlJNpw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy19EXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_4Ne-cLT0Ee-K5PXKdlJNpw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy2NEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_4NgMkLT0Ee-K5PXKdlJNpw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy2dEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_4NjP4LT0Ee-K5PXKdlJNpw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy2tEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_i3TEMMYwEe-YqrVdWg0KBQ"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy29EXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_-pmGcMYwEe-YqrVdWg0KBQ"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy3NEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_-uHaEMYwEe-YqrVdWg0KBQ"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy3dEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_F4zpsMYyEe-YqrVdWg0KBQ"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy3tEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_pRS0cMlXEe-OaNUYtJJBtw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy39EXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_s0a88MlXEe-OaNUYtJJBtw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy4NEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_AVizMMlYEe-OaNUYtJJBtw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy4dEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_F2RQ0MlYEe-OaNUYtJJBtw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy4tEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_QTFN8MlYEe-OaNUYtJJBtw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy49EXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_39vlUMlYEe-OaNUYtJJBtw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy5NEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_yf0nQMlcEe-OaNUYtJJBtw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy5dEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_thiIUMlcEe-OaNUYtJJBtw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy5tEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_-PPbwMlcEe-OaNUYtJJBtw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy59EXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_eOeYgMldEe-OaNUYtJJBtw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy6NEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_u5ngIMldEe-OaNUYtJJBtw"/>
+      </axis>
+      <axis xmi:type="nattableaxis:EObjectTreeItemAxis" xmi:id="_CUvy6dEXEe-pO6Yje0LGmA">
+        <manager xmi:type="nattableaxisconfiguration:AxisManagerRepresentation" href="platform:/plugin/org.eclipse.papyrus.uml.nattable.matrix/configs/generic_matrix_of_relationships.nattableconfiguration#_dSCGGzzQEei_1txcmoHe_A"/>
+        <element xmi:type="uml:Class" href="HeartAlarm.uml#_t_-wYLBZEe-zy5umMi3cxw"/>
+      </axis>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ0NEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_Id_uwLNkEe-lmJ3CENy7zw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ0dEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_AMjyILNmEe-lmJ3CENy7zw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ0tEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_fRQZQLNmEe-lmJ3CENy7zw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ09EXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_rhfCsMSnEe-PCcdtsJPHBA"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ1NEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_FZ0xoM0XEe-tFb5EkK8r7Q"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ1dEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:AcceptEventAction" href="HeartAlarm.uml#_9BEsYNCXEe-NrIXflJriQQ"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ1tEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_a8Y8sLNkEe-lmJ3CENy7zw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ19EXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_7k5h8NCaEe-NrIXflJriQQ"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ2NEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_vD8IgLNeEe-lmJ3CENy7zw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ2dEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_05tpELNeEe-lmJ3CENy7zw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ2tEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_Kdc3ULNfEe-lmJ3CENy7zw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ29EXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_teHkwLNfEe-lmJ3CENy7zw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ3NEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_vYLoQLNgEe-lmJ3CENy7zw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ3dEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_dnq-kLNhEe-lmJ3CENy7zw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ3tEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_tazuwLTjEe-K5PXKdlJNpw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ39EXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_rLvkQLTlEe-K5PXKdlJNpw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ4NEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_yR2WMLTjEe-K5PXKdlJNpw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ4dEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_bJJ08LTmEe-K5PXKdlJNpw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ4tEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_fmRggLTmEe-K5PXKdlJNpw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ49EXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_i5KNkLTmEe-K5PXKdlJNpw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ5NEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_pWNwkLTmEe-K5PXKdlJNpw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ5dEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_bes0MMSqEe-PCcdtsJPHBA"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ5tEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_PUXFULTzEe-K5PXKdlJNpw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ59EXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_4Ne-cLT0Ee-K5PXKdlJNpw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ6NEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_4NgMkLT0Ee-K5PXKdlJNpw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ6dEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_4NjP4LT0Ee-K5PXKdlJNpw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ6tEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_i3TEMMYwEe-YqrVdWg0KBQ"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ69EXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_-pmGcMYwEe-YqrVdWg0KBQ"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ7NEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_-uHaEMYwEe-YqrVdWg0KBQ"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ7dEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_F4zpsMYyEe-YqrVdWg0KBQ"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ7tEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_pRS0cMlXEe-OaNUYtJJBtw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ79EXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_s0a88MlXEe-OaNUYtJJBtw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ8NEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_AVizMMlYEe-OaNUYtJJBtw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ8dEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_F2RQ0MlYEe-OaNUYtJJBtw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ8tEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_QTFN8MlYEe-OaNUYtJJBtw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ89EXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_39vlUMlYEe-OaNUYtJJBtw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ9NEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_yf0nQMlcEe-OaNUYtJJBtw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ9dEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_thiIUMlcEe-OaNUYtJJBtw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ9tEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_-PPbwMlcEe-OaNUYtJJBtw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ99EXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_eOeYgMldEe-OaNUYtJJBtw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ-NEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:OpaqueAction" href="HeartAlarm.uml#_u5ngIMldEe-OaNUYtJJBtw"/>
+      </sources>
+      <sources xmi:type="nattablewrapper:EObjectWrapper" xmi:id="_CUwZ-dEXEe-pO6Yje0LGmA">
+        <element xmi:type="uml:Class" href="HeartAlarm.uml#_t_-wYLBZEe-zy5umMi3cxw"/>
+      </sources>
+    </rowAxisProvidersHistory>
+    <ownedCellEditorConfigurations xmi:type="nattablecelleditor:GenericRelationshipMatrixCellEditorConfiguration" xmi:id="_-HmSVNEVEe-pO6Yje0LGmA" cellEditorId="GenericRelationshipMatrixEditorConfiguration">
+      <editedElement xmi:type="elementtypesconfigurations:SpecializationTypeConfiguration" href="platform:/plugin/org.eclipse.papyrus.uml.service.types/model/uml.elementtypesconfigurations#org.eclipse.papyrus.uml.Refine"/>
+    </ownedCellEditorConfigurations>
+  </nattable:Table>
 </xmi:XMI>
