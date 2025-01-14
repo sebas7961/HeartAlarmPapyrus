@@ -25,23 +25,6 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_qeV5wK6lEe-BPZckyR9NAg" name="13 Escalabilidad"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_n-UCcK6kEe-jw5SriieKnQ" name="3 System Context">
-          <packagedElement xmi:type="uml:Class" xmi:id="_uabF8LAzEe-BbcwpMmGpSw" name="Monitoreo de frecuencia cardiaca" useCase="_mRgDgLDiEe-8y4rRCKR-kQ _gh0HYLDjEe-8y4rRCKR-kQ _7LKkkLDjEe-8y4rRCKR-kQ _JpX6kLDkEe-8y4rRCKR-kQ">
-            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gh0HYLDjEe-8y4rRCKR-kQ" name="Digitalizar y Procesar los datos de Frecuencia Cardiaca" subject="_uabF8LAzEe-BbcwpMmGpSw">
-              <include xmi:type="uml:Include" xmi:id="_BaXRwLDkEe-8y4rRCKR-kQ" addition="_7LKkkLDjEe-8y4rRCKR-kQ"/>
-            </ownedUseCase>
-            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7LKkkLDjEe-8y4rRCKR-kQ" name="Enviar Datos al dispositivo movil por Bluetooth" subject="_uabF8LAzEe-BbcwpMmGpSw">
-              <extend xmi:type="uml:Extend" xmi:id="_dXD2IMYtEe-YqrVdWg0KBQ" extendedCase="_JpX6kLDkEe-8y4rRCKR-kQ" extensionLocation="_dXLx8MYtEe-YqrVdWg0KBQ"/>
-            </ownedUseCase>
-            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_JpX6kLDkEe-8y4rRCKR-kQ" name="Enviar alerta por SMS en caso de Fallo de Conexión" subject="_uabF8LAzEe-BbcwpMmGpSw">
-              <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dXLx8MYtEe-YqrVdWg0KBQ" name="ExtensionPoint1"/>
-            </ownedUseCase>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_pfxdsLDfEe-8y4rRCKR-kQ" name="Property3" type="_qdlJwLDfEe-8y4rRCKR-kQ" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_NOqGkLDhEe-8y4rRCKR-kQ" name="Property4" type="_PfI7cLDhEe-8y4rRCKR-kQ" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_YaSRgLDhEe-8y4rRCKR-kQ" name="Property5" type="_ap15ULDhEe-8y4rRCKR-kQ" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_hTLk0LDhEe-8y4rRCKR-kQ" name="Property5" type="_hz0zwLDhEe-8y4rRCKR-kQ" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_lzd5ILDhEe-8y4rRCKR-kQ" name="Property6" type="_mLTxYLDhEe-8y4rRCKR-kQ" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_0VGWkLDhEe-8y4rRCKR-kQ" name="Property6" type="_1M3sELDhEe-8y4rRCKR-kQ" aggregation="composite"/>
-          </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="__QWPULA1Ee-BbcwpMmGpSw" name="Base de datos"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_GaQ4ULA2Ee-BbcwpMmGpSw" name="Módulo de emisión de alertas"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_qcHOkLA5Ee-BbcwpMmGpSw" name="Usuario final"/>
@@ -52,12 +35,8 @@
             <packagedElement xmi:type="uml:Signal" xmi:id="_pqXJ8LHYEe-ZIpsCtQzCEg" name="Power"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_qdlJwLDfEe-8y4rRCKR-kQ" name="Suministro de Energia"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_6TvKILDfEe-8y4rRCKR-kQ" name="Modulo Bluetooth"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_U4bJwLDgEe-8y4rRCKR-kQ" name="Modulo de Autenticacion"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_hKFvsLDgEe-8y4rRCKR-kQ" name="Modulo de Proteccion contra Ataques  Ciberneticos"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_ap15ULDhEe-8y4rRCKR-kQ" name="Sensor de Frecuencia Cardiaca"/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_hz0zwLDhEe-8y4rRCKR-kQ" name="Módulo Bluetooth "/>
-          <packagedElement xmi:type="uml:Class" xmi:id="_mLTxYLDhEe-8y4rRCKR-kQ" name="Módulo GSM"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_1M3sELDhEe-8y4rRCKR-kQ" name="Flujo Sanguineo"/>
           <packagedElement xmi:type="uml:Class" xmi:id="_c6lcwLG5Ee-eloSyfcsz3g" name="Modulo de Recuperacion de Datos"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_7FCRELHYEe-ZIpsCtQzCEg" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_eGCmkLA1Ee-BbcwpMmGpSw" informationTarget="_QkY_cLA1Ee-BbcwpMmGpSw"/>
@@ -77,19 +56,19 @@
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_NGpX8LTwEe-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_bmszALG5Ee-eloSyfcsz3g" informationTarget="_WoIz4LDgEe-8y4rRCKR-kQ"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_edERMLTwEe-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_ehbrYLDgEe-8y4rRCKR-kQ" informationTarget="_WoIz4LDgEe-8y4rRCKR-kQ"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_hBRTULTwEe-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_ehbrYLDgEe-8y4rRCKR-kQ" informationTarget="_bmszALG5Ee-eloSyfcsz3g"/>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_5sL3cLT8Ee-LmoY09DOm4w" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_0VGWkLDhEe-8y4rRCKR-kQ" informationTarget="_YaSRgLDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_5sL3cLT8Ee-LmoY09DOm4w" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationTarget="_YaSRgLDhEe-8y4rRCKR-kQ"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_ZtbmYLT9Ee-LmoY09DOm4w" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_YaSRgLDhEe-8y4rRCKR-kQ" informationTarget="_NOqGkLDhEe-8y4rRCKR-kQ"/>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_fPA_oLT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_NOqGkLDhEe-8y4rRCKR-kQ"/>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_iHx8gLT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_YaSRgLDhEe-8y4rRCKR-kQ"/>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_kw23kLT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_hTLk0LDhEe-8y4rRCKR-kQ"/>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_nh7RALT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_lzd5ILDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_fPA_oLT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationTarget="_NOqGkLDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_iHx8gLT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationTarget="_YaSRgLDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_kw23kLT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationTarget="_hTLk0LDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_nh7RALT9Ee-LmoY09DOm4w" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationTarget="_lzd5ILDhEe-8y4rRCKR-kQ"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_5Uy1sLT9Ee-LmoY09DOm4w" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_NOqGkLDhEe-8y4rRCKR-kQ" informationTarget="_hTLk0LDhEe-8y4rRCKR-kQ"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_6vLwELT9Ee-LmoY09DOm4w" name="" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_NOqGkLDhEe-8y4rRCKR-kQ" informationTarget="_lzd5ILDhEe-8y4rRCKR-kQ"/>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_G0VFgMYsEe-YqrVdWg0KBQ" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_0VGWkLDhEe-8y4rRCKR-kQ" informationTarget="_YaSRgLDhEe-8y4rRCKR-kQ"/>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_KqT4kMYsEe-YqrVdWg0KBQ" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_YaSRgLDhEe-8y4rRCKR-kQ"/>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_MOeaAMYsEe-YqrVdWg0KBQ" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_NOqGkLDhEe-8y4rRCKR-kQ"/>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Oqty8MYsEe-YqrVdWg0KBQ" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_lzd5ILDhEe-8y4rRCKR-kQ"/>
-          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_QPc8IMYsEe-YqrVdWg0KBQ" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_pfxdsLDfEe-8y4rRCKR-kQ" informationTarget="_hTLk0LDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_G0VFgMYsEe-YqrVdWg0KBQ" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationTarget="_YaSRgLDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_KqT4kMYsEe-YqrVdWg0KBQ" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationTarget="_YaSRgLDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_MOeaAMYsEe-YqrVdWg0KBQ" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationTarget="_NOqGkLDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_Oqty8MYsEe-YqrVdWg0KBQ" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationTarget="_lzd5ILDhEe-8y4rRCKR-kQ"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_QPc8IMYsEe-YqrVdWg0KBQ" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationTarget="_hTLk0LDhEe-8y4rRCKR-kQ"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_SbrjIMYsEe-YqrVdWg0KBQ" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_YaSRgLDhEe-8y4rRCKR-kQ" informationTarget="_NOqGkLDhEe-8y4rRCKR-kQ"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_U7hCoMYsEe-YqrVdWg0KBQ" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_NOqGkLDhEe-8y4rRCKR-kQ" informationTarget="_hTLk0LDhEe-8y4rRCKR-kQ"/>
           <packagedElement xmi:type="uml:InformationFlow" xmi:id="_WxXJ8MYsEe-YqrVdWg0KBQ" conveyed="_UBdH0LHYEe-ZIpsCtQzCEg" informationSource="_NOqGkLDhEe-8y4rRCKR-kQ" informationTarget="_lzd5ILDhEe-8y4rRCKR-kQ"/>
@@ -110,6 +89,13 @@
             <ownedAttribute xmi:type="uml:Property" xmi:id="_bmszALG5Ee-eloSyfcsz3g" name="Property9" type="_c6lcwLG5Ee-eloSyfcsz3g" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_U9ax0LTuEe-LmoY09DOm4w" name="Property7" type="_Wa1yELTuEe-LmoY09DOm4w" aggregation="composite"/>
           </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_SLnxQNKKEe-dc4GHDoBDwA" name="Monitoreo de frecuencia cardiaca">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_p3z5wNKKEe-dc4GHDoBDwA" name="Property1" type="_uabF8LAzEe-BbcwpMmGpSw" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_7nx7cNKKEe-dc4GHDoBDwA" name="Property2" type="_qdlJwLDfEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_f2FgsNKLEe-dc4GHDoBDwA" name="Property6" type="_1M3sELDhEe-8y4rRCKR-kQ" aggregation="composite"/>
+          </packagedElement>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_-EZSYNKLEe-dc4GHDoBDwA" conveyed="_XahVYLHYEe-ZIpsCtQzCEg" informationSource="_f2FgsNKLEe-dc4GHDoBDwA" informationTarget="_p3z5wNKKEe-dc4GHDoBDwA"/>
+          <packagedElement xmi:type="uml:InformationFlow" xmi:id="_WddH8NKMEe-dc4GHDoBDwA" conveyed="_pqXJ8LHYEe-ZIpsCtQzCEg" informationSource="_7nx7cNKKEe-dc4GHDoBDwA" informationTarget="_p3z5wNKKEe-dc4GHDoBDwA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_v0Pc4K6kEe-jw5SriieKnQ" name="2 Uses Cases">
           <packagedElement xmi:type="uml:Expression" xmi:id="_33ivgK6lEe-jw5SriieKnQ" name="x+d"/>
@@ -171,13 +157,13 @@
               <edge xmi:type="uml:ControlFlow" xmi:id="_YSrRELBGEe-BbcwpMmGpSw" target="_QDMHILBGEe-BbcwpMmGpSw" source="_obvRQLBEEe-BbcwpMmGpSw"/>
               <edge xmi:type="uml:ControlFlow" xmi:id="_Y5G-8LBGEe-BbcwpMmGpSw" target="_S9OPULBGEe-BbcwpMmGpSw" source="_QDMHILBGEe-BbcwpMmGpSw"/>
               <edge xmi:type="uml:ControlFlow" xmi:id="_aNCsALBGEe-BbcwpMmGpSw" target="_WxRIsLBGEe-BbcwpMmGpSw" source="_S9OPULBGEe-BbcwpMmGpSw"/>
-              <group xmi:type="uml:ActivityPartition" xmi:id="_f2Kp8LBBEe-BbcwpMmGpSw" name="Base de datos" node="_73LLsLBDEe-BbcwpMmGpSw" represents="__QWPULA1Ee-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_f2Kp8LBBEe-BbcwpMmGpSw" name="Base de datos" represents="__QWPULA1Ee-BbcwpMmGpSw"/>
               <group xmi:type="uml:ActivityPartition" xmi:id="_rA1yoLBBEe-BbcwpMmGpSw" name="Usuario Final" node="_Fi3f0LBCEe-BbcwpMmGpSw _WxRIsLBGEe-BbcwpMmGpSw" represents="_qcHOkLA5Ee-BbcwpMmGpSw"/>
-              <group xmi:type="uml:ActivityPartition" xmi:id="_IHJlALBDEe-BbcwpMmGpSw" name="AllocateActivityPartition4" represents="_R4nncLA1Ee-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_IHJlALBDEe-BbcwpMmGpSw" name="AllocateActivityPartition4" node="_73LLsLBDEe-BbcwpMmGpSw" represents="_R4nncLA1Ee-BbcwpMmGpSw"/>
               <node xmi:type="uml:InitialNode" xmi:id="_Fi3f0LBCEe-BbcwpMmGpSw" outgoing="_tpOfQLBDEe-BbcwpMmGpSw" inPartition="_rA1yoLBBEe-BbcwpMmGpSw"/>
               <node xmi:type="uml:OpaqueAction" xmi:id="_dxo7gLBDEe-BbcwpMmGpSw" name="Consultar datos" incoming="_tpOfQLBDEe-BbcwpMmGpSw" outgoing="_MGIbsLBGEe-BbcwpMmGpSw"/>
               <node xmi:type="uml:OpaqueAction" xmi:id="_13VwMLBDEe-BbcwpMmGpSw" name="Envía consulta a la base de datos" incoming="_MGIbsLBGEe-BbcwpMmGpSw" outgoing="_M-JBwLBGEe-BbcwpMmGpSw"/>
-              <node xmi:type="uml:OpaqueAction" xmi:id="_73LLsLBDEe-BbcwpMmGpSw" name="Realizar consulta" incoming="_M-JBwLBGEe-BbcwpMmGpSw" outgoing="_N4z6QLBGEe-BbcwpMmGpSw" inPartition="_f2Kp8LBBEe-BbcwpMmGpSw"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_73LLsLBDEe-BbcwpMmGpSw" name="Realizar consulta" incoming="_M-JBwLBGEe-BbcwpMmGpSw" outgoing="_N4z6QLBGEe-BbcwpMmGpSw" inPartition="_IHJlALBDEe-BbcwpMmGpSw"/>
               <node xmi:type="uml:OpaqueAction" xmi:id="_FjUg4LBEEe-BbcwpMmGpSw" name="Realiza consulta"/>
               <node xmi:type="uml:OpaqueAction" xmi:id="_obvRQLBEEe-BbcwpMmGpSw" name="Devuelve datos" incoming="_N4z6QLBGEe-BbcwpMmGpSw" outgoing="_YSrRELBGEe-BbcwpMmGpSw"/>
               <node xmi:type="uml:OpaqueAction" xmi:id="_QDMHILBGEe-BbcwpMmGpSw" name="Procesar datos historicos" incoming="_YSrRELBGEe-BbcwpMmGpSw" outgoing="_Y5G-8LBGEe-BbcwpMmGpSw"/>
@@ -494,28 +480,6 @@
             </ownedBehavior>
           </packagedElement>
           <packagedElement xmi:type="uml:UseCase" xmi:id="_mRgDgLDiEe-8y4rRCKR-kQ" name="Medir Frecuencia Cardiaca" subject="_uabF8LAzEe-BbcwpMmGpSw">
-            <ownedBehavior xmi:type="uml:Activity" xmi:id="_Qb35cMYqEe-YqrVdWg0KBQ" name="Activity3" node="_HNWvsLT4Ee-LmoY09DOm4w _6rNBQLT4Ee-LmoY09DOm4w _RF2M4LT6Ee-LmoY09DOm4w _R9wsULT6Ee-LmoY09DOm4w _SBR6YLT6Ee-LmoY09DOm4w _D7R-ILT8Ee-LmoY09DOm4w _ubKPILT8Ee-LmoY09DOm4w _Qqrn4MlTEe-OaNUYtJJBtw" group="_XEnOMLT2Ee-LmoY09DOm4w _a2wDELT2Ee-LmoY09DOm4w _iweYYLT2Ee-LmoY09DOm4w _a5xTILT8Ee-LmoY09DOm4w _1c8pILT3Ee-LmoY09DOm4w">
-              <edge xmi:type="uml:ControlFlow" xmi:id="_znDMkLT5Ee-LmoY09DOm4w" target="_HNWvsLT4Ee-LmoY09DOm4w" source="_6rNBQLT4Ee-LmoY09DOm4w"/>
-              <edge xmi:type="uml:ControlFlow" xmi:id="_ZeZzQLT6Ee-LmoY09DOm4w" target="_RF2M4LT6Ee-LmoY09DOm4w" source="_HNWvsLT4Ee-LmoY09DOm4w"/>
-              <edge xmi:type="uml:ControlFlow" xmi:id="_q2-MILT7Ee-LmoY09DOm4w" target="_SBR6YLT6Ee-LmoY09DOm4w" source="_R9wsULT6Ee-LmoY09DOm4w"/>
-              <edge xmi:type="uml:ControlFlow" xmi:id="_X0x4ILT8Ee-LmoY09DOm4w" target="_D7R-ILT8Ee-LmoY09DOm4w" source="_SBR6YLT6Ee-LmoY09DOm4w"/>
-              <edge xmi:type="uml:ControlFlow" xmi:id="_zbHiALT8Ee-LmoY09DOm4w" name="[NOT OK]" target="_Qqrn4MlTEe-OaNUYtJJBtw" source="_D7R-ILT8Ee-LmoY09DOm4w"/>
-              <edge xmi:type="uml:ControlFlow" xmi:id="_XDMCEMlTEe-OaNUYtJJBtw" target="_ubKPILT8Ee-LmoY09DOm4w" source="_Qqrn4MlTEe-OaNUYtJJBtw"/>
-              <edge xmi:type="uml:ControlFlow" xmi:id="_ukL60M0PEe-tFb5EkK8r7Q" target="_R9wsULT6Ee-LmoY09DOm4w" source="_RF2M4LT6Ee-LmoY09DOm4w"/>
-              <group xmi:type="uml:ActivityPartition" xmi:id="_XEnOMLT2Ee-LmoY09DOm4w" name="ActivityPartition1" node="_D7R-ILT8Ee-LmoY09DOm4w _R9wsULT6Ee-LmoY09DOm4w" represents="_PfI7cLDhEe-8y4rRCKR-kQ"/>
-              <group xmi:type="uml:ActivityPartition" xmi:id="_a2wDELT2Ee-LmoY09DOm4w" name="ActivityPartition2" node="_6rNBQLT4Ee-LmoY09DOm4w _HNWvsLT4Ee-LmoY09DOm4w" represents="_1M3sELDhEe-8y4rRCKR-kQ"/>
-              <group xmi:type="uml:ActivityPartition" xmi:id="_iweYYLT2Ee-LmoY09DOm4w" name="ActivityPartition3" node="_RF2M4LT6Ee-LmoY09DOm4w" represents="_TDHBoLBWEe-zy5umMi3cxw"/>
-              <group xmi:type="uml:ActivityPartition" xmi:id="_1c8pILT3Ee-LmoY09DOm4w" name="ActivityPartition4" node="_SBR6YLT6Ee-LmoY09DOm4w _D7R-ILT8Ee-LmoY09DOm4w" represents="_6TvKILDfEe-8y4rRCKR-kQ"/>
-              <group xmi:type="uml:ActivityPartition" xmi:id="_a5xTILT8Ee-LmoY09DOm4w" name="ActivityPartition22" node="_ubKPILT8Ee-LmoY09DOm4w" represents="_mLTxYLDhEe-8y4rRCKR-kQ"/>
-              <node xmi:type="uml:OpaqueAction" xmi:id="_HNWvsLT4Ee-LmoY09DOm4w" name="Latido" incoming="_znDMkLT5Ee-LmoY09DOm4w" outgoing="_ZeZzQLT6Ee-LmoY09DOm4w" inPartition="_a2wDELT2Ee-LmoY09DOm4w"/>
-              <node xmi:type="uml:InitialNode" xmi:id="_6rNBQLT4Ee-LmoY09DOm4w" name="" outgoing="_znDMkLT5Ee-LmoY09DOm4w" inPartition="_a2wDELT2Ee-LmoY09DOm4w"/>
-              <node xmi:type="uml:OpaqueAction" xmi:id="_RF2M4LT6Ee-LmoY09DOm4w" name="Medicion de Frecuencia Cardiaca" incoming="_ZeZzQLT6Ee-LmoY09DOm4w" outgoing="_ukL60M0PEe-tFb5EkK8r7Q" inPartition="_iweYYLT2Ee-LmoY09DOm4w"/>
-              <node xmi:type="uml:OpaqueAction" xmi:id="_R9wsULT6Ee-LmoY09DOm4w" name="Procesamiento de Datos de los Sensores" incoming="_ukL60M0PEe-tFb5EkK8r7Q" outgoing="_q2-MILT7Ee-LmoY09DOm4w" inPartition="_XEnOMLT2Ee-LmoY09DOm4w"/>
-              <node xmi:type="uml:OpaqueAction" xmi:id="_SBR6YLT6Ee-LmoY09DOm4w" name="Intento de Transmisión Bluetooth de los Datos" incoming="_q2-MILT7Ee-LmoY09DOm4w" outgoing="_X0x4ILT8Ee-LmoY09DOm4w" inPartition="_1c8pILT3Ee-LmoY09DOm4w"/>
-              <node xmi:type="uml:DecisionNode" xmi:id="_D7R-ILT8Ee-LmoY09DOm4w" name="¿Datos Transmitidos?" incoming="_X0x4ILT8Ee-LmoY09DOm4w" outgoing="_zbHiALT8Ee-LmoY09DOm4w" inPartition="_XEnOMLT2Ee-LmoY09DOm4w _1c8pILT3Ee-LmoY09DOm4w"/>
-              <node xmi:type="uml:OpaqueAction" xmi:id="_ubKPILT8Ee-LmoY09DOm4w" name="Envio de Alerta por SMS" incoming="_XDMCEMlTEe-OaNUYtJJBtw" inPartition="_a5xTILT8Ee-LmoY09DOm4w"/>
-              <node xmi:type="uml:OpaqueAction" xmi:id="_Qqrn4MlTEe-OaNUYtJJBtw" name="Emitir alerta de desconexión" incoming="_zbHiALT8Ee-LmoY09DOm4w" outgoing="_XDMCEMlTEe-OaNUYtJJBtw"/>
-            </ownedBehavior>
             <include xmi:type="uml:Include" xmi:id="_rka5MLDjEe-8y4rRCKR-kQ" addition="_gh0HYLDjEe-8y4rRCKR-kQ"/>
           </packagedElement>
         </packagedElement>
@@ -523,6 +487,8 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_t_-wYLBZEe-zy5umMi3cxw" name="MOEs">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_kCDSMLBaEe-zy5umMi3cxw" name="Pulsaciones por minuto" type="_AnBkALBaEe-zy5umMi3cxw"/>
           </packagedElement>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_DgBm4NKHEe-dc4GHDoBDwA" client="_kCDSMLBaEe-zy5umMi3cxw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_m4f64NKIEe-dc4GHDoBDwA" client="_kCDSMLBaEe-zy5umMi3cxw" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_6dALUK6kEe-jw5SriieKnQ" name="5 Types">
           <packagedElement xmi:type="uml:Stereotype" xmi:id="_7-U6kLBZEe-zy5umMi3cxw" name="&lt;&lt;moe>>">
@@ -799,7 +765,7 @@
             <node xmi:type="uml:OpaqueAction" xmi:id="_AVizMMlYEe-OaNUYtJJBtw" name="Cálculo de BPM" incoming="_f23aAMlaEe-OaNUYtJJBtw" outgoing="_jjYIAMlaEe-OaNUYtJJBtw"/>
             <node xmi:type="uml:OpaqueAction" xmi:id="_F2RQ0MlYEe-OaNUYtJJBtw" name="Comprobación de rango" incoming="_jjYIAMlaEe-OaNUYtJJBtw" outgoing="_kYxe8MlaEe-OaNUYtJJBtw"/>
             <node xmi:type="uml:OpaqueAction" xmi:id="_QTFN8MlYEe-OaNUYtJJBtw" name="Generación de Mensaje de Alerta" incoming="_lER6EMlaEe-OaNUYtJJBtw" outgoing="_t1db0MlaEe-OaNUYtJJBtw"/>
-            <node xmi:type="uml:OpaqueAction" xmi:id="_39vlUMlYEe-OaNUYtJJBtw" name="Preparación de datos para el envío" incoming="_mdgW0MlaEe-OaNUYtJJBtw _t1db0MlaEe-OaNUYtJJBtw" outgoing="_E3Kc4MlbEe-OaNUYtJJBtw" inPartition="_anFp0MlXEe-OaNUYtJJBtw">
+            <node xmi:type="uml:OpaqueAction" xmi:id="_39vlUMlYEe-OaNUYtJJBtw" name="Preparación de datos para el envío Bluethooth/GSM" incoming="_mdgW0MlaEe-OaNUYtJJBtw _t1db0MlaEe-OaNUYtJJBtw" outgoing="_E3Kc4MlbEe-OaNUYtJJBtw" inPartition="_anFp0MlXEe-OaNUYtJJBtw">
               <outputValue xmi:type="uml:OutputPin" xmi:id="_ZSNaMMlaEe-OaNUYtJJBtw" name="Datos para envío" outgoing="_6FNWMMlaEe-OaNUYtJJBtw" inPartition="_anFp0MlXEe-OaNUYtJJBtw">
                 <upperBound xmi:type="uml:LiteralInteger" xmi:id="_ZSOBQMlaEe-OaNUYtJJBtw" value="1"/>
               </outputValue>
@@ -841,8 +807,113 @@
             </node>
           </packagedElement>
           <packagedElement xmi:type="uml:Activity" xmi:id="_SZvTENCYEe-NrIXflJriQQ" name="Procesar datos para EKG"/>
-          <packagedElement xmi:type="uml:Abstraction" xmi:id="_mX2NkNEXEe-pO6Yje0LGmA" client="_Id_uwLNkEe-lmJ3CENy7zw" supplier="_jQjS0K6kEe-BPZckyR9NAg"/>
           <packagedElement xmi:type="uml:Abstraction" xmi:id="_mrHH0NEXEe-pO6Yje0LGmA" client="_FZ0xoM0XEe-tFb5EkK8r7Q" supplier="_jQjS0K6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_0HMbsNKGEe-dc4GHDoBDwA" client="_Id_uwLNkEe-lmJ3CENy7zw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_1G4XENKGEe-dc4GHDoBDwA" client="_fRQZQLNmEe-lmJ3CENy7zw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_2QYVwNKGEe-dc4GHDoBDwA" client="_rhfCsMSnEe-PCcdtsJPHBA" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_27V-UNKGEe-dc4GHDoBDwA" client="_FZ0xoM0XEe-tFb5EkK8r7Q" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_3M-g4NKGEe-dc4GHDoBDwA" client="_9BEsYNCXEe-NrIXflJriQQ" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_3kkhgNKGEe-dc4GHDoBDwA" client="_a8Y8sLNkEe-lmJ3CENy7zw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_4CAEYNKGEe-dc4GHDoBDwA" client="_7k5h8NCaEe-NrIXflJriQQ" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_4PwMgNKGEe-dc4GHDoBDwA" client="_vD8IgLNeEe-lmJ3CENy7zw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_58gpQNKGEe-dc4GHDoBDwA" client="_05tpELNeEe-lmJ3CENy7zw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_6Ls70NKGEe-dc4GHDoBDwA" client="_Kdc3ULNfEe-lmJ3CENy7zw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_6lbqcNKGEe-dc4GHDoBDwA" client="_teHkwLNfEe-lmJ3CENy7zw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="__GW38NKGEe-dc4GHDoBDwA" client="_4Ne-cLT0Ee-K5PXKdlJNpw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="__JUsYNKGEe-dc4GHDoBDwA" client="_4NgMkLT0Ee-K5PXKdlJNpw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="__bPi0NKGEe-dc4GHDoBDwA" client="_4NjP4LT0Ee-K5PXKdlJNpw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_AvlfkNKHEe-dc4GHDoBDwA" client="_s0a88MlXEe-OaNUYtJJBtw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_A_BCsNKHEe-dc4GHDoBDwA" client="_pRS0cMlXEe-OaNUYtJJBtw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_BRG4QNKHEe-dc4GHDoBDwA" client="_AVizMMlYEe-OaNUYtJJBtw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_BafdwNKHEe-dc4GHDoBDwA" client="_F2RQ0MlYEe-OaNUYtJJBtw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_B9yYENKHEe-dc4GHDoBDwA" client="_39vlUMlYEe-OaNUYtJJBtw" supplier="_INye0K6eEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_GugVENKHEe-dc4GHDoBDwA" client="_Id_uwLNkEe-lmJ3CENy7zw" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_G5akkNKHEe-dc4GHDoBDwA" client="_fRQZQLNmEe-lmJ3CENy7zw" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_HLyG8NKHEe-dc4GHDoBDwA" client="_rhfCsMSnEe-PCcdtsJPHBA" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_HaB-UNKHEe-dc4GHDoBDwA" client="_FZ0xoM0XEe-tFb5EkK8r7Q" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Hvep4NKHEe-dc4GHDoBDwA" client="_9BEsYNCXEe-NrIXflJriQQ" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_H7j-ENKHEe-dc4GHDoBDwA" client="_a8Y8sLNkEe-lmJ3CENy7zw" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Irj3oNKHEe-dc4GHDoBDwA" client="_teHkwLNfEe-lmJ3CENy7zw" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_I4an4NKHEe-dc4GHDoBDwA" client="_vYLoQLNgEe-lmJ3CENy7zw" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_JUk_cNKHEe-dc4GHDoBDwA" client="_tazuwLTjEe-K5PXKdlJNpw" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_LH4wINKHEe-dc4GHDoBDwA" client="_rLvkQLTlEe-K5PXKdlJNpw" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_MG1EoNKHEe-dc4GHDoBDwA" client="_bes0MMSqEe-PCcdtsJPHBA" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_NOi6oNKHEe-dc4GHDoBDwA" client="_i3TEMMYwEe-YqrVdWg0KBQ" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_OayEQNKHEe-dc4GHDoBDwA" client="_QTFN8MlYEe-OaNUYtJJBtw" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_OxIHsNKHEe-dc4GHDoBDwA" client="_AVizMMlYEe-OaNUYtJJBtw" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_PffpkNKHEe-dc4GHDoBDwA" client="_yf0nQMlcEe-OaNUYtJJBtw" supplier="_Pvuw0K6fEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_U08rUNKHEe-dc4GHDoBDwA" client="_teHkwLNfEe-lmJ3CENy7zw" supplier="_6_acMK6hEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_VERgwNKHEe-dc4GHDoBDwA" client="_dnq-kLNhEe-lmJ3CENy7zw" supplier="_6_acMK6hEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Vt5FgNKHEe-dc4GHDoBDwA" client="_FZ0xoM0XEe-tFb5EkK8r7Q" supplier="_6_acMK6hEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_WGvqYNKHEe-dc4GHDoBDwA" client="_bJJ08LTmEe-K5PXKdlJNpw" supplier="_6_acMK6hEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Wrmq8NKHEe-dc4GHDoBDwA" client="_i5KNkLTmEe-K5PXKdlJNpw" supplier="_6_acMK6hEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_XnzNcNKHEe-dc4GHDoBDwA" client="_bes0MMSqEe-PCcdtsJPHBA" supplier="_6_acMK6hEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_YTX6ANKHEe-dc4GHDoBDwA" client="_PUXFULTzEe-K5PXKdlJNpw" supplier="_6_acMK6hEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_aKlTQNKHEe-dc4GHDoBDwA" client="_F2RQ0MlYEe-OaNUYtJJBtw" supplier="_6_acMK6hEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_dA1usNKHEe-dc4GHDoBDwA" client="_Id_uwLNkEe-lmJ3CENy7zw" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_dIG0UNKHEe-dc4GHDoBDwA" client="_AMjyILNmEe-lmJ3CENy7zw" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_dPaWMNKHEe-dc4GHDoBDwA" client="_fRQZQLNmEe-lmJ3CENy7zw" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_ddBUYNKHEe-dc4GHDoBDwA" client="_rhfCsMSnEe-PCcdtsJPHBA" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_eLztANKHEe-dc4GHDoBDwA" client="_FZ0xoM0XEe-tFb5EkK8r7Q" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_jIykYNKHEe-dc4GHDoBDwA" client="_05tpELNeEe-lmJ3CENy7zw" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_jR-VkNKHEe-dc4GHDoBDwA" client="_Kdc3ULNfEe-lmJ3CENy7zw" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_kdZm4NKHEe-dc4GHDoBDwA" client="_tazuwLTjEe-K5PXKdlJNpw" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_lKogUNKHEe-dc4GHDoBDwA" client="_yR2WMLTjEe-K5PXKdlJNpw" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_lcnoMNKHEe-dc4GHDoBDwA" client="_bJJ08LTmEe-K5PXKdlJNpw" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_lltSwNKHEe-dc4GHDoBDwA" client="_fmRggLTmEe-K5PXKdlJNpw" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_mBPYMNKHEe-dc4GHDoBDwA" client="_i5KNkLTmEe-K5PXKdlJNpw" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_oACnMNKHEe-dc4GHDoBDwA" client="_yf0nQMlcEe-OaNUYtJJBtw" supplier="_vg-0kK6iEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_uUBGsNKHEe-dc4GHDoBDwA" client="_i3TEMMYwEe-YqrVdWg0KBQ" supplier="_w-5uoK6jEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_uhuykNKHEe-dc4GHDoBDwA" client="_-pmGcMYwEe-YqrVdWg0KBQ" supplier="_w-5uoK6jEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_uu32sNKHEe-dc4GHDoBDwA" client="_-uHaEMYwEe-YqrVdWg0KBQ" supplier="_w-5uoK6jEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_u7IxENKHEe-dc4GHDoBDwA" client="_F4zpsMYyEe-YqrVdWg0KBQ" supplier="_w-5uoK6jEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_yi5h8NKHEe-dc4GHDoBDwA" client="_vD8IgLNeEe-lmJ3CENy7zw" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_0FjngNKHEe-dc4GHDoBDwA" client="_7k5h8NCaEe-NrIXflJriQQ" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_0rx6ANKHEe-dc4GHDoBDwA" client="_Kdc3ULNfEe-lmJ3CENy7zw" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_1zkogNKHEe-dc4GHDoBDwA" client="_yR2WMLTjEe-K5PXKdlJNpw" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_1_8QkNKHEe-dc4GHDoBDwA" client="_bJJ08LTmEe-K5PXKdlJNpw" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_2Jmi4NKHEe-dc4GHDoBDwA" client="_fmRggLTmEe-K5PXKdlJNpw" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_2hjI0NKHEe-dc4GHDoBDwA" client="_i5KNkLTmEe-K5PXKdlJNpw" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_2uR9QNKHEe-dc4GHDoBDwA" client="_pWNwkLTmEe-K5PXKdlJNpw" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_4GRD4NKHEe-dc4GHDoBDwA" client="_4NgMkLT0Ee-K5PXKdlJNpw" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_4fjGkNKHEe-dc4GHDoBDwA" client="_4Ne-cLT0Ee-K5PXKdlJNpw" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_5dxpYNKHEe-dc4GHDoBDwA" client="_PUXFULTzEe-K5PXKdlJNpw" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_6UM7ENKHEe-dc4GHDoBDwA" client="_i3TEMMYwEe-YqrVdWg0KBQ" supplier="_B_5KcK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_W9LtsNKIEe-dc4GHDoBDwA" client="_teHkwLNfEe-lmJ3CENy7zw" supplier="_jQjS0K6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_Y56gINKIEe-dc4GHDoBDwA" client="_fRQZQLNmEe-lmJ3CENy7zw" supplier="_jQjS0K6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_fBBoUNKIEe-dc4GHDoBDwA" client="_Id_uwLNkEe-lmJ3CENy7zw" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_fN0HINKIEe-dc4GHDoBDwA" client="_AMjyILNmEe-lmJ3CENy7zw" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_fnADMNKIEe-dc4GHDoBDwA" client="_rhfCsMSnEe-PCcdtsJPHBA" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_gwxHoNKIEe-dc4GHDoBDwA" client="_xuKkALNnEe-lmJ3CENy7zw" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_hmenoNKIEe-dc4GHDoBDwA" client="_teHkwLNfEe-lmJ3CENy7zw" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_iCvs4NKIEe-dc4GHDoBDwA" client="_vYLoQLNgEe-lmJ3CENy7zw" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_ieDI0NKIEe-dc4GHDoBDwA" client="_WY9DMLNjEe-lmJ3CENy7zw" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_i-_SsNKIEe-dc4GHDoBDwA" client="_bes0MMSqEe-PCcdtsJPHBA" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_ljz_4NKIEe-dc4GHDoBDwA" client="_QTFN8MlYEe-OaNUYtJJBtw" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_l1HyUNKIEe-dc4GHDoBDwA" client="_ZSNaMMlaEe-OaNUYtJJBtw" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Abstraction" xmi:id="_QAiPMNKJEe-dc4GHDoBDwA" client="_39vlUMlYEe-OaNUYtJJBtw" supplier="_p1e_cK6kEe-BPZckyR9NAg"/>
+          <packagedElement xmi:type="uml:Activity" xmi:id="_Qb35cMYqEe-YqrVdWg0KBQ" name="Medir frecuencia cardiaca" node="_HNWvsLT4Ee-LmoY09DOm4w _6rNBQLT4Ee-LmoY09DOm4w _RF2M4LT6Ee-LmoY09DOm4w _R9wsULT6Ee-LmoY09DOm4w _SBR6YLT6Ee-LmoY09DOm4w _D7R-ILT8Ee-LmoY09DOm4w _ubKPILT8Ee-LmoY09DOm4w _Qqrn4MlTEe-OaNUYtJJBtw" group="_XEnOMLT2Ee-LmoY09DOm4w _a2wDELT2Ee-LmoY09DOm4w _iweYYLT2Ee-LmoY09DOm4w _a5xTILT8Ee-LmoY09DOm4w _1c8pILT3Ee-LmoY09DOm4w">
+            <edge xmi:type="uml:ControlFlow" xmi:id="_znDMkLT5Ee-LmoY09DOm4w" target="_HNWvsLT4Ee-LmoY09DOm4w" source="_6rNBQLT4Ee-LmoY09DOm4w"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_ZeZzQLT6Ee-LmoY09DOm4w" target="_RF2M4LT6Ee-LmoY09DOm4w" source="_HNWvsLT4Ee-LmoY09DOm4w"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_q2-MILT7Ee-LmoY09DOm4w" target="_SBR6YLT6Ee-LmoY09DOm4w" source="_R9wsULT6Ee-LmoY09DOm4w"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_X0x4ILT8Ee-LmoY09DOm4w" target="_D7R-ILT8Ee-LmoY09DOm4w" source="_SBR6YLT6Ee-LmoY09DOm4w"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_zbHiALT8Ee-LmoY09DOm4w" name="[NOT OK]" target="_Qqrn4MlTEe-OaNUYtJJBtw" source="_D7R-ILT8Ee-LmoY09DOm4w"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_XDMCEMlTEe-OaNUYtJJBtw" target="_ubKPILT8Ee-LmoY09DOm4w" source="_Qqrn4MlTEe-OaNUYtJJBtw"/>
+            <edge xmi:type="uml:ControlFlow" xmi:id="_ukL60M0PEe-tFb5EkK8r7Q" target="_R9wsULT6Ee-LmoY09DOm4w" source="_RF2M4LT6Ee-LmoY09DOm4w"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_XEnOMLT2Ee-LmoY09DOm4w" name="ActivityPartition1" node="_D7R-ILT8Ee-LmoY09DOm4w _R9wsULT6Ee-LmoY09DOm4w" represents="_PfI7cLDhEe-8y4rRCKR-kQ"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_a2wDELT2Ee-LmoY09DOm4w" name="ActivityPartition2" node="_6rNBQLT4Ee-LmoY09DOm4w _HNWvsLT4Ee-LmoY09DOm4w" represents="_1M3sELDhEe-8y4rRCKR-kQ"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_iweYYLT2Ee-LmoY09DOm4w" name="ActivityPartition3" node="_RF2M4LT6Ee-LmoY09DOm4w" represents="_TDHBoLBWEe-zy5umMi3cxw"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_1c8pILT3Ee-LmoY09DOm4w" name="ActivityPartition4" node="_SBR6YLT6Ee-LmoY09DOm4w _D7R-ILT8Ee-LmoY09DOm4w" represents="_hz0zwLDhEe-8y4rRCKR-kQ"/>
+            <group xmi:type="uml:ActivityPartition" xmi:id="_a5xTILT8Ee-LmoY09DOm4w" name="ActivityPartition22" node="_ubKPILT8Ee-LmoY09DOm4w" represents="_mLTxYLDhEe-8y4rRCKR-kQ"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_HNWvsLT4Ee-LmoY09DOm4w" name="Latido" incoming="_znDMkLT5Ee-LmoY09DOm4w" outgoing="_ZeZzQLT6Ee-LmoY09DOm4w" inPartition="_a2wDELT2Ee-LmoY09DOm4w"/>
+            <node xmi:type="uml:InitialNode" xmi:id="_6rNBQLT4Ee-LmoY09DOm4w" name="" outgoing="_znDMkLT5Ee-LmoY09DOm4w" inPartition="_a2wDELT2Ee-LmoY09DOm4w"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_RF2M4LT6Ee-LmoY09DOm4w" name="Medicion de Frecuencia Cardiaca" incoming="_ZeZzQLT6Ee-LmoY09DOm4w" outgoing="_ukL60M0PEe-tFb5EkK8r7Q" inPartition="_iweYYLT2Ee-LmoY09DOm4w"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_R9wsULT6Ee-LmoY09DOm4w" name="Procesamiento de Datos de los Sensores" incoming="_ukL60M0PEe-tFb5EkK8r7Q" outgoing="_q2-MILT7Ee-LmoY09DOm4w" inPartition="_XEnOMLT2Ee-LmoY09DOm4w"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_SBR6YLT6Ee-LmoY09DOm4w" name="Intento de Transmisión Bluetooth de los Datos" incoming="_q2-MILT7Ee-LmoY09DOm4w" outgoing="_X0x4ILT8Ee-LmoY09DOm4w" inPartition="_1c8pILT3Ee-LmoY09DOm4w"/>
+            <node xmi:type="uml:DecisionNode" xmi:id="_D7R-ILT8Ee-LmoY09DOm4w" name="¿Datos Transmitidos?" incoming="_X0x4ILT8Ee-LmoY09DOm4w" outgoing="_zbHiALT8Ee-LmoY09DOm4w" inPartition="_XEnOMLT2Ee-LmoY09DOm4w _1c8pILT3Ee-LmoY09DOm4w"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_ubKPILT8Ee-LmoY09DOm4w" name="Envio de Alerta por SMS" incoming="_XDMCEMlTEe-OaNUYtJJBtw" inPartition="_a5xTILT8Ee-LmoY09DOm4w"/>
+            <node xmi:type="uml:OpaqueAction" xmi:id="_Qqrn4MlTEe-OaNUYtJJBtw" name="Emitir alerta de desconexión" incoming="_zbHiALT8Ee-LmoY09DOm4w" outgoing="_XDMCEMlTEe-OaNUYtJJBtw"/>
+          </packagedElement>
         </packagedElement>
         <packagedElement xmi:type="uml:Package" xmi:id="_3QyL8LNPEe-lmJ3CENy7zw" name="3 Logical architecture">
           <packagedElement xmi:type="uml:Package" xmi:id="_9m6AgLNPEe-lmJ3CENy7zw" name="1 Interfaces">
@@ -873,7 +944,12 @@
             <packagedElement xmi:type="uml:Class" xmi:id="_92IH8M-NEe-E864X6ZiT7w" name="Datos Procesados y presentados">
               <ownedAttribute xmi:type="uml:Property" xmi:id="_d91EMM-OEe-E864X6ZiT7w" name="Datos Procesados y presentados"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_RvEL0M-PEe-E864X6ZiT7w" name="Datos Validados"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_RvEL0M-PEe-E864X6ZiT7w" name="Datos Validados">
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_RGPrUNKPEe-dc4GHDoBDwA" name="Datos validados flow" visibility="public"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Class" xmi:id="_HR8fsNKPEe-dc4GHDoBDwA" name="Data receiver">
+              <ownedAttribute xmi:type="uml:Property" xmi:id="_Y28AcNKPEe-dc4GHDoBDwA" name="Data receiver flow" visibility="public"/>
+            </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Package" xmi:id="_CPc48LNQEe-lmJ3CENy7zw" name="2 Logical subsystems">
             <packagedElement xmi:type="uml:Class" xmi:id="_1Q9z0MlJEe-OaNUYtJJBtw" name="Sistema de Recepción y Validación de Datos">
@@ -904,7 +980,13 @@
               <ownedAttribute xmi:type="uml:Port" xmi:id="_ZFeDkM-NEe-E864X6ZiT7w" name="Port1" type="_ymsQgM-MEe-E864X6ZiT7w" aggregation="composite"/>
               <ownedAttribute xmi:type="uml:Port" xmi:id="_fxBVkM-NEe-E864X6ZiT7w" name="Port2" type="_JB-KwM-NEe-E864X6ZiT7w" aggregation="composite"/>
             </packagedElement>
-            <packagedElement xmi:type="uml:Class" xmi:id="_x2eRoNCWEe-NrIXflJriQQ" name="Block8"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_hz0zwLDhEe-8y4rRCKR-kQ" name="Módulo Bluetooth "/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_mLTxYLDhEe-8y4rRCKR-kQ" name="Módulo GSM"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_ap15ULDhEe-8y4rRCKR-kQ" name="Sensor de Frecuencia Cardiaca"/>
+            <packagedElement xmi:type="uml:Class" xmi:id="_oE8toNKNEe-dc4GHDoBDwA" name="Sistema de gestión de base de datos">
+              <ownedAttribute xmi:type="uml:Port" xmi:id="_WE7BQNKOEe-dc4GHDoBDwA" name="Port2" type="_RvEL0M-PEe-E864X6ZiT7w" aggregation="composite"/>
+              <ownedAttribute xmi:type="uml:Port" xmi:id="_cu2GINKPEe-dc4GHDoBDwA" name="Port2" type="_HR8fsNKPEe-dc4GHDoBDwA" aggregation="composite"/>
+            </packagedElement>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_PfI7cLDhEe-8y4rRCKR-kQ" name="Microcontrolador principal">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_RlisIM0NEe-tFb5EkK8r7Q" name="Property1" type="_8uJrMMlWEe-OaNUYtJJBtw" aggregation="composite"/>
@@ -927,14 +1009,19 @@
           <packagedElement xmi:type="uml:Class" xmi:id="_R4nncLA1Ee-BbcwpMmGpSw" name="Interfaz de Usuario">
             <ownedAttribute xmi:type="uml:Property" xmi:id="_uCHukM0aEe-tFb5EkK8r7Q" name="Property1" type="_1Q9z0MlJEe-OaNUYtJJBtw" aggregation="composite"/>
             <ownedAttribute xmi:type="uml:Port" xmi:id="_8s9D8M-OEe-E864X6ZiT7w" name="Datos" type="_ymsQgM-MEe-E864X6ZiT7w" aggregation="composite"/>
-            <ownedAttribute xmi:type="uml:Port" xmi:id="_TcglEM-PEe-E864X6ZiT7w" name="Datos validados" type="_RvEL0M-PEe-E864X6ZiT7w" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Port" xmi:id="_TcglEM-PEe-E864X6ZiT7w" name="Datos validados" type="_HR8fsNKPEe-dc4GHDoBDwA" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_y72lwNKNEe-dc4GHDoBDwA" name="Property6" type="_oE8toNKNEe-dc4GHDoBDwA" aggregation="composite"/>
             <ownedConnector xmi:type="uml:Connector" xmi:id="_Pm0F4M-PEe-E864X6ZiT7w" name="Connector3">
               <end xmi:type="uml:ConnectorEnd" xmi:id="_Pm17EM-PEe-E864X6ZiT7w" role="_8s9D8M-OEe-E864X6ZiT7w"/>
               <end xmi:type="uml:ConnectorEnd" xmi:id="_Pm2iIM-PEe-E864X6ZiT7w" partWithPort="_uCHukM0aEe-tFb5EkK8r7Q" role="_C7rQAM-PEe-E864X6ZiT7w"/>
             </ownedConnector>
             <ownedConnector xmi:type="uml:Connector" xmi:id="_hQJ7IM-PEe-E864X6ZiT7w" name="Connector5">
               <end xmi:type="uml:ConnectorEnd" xmi:id="_hQLJQM-PEe-E864X6ZiT7w" partWithPort="_uCHukM0aEe-tFb5EkK8r7Q" role="_UBGf4M-PEe-E864X6ZiT7w"/>
-              <end xmi:type="uml:ConnectorEnd" xmi:id="_hQLJQc-PEe-E864X6ZiT7w" role="_TcglEM-PEe-E864X6ZiT7w"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_hQLJQc-PEe-E864X6ZiT7w" partWithPort="_y72lwNKNEe-dc4GHDoBDwA" role="_WE7BQNKOEe-dc4GHDoBDwA"/>
+            </ownedConnector>
+            <ownedConnector xmi:type="uml:Connector" xmi:id="_hG5EcNKPEe-dc4GHDoBDwA" name="Connector7">
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_hG6SkNKPEe-dc4GHDoBDwA" partWithPort="_y72lwNKNEe-dc4GHDoBDwA" role="_cu2GINKPEe-dc4GHDoBDwA"/>
+              <end xmi:type="uml:ConnectorEnd" xmi:id="_hG6SkdKPEe-dc4GHDoBDwA" role="_TcglEM-PEe-E864X6ZiT7w"/>
             </ownedConnector>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_f3RToLA1Ee-BbcwpMmGpSw" name="Módulo de procesamiento y consulta de datos en tiempo real">
@@ -980,6 +1067,21 @@
               <end xmi:type="uml:ConnectorEnd" xmi:id="_xGt2EM-NEe-E864X6ZiT7w" partWithPort="_PG9zEM0cEe-tFb5EkK8r7Q" role="_fxBVkM-NEe-E864X6ZiT7w"/>
               <end xmi:type="uml:ConnectorEnd" xmi:id="_xGt2Ec-NEe-E864X6ZiT7w" role="_rvHfQM-NEe-E864X6ZiT7w"/>
             </ownedConnector>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Class" xmi:id="_uabF8LAzEe-BbcwpMmGpSw" name="Modulo de monitoreo de frecuencia cardiaca" useCase="_mRgDgLDiEe-8y4rRCKR-kQ _gh0HYLDjEe-8y4rRCKR-kQ _7LKkkLDjEe-8y4rRCKR-kQ _JpX6kLDkEe-8y4rRCKR-kQ">
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_gh0HYLDjEe-8y4rRCKR-kQ" name="Digitalizar y Procesar los datos de Frecuencia Cardiaca" subject="_uabF8LAzEe-BbcwpMmGpSw">
+              <include xmi:type="uml:Include" xmi:id="_BaXRwLDkEe-8y4rRCKR-kQ" addition="_7LKkkLDjEe-8y4rRCKR-kQ"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_7LKkkLDjEe-8y4rRCKR-kQ" name="Enviar Datos al dispositivo movil por Bluetooth" subject="_uabF8LAzEe-BbcwpMmGpSw">
+              <extend xmi:type="uml:Extend" xmi:id="_dXD2IMYtEe-YqrVdWg0KBQ" extendedCase="_JpX6kLDkEe-8y4rRCKR-kQ" extensionLocation="_dXLx8MYtEe-YqrVdWg0KBQ"/>
+            </ownedUseCase>
+            <ownedUseCase xmi:type="uml:UseCase" xmi:id="_JpX6kLDkEe-8y4rRCKR-kQ" name="Enviar alerta por SMS en caso de Fallo de Conexión" subject="_uabF8LAzEe-BbcwpMmGpSw">
+              <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_dXLx8MYtEe-YqrVdWg0KBQ" name="ExtensionPoint1"/>
+            </ownedUseCase>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_NOqGkLDhEe-8y4rRCKR-kQ" name="Property4" type="_PfI7cLDhEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_YaSRgLDhEe-8y4rRCKR-kQ" name="Property5" type="_ap15ULDhEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_hTLk0LDhEe-8y4rRCKR-kQ" name="Property5" type="_hz0zwLDhEe-8y4rRCKR-kQ" aggregation="composite"/>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_lzd5ILDhEe-8y4rRCKR-kQ" name="Property6" type="_mLTxYLDhEe-8y4rRCKR-kQ" aggregation="composite"/>
           </packagedElement>
         </packagedElement>
       </packagedElement>
@@ -1080,7 +1182,6 @@
   <Blocks:Block xmi:id="_TDJd4LBWEe-zy5umMi3cxw" base_Class="_TDHBoLBWEe-zy5umMi3cxw"/>
   <Blocks:Block xmi:id="_uACawLBZEe-zy5umMi3cxw" base_Class="_t_-wYLBZEe-zy5umMi3cxw"/>
   <Blocks:Block xmi:id="_qdo0ILDfEe-8y4rRCKR-kQ" base_Class="_qdlJwLDfEe-8y4rRCKR-kQ"/>
-  <Blocks:Block xmi:id="_6Ty0gLDfEe-8y4rRCKR-kQ" base_Class="_6TvKILDfEe-8y4rRCKR-kQ"/>
   <Blocks:Block xmi:id="_U4eNELDgEe-8y4rRCKR-kQ" base_Class="_U4bJwLDgEe-8y4rRCKR-kQ"/>
   <Blocks:Block xmi:id="_YN4CoLDgEe-8y4rRCKR-kQ" base_Class="_YN1mYLDgEe-8y4rRCKR-kQ"/>
   <Blocks:Block xmi:id="_baYa4LDgEe-8y4rRCKR-kQ" base_Class="_baTiYLDgEe-8y4rRCKR-kQ"/>
@@ -1193,7 +1294,100 @@
   <Blocks:NestedConnectorEnd xmi:id="_Pm2iIc-PEe-E864X6ZiT7w" base_Element="_Pm2iIM-PEe-E864X6ZiT7w" propertyPath="_uCHukM0aEe-tFb5EkK8r7Q" base_ConnectorEnd="_Pm2iIM-PEe-E864X6ZiT7w"/>
   <PortsAndFlows:InterfaceBlock xmi:id="_RvKScM-PEe-E864X6ZiT7w" base_Class="_RvEL0M-PEe-E864X6ZiT7w"/>
   <Blocks:NestedConnectorEnd xmi:id="_hQLwUM-PEe-E864X6ZiT7w" base_Element="_hQLJQM-PEe-E864X6ZiT7w" propertyPath="_uCHukM0aEe-tFb5EkK8r7Q" base_ConnectorEnd="_hQLJQM-PEe-E864X6ZiT7w"/>
-  <Blocks:Block xmi:id="_x2zo0NCWEe-NrIXflJriQQ" base_Class="_x2eRoNCWEe-NrIXflJriQQ"/>
-  <standard:Refine xmi:id="_mX3bsNEXEe-pO6Yje0LGmA" base_Abstraction="_mX2NkNEXEe-pO6Yje0LGmA"/>
   <standard:Refine xmi:id="_mrIV8NEXEe-pO6Yje0LGmA" base_Abstraction="_mrHH0NEXEe-pO6Yje0LGmA"/>
+  <standard:Refine xmi:id="_0HNCwNKGEe-dc4GHDoBDwA" base_Abstraction="_0HMbsNKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_1G4-INKGEe-dc4GHDoBDwA" base_Abstraction="_1G4XENKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_2QY80NKGEe-dc4GHDoBDwA" base_Abstraction="_2QYVwNKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_27WlYNKGEe-dc4GHDoBDwA" base_Abstraction="_27V-UNKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_3M_H8NKGEe-dc4GHDoBDwA" base_Abstraction="_3M-g4NKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_3klIkNKGEe-dc4GHDoBDwA" base_Abstraction="_3kkhgNKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_4CArcNKGEe-dc4GHDoBDwA" base_Abstraction="_4CAEYNKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_4PwzkNKGEe-dc4GHDoBDwA" base_Abstraction="_4PwMgNKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_58hQUNKGEe-dc4GHDoBDwA" base_Abstraction="_58gpQNKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_6Lti4NKGEe-dc4GHDoBDwA" base_Abstraction="_6Ls70NKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_6lbqcdKGEe-dc4GHDoBDwA" base_Abstraction="_6lbqcNKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="__GXfANKGEe-dc4GHDoBDwA" base_Abstraction="__GW38NKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="__JUsYdKGEe-dc4GHDoBDwA" base_Abstraction="__JUsYNKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="__bPi0dKGEe-dc4GHDoBDwA" base_Abstraction="__bPi0NKGEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_AvmGoNKHEe-dc4GHDoBDwA" base_Abstraction="_AvlfkNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_A_BpwNKHEe-dc4GHDoBDwA" base_Abstraction="_A_BCsNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_BRG4QdKHEe-dc4GHDoBDwA" base_Abstraction="_BRG4QNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_BagE0NKHEe-dc4GHDoBDwA" base_Abstraction="_BafdwNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_B9y_INKHEe-dc4GHDoBDwA" base_Abstraction="_B9yYENKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_DgCN8NKHEe-dc4GHDoBDwA" base_Abstraction="_DgBm4NKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_Gug8INKHEe-dc4GHDoBDwA" base_Abstraction="_GugVENKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_G5bLoNKHEe-dc4GHDoBDwA" base_Abstraction="_G5akkNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_HLyuANKHEe-dc4GHDoBDwA" base_Abstraction="_HLyG8NKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_HaClYNKHEe-dc4GHDoBDwA" base_Abstraction="_HaB-UNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_HvfQ8NKHEe-dc4GHDoBDwA" base_Abstraction="_Hvep4NKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_H7klINKHEe-dc4GHDoBDwA" base_Abstraction="_H7j-ENKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_IrkesNKHEe-dc4GHDoBDwA" base_Abstraction="_Irj3oNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_I4bO8NKHEe-dc4GHDoBDwA" base_Abstraction="_I4an4NKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_JUlmgNKHEe-dc4GHDoBDwA" base_Abstraction="_JUk_cNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_LH5XMNKHEe-dc4GHDoBDwA" base_Abstraction="_LH4wINKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_MG1rsNKHEe-dc4GHDoBDwA" base_Abstraction="_MG1EoNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_NOjhsNKHEe-dc4GHDoBDwA" base_Abstraction="_NOi6oNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_OayrUNKHEe-dc4GHDoBDwA" base_Abstraction="_OayEQNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_OxJV0NKHEe-dc4GHDoBDwA" base_Abstraction="_OxIHsNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_PfgQoNKHEe-dc4GHDoBDwA" base_Abstraction="_PffpkNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_U09SYNKHEe-dc4GHDoBDwA" base_Abstraction="_U08rUNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_VESH0NKHEe-dc4GHDoBDwA" base_Abstraction="_VERgwNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_Vt5skNKHEe-dc4GHDoBDwA" base_Abstraction="_Vt5FgNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_WGwRcNKHEe-dc4GHDoBDwA" base_Abstraction="_WGvqYNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_WrnSANKHEe-dc4GHDoBDwA" base_Abstraction="_Wrmq8NKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_Xnz0gNKHEe-dc4GHDoBDwA" base_Abstraction="_XnzNcNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_YTX6AdKHEe-dc4GHDoBDwA" base_Abstraction="_YTX6ANKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_aKl6UNKHEe-dc4GHDoBDwA" base_Abstraction="_aKlTQNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_dA1usdKHEe-dc4GHDoBDwA" base_Abstraction="_dA1usNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_dIICcNKHEe-dc4GHDoBDwA" base_Abstraction="_dIG0UNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_dPa9QNKHEe-dc4GHDoBDwA" base_Abstraction="_dPaWMNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_ddB7cNKHEe-dc4GHDoBDwA" base_Abstraction="_ddBUYNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_eL0UENKHEe-dc4GHDoBDwA" base_Abstraction="_eLztANKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_jIzLcNKHEe-dc4GHDoBDwA" base_Abstraction="_jIykYNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_jR-8oNKHEe-dc4GHDoBDwA" base_Abstraction="_jR-VkNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_kdZm4dKHEe-dc4GHDoBDwA" base_Abstraction="_kdZm4NKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_lKpHYNKHEe-dc4GHDoBDwA" base_Abstraction="_lKogUNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_lcoPQNKHEe-dc4GHDoBDwA" base_Abstraction="_lcnoMNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_llt50NKHEe-dc4GHDoBDwA" base_Abstraction="_lltSwNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_mBP_QNKHEe-dc4GHDoBDwA" base_Abstraction="_mBPYMNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_oAEcYNKHEe-dc4GHDoBDwA" base_Abstraction="_oACnMNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_uUBtwNKHEe-dc4GHDoBDwA" base_Abstraction="_uUBGsNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_uhvZoNKHEe-dc4GHDoBDwA" base_Abstraction="_uhuykNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_uu4dwNKHEe-dc4GHDoBDwA" base_Abstraction="_uu32sNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_u7JYINKHEe-dc4GHDoBDwA" base_Abstraction="_u7IxENKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_yi6wENKHEe-dc4GHDoBDwA" base_Abstraction="_yi5h8NKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_0FkOkNKHEe-dc4GHDoBDwA" base_Abstraction="_0FjngNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_0rx6AdKHEe-dc4GHDoBDwA" base_Abstraction="_0rx6ANKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_1zlPkNKHEe-dc4GHDoBDwA" base_Abstraction="_1zkogNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_1_8QkdKHEe-dc4GHDoBDwA" base_Abstraction="_1_8QkNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_2JnJ8NKHEe-dc4GHDoBDwA" base_Abstraction="_2Jmi4NKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_2hjv4NKHEe-dc4GHDoBDwA" base_Abstraction="_2hjI0NKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_2uSkUNKHEe-dc4GHDoBDwA" base_Abstraction="_2uR9QNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_4GRq8NKHEe-dc4GHDoBDwA" base_Abstraction="_4GRD4NKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_4fjtoNKHEe-dc4GHDoBDwA" base_Abstraction="_4fjGkNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_5dyQcNKHEe-dc4GHDoBDwA" base_Abstraction="_5dxpYNKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_6UNiINKHEe-dc4GHDoBDwA" base_Abstraction="_6UM7ENKHEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_W9LtsdKIEe-dc4GHDoBDwA" base_Abstraction="_W9LtsNKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_Y56gIdKIEe-dc4GHDoBDwA" base_Abstraction="_Y56gINKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_fBCPYNKIEe-dc4GHDoBDwA" base_Abstraction="_fBBoUNKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_fN0HIdKIEe-dc4GHDoBDwA" base_Abstraction="_fN0HINKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_fnAqQNKIEe-dc4GHDoBDwA" base_Abstraction="_fnADMNKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_gwxusNKIEe-dc4GHDoBDwA" base_Abstraction="_gwxHoNKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_hmfOsNKIEe-dc4GHDoBDwA" base_Abstraction="_hmenoNKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_iCwT8NKIEe-dc4GHDoBDwA" base_Abstraction="_iCvs4NKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_ieDv4NKIEe-dc4GHDoBDwA" base_Abstraction="_ieDI0NKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_i-_5wNKIEe-dc4GHDoBDwA" base_Abstraction="_i-_SsNKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_lj0m8NKIEe-dc4GHDoBDwA" base_Abstraction="_ljz_4NKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_l1IZYNKIEe-dc4GHDoBDwA" base_Abstraction="_l1HyUNKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_m4gh8NKIEe-dc4GHDoBDwA" base_Abstraction="_m4f64NKIEe-dc4GHDoBDwA"/>
+  <standard:Refine xmi:id="_QAi2QNKJEe-dc4GHDoBDwA" base_Abstraction="_QAiPMNKJEe-dc4GHDoBDwA"/>
+  <Blocks:Block xmi:id="_SPBDgNKKEe-dc4GHDoBDwA" base_Class="_SLnxQNKKEe-dc4GHDoBDwA"/>
+  <PortsAndFlows:ItemFlow xmi:id="_-EbuoNKLEe-dc4GHDoBDwA" base_InformationFlow="_-EZSYNKLEe-dc4GHDoBDwA"/>
+  <PortsAndFlows:ItemFlow xmi:id="_Wde9INKMEe-dc4GHDoBDwA" base_InformationFlow="_WddH8NKMEe-dc4GHDoBDwA"/>
+  <Blocks:Block xmi:id="_oE_J4NKNEe-dc4GHDoBDwA" base_Class="_oE8toNKNEe-dc4GHDoBDwA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_YP98gNKOEe-dc4GHDoBDwA" base_Element="_hQLJQc-PEe-E864X6ZiT7w" propertyPath="_y72lwNKNEe-dc4GHDoBDwA" base_ConnectorEnd="_hQLJQc-PEe-E864X6ZiT7w"/>
+  <PortsAndFlows:InterfaceBlock xmi:id="_HR-U4NKPEe-dc4GHDoBDwA" base_Class="_HR8fsNKPEe-dc4GHDoBDwA"/>
+  <PortsAndFlows:FlowProperty xmi:id="_RGT8wNKPEe-dc4GHDoBDwA" base_Property="_RGPrUNKPEe-dc4GHDoBDwA"/>
+  <PortsAndFlows:FlowProperty xmi:id="_Y2_q0NKPEe-dc4GHDoBDwA" base_Property="_Y28AcNKPEe-dc4GHDoBDwA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_hG65oNKPEe-dc4GHDoBDwA" base_Element="_hG6SkNKPEe-dc4GHDoBDwA" propertyPath="_y72lwNKNEe-dc4GHDoBDwA" base_ConnectorEnd="_hG6SkNKPEe-dc4GHDoBDwA"/>
 </xmi:XMI>
