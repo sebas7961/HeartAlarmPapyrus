@@ -479,7 +479,12 @@
               <node xmi:type="uml:ActivityFinalNode" xmi:id="_uqDE4LTqEe-LmoY09DOm4w" name="" incoming="_y02RYLTqEe-LmoY09DOm4w _zQ1CwLTqEe-LmoY09DOm4w _z4OZ8LTqEe-LmoY09DOm4w" inPartition="_ZJK6MLTmEe-LmoY09DOm4w _cshFILTmEe-LmoY09DOm4w"/>
             </ownedBehavior>
           </packagedElement>
-          <packagedElement xmi:type="uml:UseCase" xmi:id="_mRgDgLDiEe-8y4rRCKR-kQ" name="Medir Frecuencia Cardiaca" subject="_uabF8LAzEe-BbcwpMmGpSw">
+          <packagedElement xmi:type="uml:UseCase" xmi:id="_mRgDgLDiEe-8y4rRCKR-kQ" name="Obtener Frecuencia Cardiaca" classifierBehavior="_QQr5QNN0Ee-_fe7zbVLPbw" subject="_uabF8LAzEe-BbcwpMmGpSw">
+            <ownedBehavior xmi:type="uml:Activity" xmi:id="_QQr5QNN0Ee-_fe7zbVLPbw" name="Activity2" node="_wc4T8NN0Ee-_fe7zbVLPbw" group="_ZCuWoNN0Ee-_fe7zbVLPbw _jaVqsNN0Ee-_fe7zbVLPbw">
+              <group xmi:type="uml:ActivityPartition" xmi:id="_ZCuWoNN0Ee-_fe7zbVLPbw" name="AllocateActivityPartition2" represents="_uabF8LAzEe-BbcwpMmGpSw"/>
+              <group xmi:type="uml:ActivityPartition" xmi:id="_jaVqsNN0Ee-_fe7zbVLPbw" name="AllocateActivityPartition2" represents="_TDHBoLBWEe-zy5umMi3cxw"/>
+              <node xmi:type="uml:OpaqueAction" xmi:id="_wc4T8NN0Ee-_fe7zbVLPbw" name="Medir frecuencia cardiaca"/>
+            </ownedBehavior>
             <include xmi:type="uml:Include" xmi:id="_rka5MLDjEe-8y4rRCKR-kQ" addition="_gh0HYLDjEe-8y4rRCKR-kQ"/>
           </packagedElement>
         </packagedElement>
@@ -1390,4 +1395,6 @@
   <PortsAndFlows:FlowProperty xmi:id="_RGT8wNKPEe-dc4GHDoBDwA" base_Property="_RGPrUNKPEe-dc4GHDoBDwA"/>
   <PortsAndFlows:FlowProperty xmi:id="_Y2_q0NKPEe-dc4GHDoBDwA" base_Property="_Y28AcNKPEe-dc4GHDoBDwA"/>
   <Blocks:NestedConnectorEnd xmi:id="_hG65oNKPEe-dc4GHDoBDwA" base_Element="_hG6SkNKPEe-dc4GHDoBDwA" propertyPath="_y72lwNKNEe-dc4GHDoBDwA" base_ConnectorEnd="_hG6SkNKPEe-dc4GHDoBDwA"/>
+  <Allocations:AllocateActivityPartition xmi:id="_ZCyoENN0Ee-_fe7zbVLPbw" base_ActivityPartition="_ZCuWoNN0Ee-_fe7zbVLPbw"/>
+  <Allocations:AllocateActivityPartition xmi:id="_jaZ8INN0Ee-_fe7zbVLPbw" base_ActivityPartition="_jaVqsNN0Ee-_fe7zbVLPbw"/>
 </xmi:XMI>
